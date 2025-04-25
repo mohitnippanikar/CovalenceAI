@@ -1,81 +1,78 @@
 ![github-submission-banner](https://github.com/user-attachments/assets/a1493b84-e4e2-456e-a791-ce35ee2bcf2f)
 
-# 🚀 Project Title
+# 🚀 ConvulenceAI - Enterprise Data Assistant
 
-> A one-line tagline or mission statement for your project.
+> Revolutionizing secure and efficient access to enterprise data through AI-powered interactions.
 
 ---
 
 ## 📌 Problem Statement
 
-Select the problem statement number and title from the official list given in Participant Manual.
-
-**Example:**  
 **Problem Statement 7 – Transform the Future of Rural Commerce**
 
 ---
 
 ## 🎯 Objective
 
-What problem does your project solve, and who does it serve?  
-Briefly describe the real-world use case and the value it provides.
+ConvulenceAI enables secure and efficient access to company data through AI-powered interactions. Our platform combines advanced machine learning, role-based access control, and dynamic chat interfaces to revolutionize how employees interact with corporate information, making data access more intuitive, secure, and efficient.
 
 ---
 
 ## 🧠 Team & Approach
 
 ### Team Name:  
-`Your team name here`
+`ConvulenceAI`
 
 ### Team Members:  
-- Name 1 (GitHub / LinkedIn / Role)  
-- Name 2  
-- Name 3  
-*(Add links if you want)*
+- Team Member 1
+- Team Member 2  
+- Team Member 3  
+- Team Member 4
 
 ### Your Approach:  
-- Why you chose this problem  
-- Key challenges you addressed  
-- Any pivots, brainstorms, or breakthroughs during hacking  
+- We chose this problem to address the challenges enterprises face with secure data access and information retrieval
+- Key challenges addressed include implementing role-based access control, developing an advanced RAG architecture, and creating a dynamic UI that adapts to user queries
+- Our breakthrough came when integrating ML-based decision systems for intelligent access control
 
 ---
 
 ## 🛠️ Tech Stack
 
 ### Core Technologies Used:
-- Frontend:
-- Backend:
-- Database:
-- APIs:
-- Hosting:
+- Frontend: React, TypeScript, TailwindCSS, Chart.js, Framer Motion
+- Backend: Python, Flask, LangChain, Chroma DB
+- Database: Vector Database
+- APIs: RESTful APIs for service integration
+- Hosting: Cloud-based deployment
 
 ### Sponsor Technologies Used (if any):
-- [ ] **Groq:** _How you used Groq_  
-- [ ] **Monad:** _Your blockchain implementation_  
-- [ ] **Fluvio:** _Real-time data handling_  
-- [ ] **Base:** _AgentKit / OnchainKit / Smart Wallet usage_  
-- [ ] **Screenpipe:** _Screen-based analytics or workflows_  
-- [ ] **Stellar:** _Payments, identity, or token usage_
-*(Mark with ✅ if completed)*
+- [ ] **Groq:** _Used for faster AI inference and responses_  
+- [ ] **Monad:** _Not used_  
+- [ ] **Fluvio:** _Not used_  
+- [ ] **Base:** _Not used_  
+- [ ] **Screenpipe:** _Not used_  
+- [ ] **Stellar:** _Not used_
+
 ---
 
 ## ✨ Key Features
 
 Highlight the most important features of your project:
 
-- ✅ Feature 1  
-- ✅ Feature 2  
-- ✅ Feature 3  
-- ✅ Feature 4  
-
-Add images, GIFs, or screenshots if helpful!
+- ✅ AI-Powered Data Access: Intelligent assistant that understands natural language queries and securely retrieves enterprise data  
+- ✅ RAG Architecture: Retrieval-Augmented Generation for accurate, context-aware responses  
+- ✅ Intelligent Access Control: ML-based decision system that analyzes access requests based on user roles  
+- ✅ Multi-Modal Data Support: Process and extract insights from documents, images, videos, and structured data  
+- ✅ Dynamic UI Components: Context-aware interface that adapts to user queries
+- ✅ Real-time Analytics: Monitor system usage, access patterns, and potential security issues
+- ✅ Administrative Controls: Comprehensive tools for managing users, permissions, and data uploads
 
 ---
 
 ## 📽️ Demo & Deliverables
 
-- **Demo Video Link:** [Paste YouTube or Loom link here]  
-- **Pitch Deck / PPT Link:** [Paste Google Slides / PDF link here]  
+- **Demo Video Link:** [ConvulenceAI Demo](https://youtu.be/demo-link-here)  
+- **Pitch Deck / PPT Link:** [Project Presentation](https://slides.com/presentation-link-here)  
 
 ---
 
@@ -85,31 +82,40 @@ Add images, GIFs, or screenshots if helpful!
 - [ ] **All members of the team completed Bonus Task 1 - Sharing of Badges and filled the form (2 points)**  (Details in Participant Manual)
 - [ ] **All members of the team completed Bonus Task 2 - Signing up for Sprint.dev and filled the form (3 points)**  (Details in Participant Manual)
 
-*(Mark with ✅ if completed)*
-
 ---
 
 ## 🧪 How to Run the Project
 
 ### Requirements:
-- Node.js / Python / Docker / etc.
-- API Keys (if any)
-- .env file setup (if needed)
+- Node.js (v16+)
+- Python (v3.8+)
+- pip
+- npm or yarn
 
 ### Local Setup:
 ```bash
 # Clone the repo
-git clone https://github.com/your-team/project-name
+git clone https://github.com/your-team/convulence-ai
 
-# Install dependencies
-cd project-name
+# Frontend Setup
+cd frontend
 npm install
-
-# Start development server
 npm run dev
-```
 
-Provide any backend/frontend split or environment setup notes here.
+# ML Server Setup
+cd ml
+pip install -r requirements.txt
+python app.py
+
+# Chat-Dynamic Setup
+cd chat-dynamic
+npm install
+npm run dev
+
+# Running Everything
+cd chat-dynamic
+npm run dev:all
+```
 
 ---
 
@@ -117,22 +123,25 @@ Provide any backend/frontend split or environment setup notes here.
 
 List improvements, extensions, or follow-up features:
 
-- 📈 More integrations  
-- 🛡️ Security enhancements  
-- 🌐 Localization / broader accessibility  
+- 📈 Enhanced ML models for more accurate access control predictions  
+- ��️ Advanced security features including biometric authentication  
+- 🌐 Multi-language support for global enterprises  
+- 🔄 Integration with additional enterprise systems and data sources
+- 📱 Mobile application for on-the-go data access
 
 ---
 
 ## 📎 Resources / Credits
 
-- APIs or datasets used  
-- Open source libraries or tools referenced  
-- Acknowledgements  
+- RAG (Retrieval-Augmented Generation) architecture
+- LangChain framework for AI application development
+- Open-source vector database technologies
+- Machine Learning libraries for access control predictions
 
 ---
 
 ## 🏁 Final Words
 
-Share your hackathon journey — challenges, learnings, fun moments, or shout-outs!
+Our team is proud to have created ConvulenceAI, which earned 4th place at Codeshahstra! We faced significant challenges implementing the ML-based access control system but learned valuable lessons about integrating AI into enterprise solutions. We're excited to continue developing this platform to revolutionize how businesses interact with their data.
 
 ---
