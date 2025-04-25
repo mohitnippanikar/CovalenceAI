@@ -1,0 +1,209 @@
+{
+    "policy": {
+      "metadata": {
+        "title": "Adani Group Corporate Policy",
+        "version": "1.0",
+        "effectiveDate": "April 2025",
+        "lastUpdated": "2025-04-05"
+      },
+      "sections": [
+        {
+          "id": "introduction",
+          "title": "I. Introduction",
+          "content": "The purpose of this policy document is to define the expectations, responsibilities, and code of conduct for all personnel associated with Adani Group, including employees, interns, contractors, administrators, and managers across all departments. This serves as a living guideline to foster professionalism, productivity, and integrity.",
+          "icon": "📜"
+        },
+        {
+          "id": "code-of-conduct",
+          "title": "II. Code of Conduct",
+          "content": [
+            "Uphold the values of integrity, transparency, and sustainability",
+            "Maintain professionalism in behavior, communication, and attire",
+            "Respect company property, colleagues, and workplace ethics",
+            "Avoid any form of discrimination, harassment, or unfair treatment",
+            "Immediately report unethical practices or violations to the Ethics Committee"
+          ],
+          "icon": "⚖️"
+        },
+        {
+          "id": "attendance",
+          "title": "III. Working Hours and Attendance",
+          "content": [
+            "Standard working hours: 9:30 AM – 6:30 PM (Monday to Friday)",
+            "Flexible timings permitted on managerial approval",
+            "Biometric attendance mandatory",
+            "Work-from-home requests subject to department head approval"
+          ],
+          "icon": "⏰"
+        },
+        {
+          "id": "roles",
+          "title": "IV. Role-Specific Policies",
+          "subsections": [
+            {
+              "id": "admin",
+              "title": "Admin Staff",
+              "content": [
+                "Maintain facility infrastructure and office supplies",
+                "Coordinate with vendors and contractors",
+                "Ensure safety compliance and access control",
+                "Supervise housekeeping, security, and logistics"
+              ],
+              "icon": "🖥️",
+              "applicableTo": ["Admin"]
+            },
+            {
+              "id": "contractor",
+              "title": "Contractors",
+              "content": [
+                "Execute assigned tasks as per scope of work and deadlines",
+                "Report daily work status to assigned supervisor",
+                "Use temporary access passes",
+                "Comply with safety and security regulations"
+              ],
+              "icon": "👷",
+              "applicableTo": ["Contractor"]
+            },
+            {
+              "id": "intern",
+              "title": "Interns",
+              "content": [
+                "Work under close mentorship and guidance",
+                "Submit weekly learning and contribution reports",
+                "Attend mandatory training sessions",
+                "Access limited to learning resources and internal tools"
+              ],
+              "icon": "🎓",
+              "applicableTo": ["Intern"]
+            },
+            {
+              "id": "manager",
+              "title": "Managers",
+              "content": [
+                "Lead team performance reviews and project tracking",
+                "Approve leaves, budgets, and escalation matters",
+                "Conduct meetings, delegate tasks, and monitor KPIs",
+                "Act as point of contact between leadership and team"
+              ],
+              "icon": "🧑‍💼",
+              "applicableTo": ["Manager"]
+            }
+          ]
+        },
+        {
+          "id": "departments",
+          "title": "V. Department Guidelines",
+          "subsections": [
+            {
+              "id": "sales",
+              "title": "Sales Department",
+              "content": {
+                "general": [
+                  "Maintain monthly and quarterly sales targets",
+                  "Record and report sales data accurately in the CRM",
+                  "Participate in product training and client acquisition plans",
+                  "Incentives based on performance metrics"
+                ],
+                "roles": {
+                  "Manager": "Analyze regional performance, manage leads, strategize outreach",
+                  "Intern": "Assist in research, cold calls, and lead generation",
+                  "Contractor": "Execute sales campaigns on a contract basis"
+                }
+              },
+              "icon": "💰",
+              "applicableTo": ["Sales"]
+            },
+            {
+              "id": "hr",
+              "title": "Human Resources (HR)",
+              "content": {
+                "general": [
+                  "Handle recruitment, onboarding, payroll, and grievances",
+                  "Maintain employee records and performance reviews",
+                  "Conduct training, wellness, and engagement programs"
+                ],
+                "roles": {
+                  "Manager": "Oversee policies, manage appraisals, and conflict resolution",
+                  "Intern": "Support documentation, candidate tracking, and event coordination",
+                  "Contractor": "Temporary support in hiring drives and documentation"
+                }
+              },
+              "icon": "🧑‍🤝‍🧑",
+              "applicableTo": ["HR"]
+            },
+            {
+              "id": "it",
+              "title": "IT Department",
+              "content": {
+                "general": [
+                  "Maintain IT infrastructure, network, and software support",
+                  "Secure data access, backups, and monitor system health",
+                  "Facilitate digital transformation and innovation"
+                ],
+                "roles": {
+                  "Manager": "Lead security protocols, software rollouts, and system upgrades",
+                  "Intern": "Assist with helpdesk, testing, and tech documentation",
+                  "Contractor": "Engage in installation, hardware setup, and software deployment"
+                }
+              },
+              "icon": "💻",
+              "applicableTo": ["IT"]
+            }
+          ]
+        },
+        {
+          "id": "leave-policy",
+          "title": "VI. Leave Policy",
+          "content": [
+            "Annual Leave: 20 working days",
+            "Casual Leave: 10 days",
+            "Sick Leave: 12 days",
+            "Interns & Contractors: Pro-rated leave as per contract",
+            "All leave requests must be routed via HRMS and approved by line managers"
+          ],
+          "icon": "🌴"
+        },
+        {
+          "id": "data-privacy",
+          "title": "VII. Data Privacy and Security",
+          "content": [
+            "Confidentiality must be maintained for all internal and client data",
+            "Sharing passwords, unauthorized software, or removable media is prohibited",
+            "All devices must be password-protected and updated with the latest security patches",
+            "IT team reserves rights to audit systems and revoke access on violations"
+          ],
+          "icon": "🔐"
+        },
+        {
+          "id": "dress-code",
+          "title": "VIII. Dress Code",
+          "content": [
+            "Smart formal or business casuals from Monday to Thursday",
+            "Friday is business casuals or company merchandise day",
+            "Site visits require PPE gear as per safety standards"
+          ],
+          "icon": "👔"
+        },
+        {
+          "id": "compliance",
+          "title": "IX. Compliance and Disciplinary Action",
+          "content": [
+            "Failure to adhere to the above policies will result in warnings, suspension, or termination depending on the severity of the breach",
+            "Disciplinary committee will conduct a fair investigation before decision"
+          ],
+          "icon": "📎"
+        },
+        {
+          "id": "acknowledgment",
+          "title": "X. Acknowledgment",
+          "content": "All personnel are required to sign a digital acknowledgment form confirming they have read, understood, and agreed to comply with the company policies.",
+          "icon": "✍️"
+        }
+      ],
+      "definitions": {
+        "roles": ["Admin", "Contractor", "Intern", "Manager"],
+        "departments": ["Sales", "HR", "IT"]
+      }
+    }
+  }
+  

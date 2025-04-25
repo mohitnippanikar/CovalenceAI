@@ -1,0 +1,506 @@
+"use client";
+
+import { ReactNode, useRef, useState, useEffect } from "react";
+import { useActions } from "ai/rsc";
+import { Message } from "@/components/message";
+import { useScrollToBottom } from "@/components/use-scroll-to-bottom";
+import { motion } from "framer-motion";
+import { MasonryIcon } from "@/components/icons";
+import Link from "next/link";
+import { SalesData } from "@/components/sales-data";
+import { MediaViewer } from "@/components/media-viewer";
+
+export default function Home() {
+  const { sendMessage } = useActions();
+  const [input, setInput] = useState<string>("");
+  const [messages, setMessages] = useState<Array<ReactNode>>([]);
+  const inputRef = useRef<HTMLInputElement>(null);
+  const [messagesContainerRef, messagesEndRef] = useScrollToBottom<HTMLDivElement>();
+  const { theme, toggleTheme } = useTheme();
+  const [customSalesData, setCustomSalesData] = useState<any>(null);
+  const [customImage, setCustomImage] = useState<string | null>(null);
+  const wasRedirectedRef = useRef(false)
+
+  useEffect(() => {
+    if (messages.length === 0 && !wasRedirectedRef.current) {
+      setMessages(prevMessages => [
+        ...prevMessages,
+        <Message key={messages.length} role="assistant" content="Welcome to the sales dashboard! I can help you analyze sales data, generate reports, and visualize trends. Try clicking one of the suggested actions below, or type your own question." />
+      ])
+      wasRedirectedRef.current = true
+    }
+  }, [messages])
+
+  // Function to detect and parse JSON in the user input
+  const detectAndParseJson = (input: string) => {
+    try {
+      // Look for content that might be JSON (between curly braces)
+      const jsonMatch = input.match(/(\{.*\})/s);
+      if (jsonMatch) {
+        const jsonString = jsonMatch[0];
+        const parsedData = JSON.parse(jsonString);
+        
+        // Check if this looks like our expected sales data format
+        if (parsedData.year && 
+           (parsedData.monthly || parsedData.quarterly || parsedData.weekly) && 
+            parsedData.categories && 
+            parsedData.regions) {
+          return parsedData;
+        }
+      }
+      return null;
+    } catch (error) {
+      console.error("Error parsing JSON:", error);
+      return null;
+    }
+  };
+
+  // Function to detect base64 encoded image URLs
+  const detectImageUrl = (input: string) => {
+    try {
+      // Check if the input contains "image url" indicator followed by a data:image base64 string
+      if (input.toLowerCase().includes('image url')) {
+        const imageUrlMatch = input.match(/data:image\/[^;]+;base64,[^\s"']+/);
+        if (imageUrlMatch && imageUrlMatch[0]) {
+          return imageUrlMatch[0];
+        }
+      }
+      return null;
+    } catch (error) {
+      console.error("Error detecting image URL:", error);
+      return null;
+    }
+  };
+
+  // Function to directly handle the viewSalesData action
+  const handleSalesData = (year: number, key?: number, customData?: any) => {
+    return (
+      <Message 
+        key={key}
+        role="assistant" 
+        content={
+          <>
+            <p className="mb-4">Here's the sales performance data{customData ? " you provided" : ` for ${year}`}:</p>
+            <div className="w-full">
+              <SalesData initialYear={year} customData={customData} customImage={customImage} />
+            </div>
+          </>
+        } 
+      />
+    );
+  };
+
+  // Handler to display a custom image from base64 URL
+  const handleCustomImage = (imageUrl: string, key?: number) => {
+    // Update the state with the image URL
+    setCustomImage(imageUrl);
+    
+    return (
+      <Message 
+        key={key}
+        role="assistant" 
+        content={
+          <>
+            <p className="mb-4">I've displayed your custom image in the dashboard above. You can toggle between light and dark mode to see how it looks with different themes.</p>
+          </>
+        } 
+      />
+    );
+  };
+
+  // Handler to show data format help
+  const handleDataFormatHelp = (key?: number) => {
+    return (
+      <Message 
+        key={key}
+        role="assistant" 
+        content={
+          <>
+            <p className="mb-2 font-semibold">Sales Data JSON Format:</p>
+            <p className="mb-4">You can provide your own sales data for visualization by sending a JSON object with the following structure:</p>
+            <pre className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg text-xs overflow-auto mb-4">
+              {`{
+  "year": 2024,
+  "monthly": [
+    { "month": 1, "revenue": 120500, "units": 1250, "customers": 380, "avgOrderValue": 317 },
+    { "month": 2, "revenue": 115800, "units": 1180, "customers": 350, "avgOrderValue": 331 },
+    // ... remaining months
+  ],
+  "quarterly": [
+    { "quarter": 1, "revenue": 371500, "units": 3750, "customers": 1140, "avgOrderValue": 326 },
+    // ... remaining quarters
+  ],
+  "weekly": [
+    { "week": 1, "revenue": 27800, "units": 285, "customers": 88, "avgOrderValue": 316 },
+    // ... remaining weeks
+  ],
+  "categories": [
+    { "name": "Electronics", "value": 722000, "color": "#00E5BE" },
+    // ... other categories
+  ],
+  "regions": [
+    { "name": "North", "revenue": 523000, "customers": 1650 },
+    // ... other regions
+  ]
+}`}
+            </pre>
+            <p className="mb-4">Simply paste the entire JSON object in a message, and I'll render it as a dashboard for you.</p>
+            <p>You can also display a custom image by typing "image url" followed by a base64-encoded image data URL like:</p>
+            <pre className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg text-xs overflow-auto">
+              image url data:image/jpeg;base64,/9j/4AAQSkZJRgAB...
+            </pre>
+          </>
+        } 
+      />
+    );
+  };
+
+  // Function to handle media content
+  const handleMediaContent = (mediaType: 'video' | 'audio' | 'pdf' | 'image', mediaName: string, key?: number) => {
+    return (
+      <Message
+        key={key}
+        role="assistant"
+        content={
+          <>
+            <p className="mb-4">Here's the {mediaType} content you requested:</p>
+            <div className="w-full">
+              <MediaViewer mediaType={mediaType} mediaName={mediaName} />
+            </div>
+          </>
+        }
+      />
+    );
+  };
+
+  const handleAction = async (action: string, args?: Record<string, any>) => {
+    let message = '';
+    
+    // Check for data format help request
+    if (action.toLowerCase().includes('data format') || 
+        action.toLowerCase().includes('json format') || 
+        action.toLowerCase().includes('sales format') ||
+        action.toLowerCase().includes('how to use custom data')) {
+      message = action;
+      setMessages((messages) => [
+        ...messages,
+        <Message key={messages.length} role="user" content={message} />,
+      ]);
+      
+      setMessages((messages) => [
+        ...messages,
+        handleDataFormatHelp(messages.length),
+      ]);
+      return;
+    }
+    
+    // Check for base64 encoded image URL
+    const imageUrl = detectImageUrl(action);
+    if (imageUrl) {
+      message = action;
+      setMessages((messages) => [
+        ...messages,
+        <Message key={messages.length} role="user" content={message} />,
+      ]);
+      
+      setMessages((messages) => [
+        ...messages,
+        handleCustomImage(imageUrl, messages.length),
+      ]);
+      return;
+    }
+    
+    // Check for JSON data in the input
+    const parsedData = detectAndParseJson(action);
+    if (parsedData) {
+      message = action;
+      setMessages((messages) => [
+        ...messages,
+        <Message key={messages.length} role="user" content={message} />,
+      ]);
+      
+      // Use the detected year or default to current year
+      const year = parsedData.year || new Date().getFullYear();
+      
+      setMessages((messages) => [
+        ...messages,
+        handleSalesData(year, messages.length, parsedData),
+      ]);
+      return;
+    }
+    
+    // Check for media-related keywords
+    const lowerAction = action.toLowerCase();
+    if (lowerAction.includes('adani video') || (lowerAction.includes('video') && !lowerAction.includes('sales'))) {
+      message = action;
+      setMessages((messages) => [
+        ...messages,
+        <Message key={messages.length} role="user" content={message} />,
+      ]);
+      setMessages((messages) => [
+        ...messages,
+        handleMediaContent('video', 'Video Content', messages.length),
+      ]);
+      return;
+    } else if (lowerAction.includes('adani audio') || (lowerAction.includes('audio') && !lowerAction.includes('sales'))) {
+      message = action;
+      setMessages((messages) => [
+        ...messages,
+        <Message key={messages.length} role="user" content={message} />,
+      ]);
+      setMessages((messages) => [
+        ...messages,
+        handleMediaContent('audio', 'Audio Content', messages.length),
+      ]);
+      return;
+    } else if (lowerAction.includes('adani pdf') || (lowerAction.includes('pdf') && !lowerAction.includes('sales'))) {
+      message = action;
+      setMessages((messages) => [
+        ...messages,
+        <Message key={messages.length} role="user" content={message} />,
+      ]);
+      setMessages((messages) => [
+        ...messages,
+        handleMediaContent('pdf', 'PDF Document', messages.length),
+      ]);
+      return;
+    } else if (lowerAction.includes('adani image') || (lowerAction.includes('image') && !lowerAction.includes('sales'))) {
+      message = action;
+      setMessages((messages) => [
+        ...messages,
+        <Message key={messages.length} role="user" content={message} />,
+      ]);
+      setMessages((messages) => [
+        ...messages,
+        handleMediaContent('image', 'Image Content', messages.length),
+      ]);
+      return;
+    } else if (lowerAction.includes('sales') || lowerAction.includes('revenue') || lowerAction.includes('performance')) {
+      // Direct handling for sales-related queries
+      message = action;
+      
+      // Extract year if mentioned, default to 2024
+      const yearMatch = lowerAction.match(/\b(202[0-4])\b/);
+      const year = yearMatch ? parseInt(yearMatch[1]) : 2024;
+      
+      setMessages((messages) => [
+        ...messages,
+        <Message key={messages.length} role="user" content={message} />,
+      ]);
+      
+      setMessages((messages) => [
+        ...messages,
+        handleSalesData(year, messages.length),
+      ]);
+      return;
+    }
+    
+    if (action === 'viewWorldClock') {
+      message = 'Show me the world clock';
+      setMessages((messages) => [
+        ...messages,
+        <Message key={messages.length} role="user" content={message} />,
+      ]);
+      const response: ReactNode = await sendMessage(action, args);
+      setMessages((messages) => [...messages, response]);
+    } else if (action === 'viewSalesData') {
+      const year = args?.year || 2024;
+      message = `Show me the sales data for ${year}`;
+      
+      // Add user message
+      setMessages((messages) => [
+        ...messages,
+        <Message key={messages.length} role="user" content={message} />,
+      ]);
+      
+      // Directly add the SalesData component
+      setMessages((messages) => [
+        ...messages,
+        handleSalesData(year, messages.length),
+      ]);
+    } else {
+      message = action;
+      setMessages((messages) => [
+        ...messages,
+        <Message key={messages.length} role="user" content={message} />,
+      ]);
+      
+      try {
+        const response: ReactNode = await sendMessage(action, args);
+        setMessages((messages) => [...messages, response]);
+      } catch (error) {
+        console.error(`Error handling action ${action}:`, error);
+        // Fallback to text message if the tool call fails
+        const fallbackResponse: ReactNode = await sendMessage(message);
+        setMessages((messages) => [...messages, fallbackResponse]);
+      }
+    }
+  };
+
+  const suggestedActions = [
+    { title: "View all", label: "my cameras", action: "View all my cameras" },
+    { title: "Show me", label: "my smart home hub", action: "Show me my smart home hub" },
+    { title: "Show me", label: "sales performance", action: "Show me sales performance data for 2024" },
+    { title: "Show", label: "a video", action: "Show me a video" },
+    { title: "Show", label: "an audio file", action: "Play an audio file" },
+    { title: "Use custom", label: "sales data (JSON)", action: "You can paste your own JSON sales data for visualization. The data should follow a specific format with year, monthly, quarterly, weekly data, categories, and regions. Example: {\"year\": 2024, \"monthly\": [...], ...}" },
+    { title: "Get latest sales data", action: "Show me the latest sales data for 2024.", label: "data" },
+    { title: "Analyze quarterly growth", action: "What was the quarterly revenue growth in 2023?", label: "analysis" },
+    { title: "Use custom data", action: "I want to visualize my own sales data in JSON format. The expected format should include year, monthly data (with month, revenue, units, customers), quarterly data, categories, and regions.", label: "custom" },
+    { title: "Help with data format", action: "Show me the expected data format for custom visualization", label: "format" }
+  ];
+
+  return (
+    <main className="flex flex-col h-screen bg-[#000000] overflow-hidden">
+      {/* Header */}
+      <header className="flex items-center justify-between px-6 py-4 bg-[#111111] border-b border-[#222222]">
+        <div className="flex items-center gap-3">
+          <div className="w-8 h-8 rounded-lg bg-[#00E5BE] flex items-center justify-center">
+            <MasonryIcon />
+          </div>
+          <span className="text-[#00E5BE] font-semibold">Enterprise Dashboard</span>
+        </div>
+        <div className="flex items-center gap-4">
+          <button
+            onClick={toggleTheme}
+            className="p-2 rounded-full bg-[#1E1E3C] transition-colors"
+            aria-label={theme === 'dark' ? "Switch to light mode" : "Switch to dark mode"}
+          >
+            {theme === 'dark' ? (
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-[#FFD166]">
+                <circle cx="12" cy="12" r="5"></circle>
+                <line x1="12" y1="1" x2="12" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="23"></line>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                <line x1="1" y1="12" x2="3" y2="12"></line>
+                <line x1="21" y1="12" x2="23" y2="12"></line>
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+              </svg>
+            ) : (
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-[#5B8AC7]">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+              </svg>
+            )}
+          </button>
+          <nav className="flex gap-6">
+            {["Overview", "Analytics", "Reports", "Settings"].map((item) => (
+              <button key={item} className="text-[#888888] hover:text-[#00E5BE] transition-colors">
+                {item}
+              </button>
+            ))}
+          </nav>
+        </div>
+      </header>
+
+      {/* Main Content */}
+      <div className="flex-1 flex overflow-hidden">
+        {/* Messages Container */}
+        <div 
+          ref={messagesContainerRef}
+          className="flex-1 overflow-y-auto"
+        >
+          <div className="flex flex-col items-center w-full">
+            <div className="w-full max-w-[1200px] px-6">
+              {messages.length === 0 ? (
+                <motion.div 
+                  className="py-12"
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5 }}
+                >
+                  <div className="bg-gradient-to-br from-[#151530] to-[#0A0A1F] rounded-xl border border-[#3D3D7A] p-8 shadow-lg">
+                    <div className="max-w-2xl mx-auto flex flex-col gap-6">
+                      <div className="flex flex-col items-center gap-4">
+                        <div className="w-16 h-16 rounded-full bg-[#00E5BE] flex items-center justify-center shadow-lg shadow-[#00E5BE]/20">
+                          <MasonryIcon width={32} height={32} />
+                        </div>
+                        <span className="text-white text-2xl font-semibold bg-gradient-to-r from-[#00E5BE] to-[#00BEFF] bg-clip-text text-transparent">AI Assistant</span>
+                      </div>
+                    </div>
+
+                    {/* Suggested Actions */}
+                    <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-4 mt-8">
+                      {suggestedActions.map((action, index) => (
+                        <motion.div
+                          key={index}
+                          initial={{ opacity: 0, y: 20 }}
+                          animate={{ opacity: 1, y: 0 }}
+                          transition={{ delay: 0.1 * index }}
+                        >
+                          <button
+                            onClick={async () => {
+                              await handleAction(action.action);
+                            }}
+                            className="w-full text-left bg-[#0A0A1F] border border-[#3D3D7A] hover:border-[#00E5BE] text-white rounded-xl p-4 text-sm transition-all hover:bg-[#1A1A3F] flex flex-col gap-1 group h-full"
+                          >
+                            <span className="font-medium text-[#00E5BE] group-hover:text-[#00ffcc] transition-colors">{action.title}</span>
+                            <span className="text-[#AAA8FF]">{action.label}</span>
+                          </button>
+                        </motion.div>
+                      ))}
+                    </div>
+                  </div>
+                </motion.div>
+              ) : (
+                <div className="w-full py-8 space-y-6">
+                  {messages.map((message, index) => (
+                    <div key={index} className="w-full">{message}</div>
+                  ))}
+                  <div ref={messagesEndRef} />
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Input */}
+      <div className="border-t border-[#222222] bg-[#111111] py-4 px-6">
+        <div className="max-w-[1200px] mx-auto">
+          <form
+            onSubmit={async (e) => {
+              e.preventDefault();
+              if (!input.trim()) return;
+              const userInput = input;
+              setInput("");
+              
+              // Directly handle the user input through our handleAction function
+              await handleAction(userInput);
+            }}
+            className="flex items-center bg-[#0A0A0A] border border-[#222222] focus-within:border-[#00E5BE] rounded-xl px-4 transition-colors"
+          >
+            <input
+              ref={inputRef}
+              type="text"
+              placeholder="Ask a question or request information..."
+              value={input}
+              onChange={(e) => setInput(e.target.value)}
+              className="flex-1 bg-transparent py-3 px-2 text-white focus:outline-none"
+            />
+            <button
+              type="submit"
+              className="ml-2 p-1 text-[#888888] hover:text-[#00E5BE] transition-colors focus:outline-none disabled:opacity-50"
+              disabled={!input.trim()}
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-5 w-5"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </main>
+  );
+}

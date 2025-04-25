@@ -1,0 +1,79 @@
+{
+    "customers": [
+      {
+        "id": "cust_001",
+        "name": "Rahul Sharma",
+        "email": "rahul.sharma@example.com",
+        "phone": "+91 98765 43210",
+        "location": "Mumbai, India",
+        "orders": 12,
+        "totalSpent": 45250.00,
+        "lastPurchase": "2024-03-15",
+        "status": "active",
+        "preferences": ["electronics", "home appliances"],
+        "avatar": "https://randomuser.me/api/portraits/men/32.jpg"
+      },
+      {
+        "id": "cust_002",
+        "name": "Priya Patel",
+        "email": "priya.patel@example.com",
+        "phone": "+91 87654 32109",
+        "location": "Ahmedabad, India",
+        "orders": 5,
+        "totalSpent": 18700.50,
+        "lastPurchase": "2024-04-02",
+        "status": "active",
+        "preferences": ["fashion", "beauty"],
+        "avatar": "https://randomuser.me/api/portraits/women/44.jpg"
+      },
+      {
+        "id": "cust_003",
+        "name": "Aditya Singh",
+        "email": "aditya.singh@example.com",
+        "phone": "+91 76543 21098",
+        "location": "Delhi, India",
+        "orders": 8,
+        "totalSpent": 32400.75,
+        "lastPurchase": "2024-02-28",
+        "status": "inactive",
+        "preferences": ["books", "stationery"],
+        "avatar": "https://randomuser.me/api/portraits/men/67.jpg"
+      },
+      {
+        "id": "cust_004",
+        "name": "Neha Gupta",
+        "email": "neha.gupta@example.com",
+        "phone": "+91 65432 10987",
+        "location": "Bangalore, India",
+        "orders": 15,
+        "totalSpent": 68900.00,
+        "lastPurchase": "2024-04-10",
+        "status": "premium",
+        "preferences": ["gourmet food", "kitchenware"],
+        "avatar": "https://randomuser.me/api/portraits/women/28.jpg"
+      },
+      {
+        "id": "cust_005",
+        "name": "Vikram Joshi",
+        "email": "vikram.joshi@example.com",
+        "phone": "+91 94321 09876",
+        "location": "Hyderabad, India",
+        "orders": 3,
+        "totalSpent": 12500.25,
+        "lastPurchase": "2024-03-30",
+        "status": "new",
+        "preferences": ["mobile accessories"],
+        "avatar": "https://randomuser.me/api/portraits/men/53.jpg"
+      }
+    ],
+    "metadata": {
+      "count": 5,
+      "generatedOn": "2024-04-05T10:30:00Z",
+      "dataFields": [
+        "id", "name", "email", "phone", 
+        "location", "orders", "totalSpent", 
+        "lastPurchase", "status", "preferences", 
+        "avatar"
+      ]
+    }
+  }

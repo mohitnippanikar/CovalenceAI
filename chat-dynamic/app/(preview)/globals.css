@@ -1,0 +1,157 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary: #00E5BE;
+    --background: #0A0A14;
+    --card-bg: #13131F;
+    --header-bg: #13131F;
+    --border-color: #282838;
+    --text-primary: #ffffff;
+    --text-secondary: #9898B0;
+    --hover-color: #1A1A3F;
+    --gradient-start: #00E5BE;
+    --gradient-end: #00B3E6;
+    --shadow-color: rgba(0, 229, 190, 0.1);
+    --card-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+@font-face {
+    font-family: "uncut sans";
+    src: url("./uncut-sans.woff2") format("woff2");
+}
+
+* {
+    font-family: "uncut sans", sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --foreground-rgb: 255, 255, 255;
+        --background-start-rgb: 0, 0, 0;
+        --background-end-rgb: 0, 0, 0;
+    }
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text-primary);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Apply theme-aware styles via CSS variables */
+.dark-theme {
+    color-scheme: dark;
+}
+
+.light-theme {
+    color-scheme: light;
+}
+
+/* Theme-aware component styles */
+header {
+    background-color: var(--header-bg) !important;
+    border-color: var(--border-color) !important;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea, select {
+    background-color: var(--card-bg);
+    border-color: var(--border-color);
+    color: var(--text-primary);
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+    border-radius: 8px;
+}
+
+input:focus, textarea:focus, select:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--primary);
+    border-color: var(--primary);
+}
+
+button {
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    transform: translateY(-1px);
+}
+
+button:active {
+    transform: translateY(1px);
+}
+
+/* Custom gradient buttons */
+.btn-gradient {
+    background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+    color: #000;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 4px 12px var(--shadow-color);
+}
+
+.btn-gradient:hover {
+    box-shadow: 0 6px 16px var(--shadow-color);
+    opacity: 0.95;
+}
+
+/* Message card enhancements */
+.message-card {
+    box-shadow: var(--card-shadow);
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+}
+
+.assistant-header {
+    color: var(--primary);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+@layer utilities {
+    .text-balance {
+        text-wrap: balance;
+    }
+}
+
+/* Custom scrollbar for modern browsers */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 229, 190, 0.3);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 229, 190, 0.5);
+}
+
+/* Animation utilities */
+.fade-in {
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Code block styling */
+pre {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    border-radius: 8px !important;
+    border: 1px solid var(--border-color) !important;
+    padding: 1rem !important;
+}

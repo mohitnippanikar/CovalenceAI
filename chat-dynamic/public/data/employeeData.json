@@ -1,0 +1,79 @@
+{
+  "employees": [
+    {
+      "id": "emp_001",
+      "name": "Mohit Nippanikar",
+      "email": "mohit.nippanikar@adani.com",
+      "phone": "+91 98765 43210",
+      "location": "Mumbai, India",
+      "department": "Engineering",
+      "position": "Senior Developer",
+      "joinDate": "2022-06-15",
+      "status": "premium",
+      "skills": ["JavaScript", "React", "Node.js", "AWS", "AI/ML", "System Architecture"],
+      "avatar": "https://randomuser.me/api/portraits/men/32.jpg"
+    },
+    {
+      "id": "emp_002",
+      "name": "Priya Patel",
+      "email": "priya.patel@adani.com",
+      "phone": "+91 87654 32109",
+      "location": "Ahmedabad, India",
+      "department": "Human Resources",
+      "position": "HR Manager",
+      "joinDate": "2021-04-02",
+      "status": "active",
+      "skills": ["Recruiting", "Employee Relations", "Training"],
+      "avatar": "https://randomuser.me/api/portraits/women/44.jpg"
+    },
+    {
+      "id": "emp_003",
+      "name": "Aditya Singh",
+      "email": "aditya.singh@adani.com",
+      "phone": "+91 76543 21098",
+      "location": "Delhi, India",
+      "department": "Finance",
+      "position": "Financial Analyst",
+      "joinDate": "2023-02-28",
+      "status": "inactive",
+      "skills": ["Financial Modeling", "Data Analysis", "Forecasting"],
+      "avatar": "https://randomuser.me/api/portraits/men/67.jpg"
+    },
+    {
+      "id": "emp_004",
+      "name": "Neha Gupta",
+      "email": "neha.gupta@adani.com",
+      "phone": "+91 65432 10987",
+      "location": "Bangalore, India",
+      "department": "Marketing",
+      "position": "Marketing Director",
+      "joinDate": "2020-04-10",
+      "status": "active",
+      "skills": ["Brand Strategy", "Digital Marketing", "Analytics"],
+      "avatar": "https://randomuser.me/api/portraits/women/28.jpg"
+    },
+    {
+      "id": "emp_005",
+      "name": "Vikram Joshi",
+      "email": "vikram.joshi@adani.com",
+      "phone": "+91 94321 09876",
+      "location": "Hyderabad, India",
+      "department": "Operations",
+      "position": "Project Manager",
+      "joinDate": "2023-03-30",
+      "status": "new",
+      "skills": ["Project Management", "Risk Assessment", "Team Leadership"],
+      "avatar": "https://randomuser.me/api/portraits/men/53.jpg"
+    }
+  ],
+  "metadata": {
+    "count": 5,
+    "generatedOn": "2024-04-05T10:30:00Z",
+    "dataFields": [
+      "id", "name", "email", "phone", 
+      "location", "department", "position", 
+      "joinDate", "status", "skills", 
+      "avatar"
+    ]
+  }
+} 
