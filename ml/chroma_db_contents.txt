@@ -1,0 +1,4794 @@
+ChromaDB Contents:
+
+Document 1:
+Content: Student_ID: SID0001
+Full_Name: Maria Miller
+Maths_Marks: 57
+Science_Marks: 47
+English_Marks: 71
+Attendance_Percentage: 71.62
+Sports_Participation: No
+Library_Books_Issued: 9
+Disciplinary_Actions: Warning Student_ID: SID0002
+Full_Name: Danielle Harrison
+Maths_Marks: 61
+Science_Marks: 94
+English_Marks: 63
+Attendance_Percentage: 67.91
+Sports_Participation: Yes
+Library_Books_Issued: 10
+Disciplinary_Actions: Warning Student_ID: SID0003
+Full_Name: Julie Wilkerson
+Maths_Marks: 41
+Science_Marks: 63
+English_Marks: 98
+Attendance_Percentage: 90.89
+Sports_Participation: No
+Library_Books_Issued: 2
+Disciplinary_Actions: None Student_ID: SID0004
+Full_Name: Robert Wolfe
+Maths_Marks: 95
+Science_Marks: 47
+English_Marks: 48
+Attendance_Percentage: 69.68
+Sports_Participation: Yes
+Library_Books_Issued: 7
+Disciplinary_Actions: Warning Student_ID: SID0005
+Full_Name: David Palmer
+Maths_Marks: 84
+Science_Marks: 42
+English_Marks: 69
+Attendance_Percentage: 64.15
+Sports_Participation: No
+Library_Books_Issued: 1
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00633002  0.03353801  0.00626756 ... -0.02830464 -0.01166751
+ -0.01796283]
+
+Document 2:
+Content: English_Marks: 69
+Attendance_Percentage: 64.15
+Sports_Participation: No
+Library_Books_Issued: 1
+Disciplinary_Actions: None Student_ID: SID0006
+Full_Name: Samantha Flores
+Maths_Marks: 49
+Science_Marks: 53
+English_Marks: 49
+Attendance_Percentage: 65.02
+Sports_Participation: No
+Library_Books_Issued: 7
+Disciplinary_Actions: Warning Student_ID: SID0007
+Full_Name: Ronald Woods
+Maths_Marks: 52
+Science_Marks: 49
+English_Marks: 46
+Attendance_Percentage: 71.37
+Sports_Participation: No
+Library_Books_Issued: 6
+Disciplinary_Actions: None Student_ID: SID0008
+Full_Name: Jose Rodriguez
+Maths_Marks: 54
+Science_Marks: 71
+English_Marks: 80
+Attendance_Percentage: 69.62
+Sports_Participation: No
+Library_Books_Issued: 2
+Disciplinary_Actions: Warning Student_ID: SID0009
+Full_Name: Mrs. Brandi Knight
+Maths_Marks: 78
+Science_Marks: 90
+English_Marks: 45
+Attendance_Percentage: 61.74
+Sports_Participation: No
+Library_Books_Issued: 8
+Disciplinary_Actions: Probation Student_ID: SID0010
+Full_Name: Misty White
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00347066  0.0217959   0.00940215 ... -0.01935575 -0.00848537
+ -0.018308  ]
+
+Document 3:
+Content: Library_Books_Issued: 8
+Disciplinary_Actions: Probation Student_ID: SID0010
+Full_Name: Misty White
+Maths_Marks: 63
+Science_Marks: 91
+English_Marks: 63
+Attendance_Percentage: 72.13
+Sports_Participation: No
+Library_Books_Issued: 1
+Disciplinary_Actions: Probation Student_ID: SID0011
+Full_Name: Kristin Hernandez
+Maths_Marks: 41
+Science_Marks: 82
+English_Marks: 66
+Attendance_Percentage: 62.65
+Sports_Participation: Yes
+Library_Books_Issued: 1
+Disciplinary_Actions: Warning Student_ID: SID0012
+Full_Name: Rachel Gonzalez
+Maths_Marks: 51
+Science_Marks: 100
+English_Marks: 92
+Attendance_Percentage: 74.25
+Sports_Participation: No
+Library_Books_Issued: 8
+Disciplinary_Actions: None Student_ID: SID0013
+Full_Name: Brianna Alvarez
+Maths_Marks: 50
+Science_Marks: 80
+English_Marks: 59
+Attendance_Percentage: 75.9
+Sports_Participation: Yes
+Library_Books_Issued: 4
+Disciplinary_Actions: None Student_ID: SID0014
+Full_Name: Kimberly Russell
+Maths_Marks: 67
+Science_Marks: 92
+English_Marks: 65
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00750426  0.00649017 -0.00790989 ... -0.02672998 -0.0214847
+ -0.03642327]
+
+Document 4:
+Content: Full_Name: Kimberly Russell
+Maths_Marks: 67
+Science_Marks: 92
+English_Marks: 65
+Attendance_Percentage: 76.84
+Sports_Participation: Yes
+Library_Books_Issued: 9
+Disciplinary_Actions: Probation Student_ID: SID0015
+Full_Name: Diane Johnson
+Maths_Marks: 60
+Science_Marks: 90
+English_Marks: 78
+Attendance_Percentage: 77.17
+Sports_Participation: Yes
+Library_Books_Issued: 2
+Disciplinary_Actions: Probation Student_ID: SID0016
+Full_Name: Danielle Graham
+Maths_Marks: 80
+Science_Marks: 81
+English_Marks: 87
+Attendance_Percentage: 86.91
+Sports_Participation: Yes
+Library_Books_Issued: 3
+Disciplinary_Actions: Warning Student_ID: SID0017
+Full_Name: Marilyn Jordan
+Maths_Marks: 47
+Science_Marks: 88
+English_Marks: 73
+Attendance_Percentage: 60.82
+Sports_Participation: Yes
+Library_Books_Issued: 8
+Disciplinary_Actions: None Student_ID: SID0018
+Full_Name: Ricky Sparks
+Maths_Marks: 74
+Science_Marks: 58
+English_Marks: 41
+Attendance_Percentage: 65.21
+Sports_Participation: No
+Library_Books_Issued: 9
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [ 0.00061809  0.03051305  0.00244854 ... -0.02746174 -0.01103374
+ -0.02043284]
+
+Document 5:
+Content: English_Marks: 41
+Attendance_Percentage: 65.21
+Sports_Participation: No
+Library_Books_Issued: 9
+Disciplinary_Actions: Probation Student_ID: SID0019
+Full_Name: Brittany May
+Maths_Marks: 56
+Science_Marks: 47
+English_Marks: 51
+Attendance_Percentage: 73.15
+Sports_Participation: Yes
+Library_Books_Issued: 7
+Disciplinary_Actions: Probation Student_ID: SID0020
+Full_Name: Adam Turner
+Maths_Marks: 60
+Science_Marks: 50
+English_Marks: 86
+Attendance_Percentage: 62.4
+Sports_Participation: Yes
+Library_Books_Issued: 0
+Disciplinary_Actions: Probation Student_ID: SID0021
+Full_Name: Benjamin Simmons
+Maths_Marks: 90
+Science_Marks: 75
+English_Marks: 46
+Attendance_Percentage: 64.36
+Sports_Participation: Yes
+Library_Books_Issued: 0
+Disciplinary_Actions: Warning Student_ID: SID0022
+Full_Name: Kenneth Kaiser
+Maths_Marks: 86
+Science_Marks: 91
+English_Marks: 72
+Attendance_Percentage: 85.9
+Sports_Participation: Yes
+Library_Books_Issued: 9
+Disciplinary_Actions: Probation Student_ID: SID0023
+Full_Name: Tanya Cruz
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00446427  0.0088527   0.00030767 ... -0.00842524 -0.01485103
+ -0.01905676]
+
+Document 6:
+Content: Library_Books_Issued: 9
+Disciplinary_Actions: Probation Student_ID: SID0023
+Full_Name: Tanya Cruz
+Maths_Marks: 80
+Science_Marks: 100
+English_Marks: 87
+Attendance_Percentage: 96.08
+Sports_Participation: Yes
+Library_Books_Issued: 5
+Disciplinary_Actions: Probation Student_ID: SID0024
+Full_Name: Heather Adams
+Maths_Marks: 79
+Science_Marks: 48
+English_Marks: 51
+Attendance_Percentage: 90.89
+Sports_Participation: Yes
+Library_Books_Issued: 2
+Disciplinary_Actions: Warning Student_ID: SID0025
+Full_Name: Melissa Brown
+Maths_Marks: 64
+Science_Marks: 63
+English_Marks: 88
+Attendance_Percentage: 61.82
+Sports_Participation: No
+Library_Books_Issued: 10
+Disciplinary_Actions: Warning Student_ID: SID0026
+Full_Name: Joseph Lopez
+Maths_Marks: 91
+Science_Marks: 57
+English_Marks: 40
+Attendance_Percentage: 63.87
+Sports_Participation: No
+Library_Books_Issued: 5
+Disciplinary_Actions: None Student_ID: SID0027
+Full_Name: Ronald Holmes
+Maths_Marks: 46
+Science_Marks: 42
+English_Marks: 83
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.01010083  0.0124124   0.00335002 ... -0.01962728 -0.01178197
+ -0.02207894]
+
+Document 7:
+Content: Full_Name: Ronald Holmes
+Maths_Marks: 46
+Science_Marks: 42
+English_Marks: 83
+Attendance_Percentage: 96.77
+Sports_Participation: No
+Library_Books_Issued: 8
+Disciplinary_Actions: Probation Student_ID: SID0028
+Full_Name: Jared Gonzalez
+Maths_Marks: 82
+Science_Marks: 53
+English_Marks: 56
+Attendance_Percentage: 76.39
+Sports_Participation: No
+Library_Books_Issued: 3
+Disciplinary_Actions: None Student_ID: SID0029
+Full_Name: Jonathan Price
+Maths_Marks: 88
+Science_Marks: 78
+English_Marks: 40
+Attendance_Percentage: 97.38
+Sports_Participation: Yes
+Library_Books_Issued: 2
+Disciplinary_Actions: Warning Student_ID: SID0030
+Full_Name: Francisco Graham
+Maths_Marks: 45
+Science_Marks: 87
+English_Marks: 47
+Attendance_Percentage: 71.41
+Sports_Participation: Yes
+Library_Books_Issued: 5
+Disciplinary_Actions: None Student_ID: SID0031
+Full_Name: Mikayla Smith
+Maths_Marks: 52
+Science_Marks: 48
+English_Marks: 41
+Attendance_Percentage: 98.68
+Sports_Participation: Yes
+Library_Books_Issued: 4
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.01211415  0.03596581  0.01040214 ... -0.02446113 -0.00174881
+ -0.01068976]
+
+Document 8:
+Content: English_Marks: 41
+Attendance_Percentage: 98.68
+Sports_Participation: Yes
+Library_Books_Issued: 4
+Disciplinary_Actions: None Student_ID: SID0032
+Full_Name: Mr. Charles Wilson
+Maths_Marks: 42
+Science_Marks: 61
+English_Marks: 49
+Attendance_Percentage: 90.24
+Sports_Participation: No
+Library_Books_Issued: 10
+Disciplinary_Actions: None Student_ID: SID0033
+Full_Name: Amanda Freeman
+Maths_Marks: 56
+Science_Marks: 43
+English_Marks: 79
+Attendance_Percentage: 68.87
+Sports_Participation: Yes
+Library_Books_Issued: 4
+Disciplinary_Actions: Probation Student_ID: SID0034
+Full_Name: Michelle Garcia
+Maths_Marks: 47
+Science_Marks: 90
+English_Marks: 87
+Attendance_Percentage: 75.31
+Sports_Participation: Yes
+Library_Books_Issued: 9
+Disciplinary_Actions: Probation Student_ID: SID0035
+Full_Name: Raymond Hale
+Maths_Marks: 81
+Science_Marks: 82
+English_Marks: 44
+Attendance_Percentage: 80.93
+Sports_Participation: No
+Library_Books_Issued: 8
+Disciplinary_Actions: Warning Student_ID: SID0036
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [ 0.0092542   0.01308376 -0.00183571 ... -0.02501245 -0.01071864
+ -0.01615703]
+
+Document 9:
+Content: Sports_Participation: No
+Library_Books_Issued: 8
+Disciplinary_Actions: Warning Student_ID: SID0036
+Full_Name: Sydney Williams
+Maths_Marks: 55
+Science_Marks: 53
+English_Marks: 43
+Attendance_Percentage: 78.42
+Sports_Participation: No
+Library_Books_Issued: 6
+Disciplinary_Actions: None Student_ID: SID0037
+Full_Name: Ricky Ashley
+Maths_Marks: 59
+Science_Marks: 92
+English_Marks: 77
+Attendance_Percentage: 88.46
+Sports_Participation: No
+Library_Books_Issued: 7
+Disciplinary_Actions: None Student_ID: SID0038
+Full_Name: Justin Davis
+Maths_Marks: 75
+Science_Marks: 49
+English_Marks: 100
+Attendance_Percentage: 73.76
+Sports_Participation: Yes
+Library_Books_Issued: 7
+Disciplinary_Actions: Warning Student_ID: SID0039
+Full_Name: Sandra Torres
+Maths_Marks: 80
+Science_Marks: 81
+English_Marks: 86
+Attendance_Percentage: 76.72
+Sports_Participation: Yes
+Library_Books_Issued: 1
+Disciplinary_Actions: None Student_ID: SID0040
+Full_Name: Joseph Richard
+Maths_Marks: 53
+Science_Marks: 63
+English_Marks: 72
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.0190615   0.02442696  0.00708805 ... -0.02701085 -0.00900126
+ -0.02799922]
+
+Document 10:
+Content: Full_Name: Joseph Richard
+Maths_Marks: 53
+Science_Marks: 63
+English_Marks: 72
+Attendance_Percentage: 87.66
+Sports_Participation: No
+Library_Books_Issued: 10
+Disciplinary_Actions: Warning Student_ID: SID0041
+Full_Name: Curtis Lee
+Maths_Marks: 55
+Science_Marks: 79
+English_Marks: 60
+Attendance_Percentage: 68.85
+Sports_Participation: Yes
+Library_Books_Issued: 9
+Disciplinary_Actions: Probation Student_ID: SID0042
+Full_Name: Joel Kelley
+Maths_Marks: 52
+Science_Marks: 42
+English_Marks: 77
+Attendance_Percentage: 80.96
+Sports_Participation: No
+Library_Books_Issued: 10
+Disciplinary_Actions: None Student_ID: SID0043
+Full_Name: Angela Perez
+Maths_Marks: 97
+Science_Marks: 62
+English_Marks: 92
+Attendance_Percentage: 86.44
+Sports_Participation: No
+Library_Books_Issued: 10
+Disciplinary_Actions: None Student_ID: SID0044
+Full_Name: Grant Schultz
+Maths_Marks: 81
+Science_Marks: 85
+English_Marks: 95
+Attendance_Percentage: 77.52
+Sports_Participation: No
+Library_Books_Issued: 8
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00975087  0.03036661  0.00795611 ... -0.0321545  -0.00979901
+ -0.02295375]
+
+Document 11:
+Content: English_Marks: 95
+Attendance_Percentage: 77.52
+Sports_Participation: No
+Library_Books_Issued: 8
+Disciplinary_Actions: None Student_ID: SID0045
+Full_Name: Lawrence Cruz
+Maths_Marks: 76
+Science_Marks: 47
+English_Marks: 74
+Attendance_Percentage: 87.64
+Sports_Participation: Yes
+Library_Books_Issued: 4
+Disciplinary_Actions: Warning Student_ID: SID0046
+Full_Name: Douglas Jones
+Maths_Marks: 65
+Science_Marks: 69
+English_Marks: 62
+Attendance_Percentage: 61.75
+Sports_Participation: Yes
+Library_Books_Issued: 5
+Disciplinary_Actions: Probation Student_ID: SID0047
+Full_Name: Dana Larsen
+Maths_Marks: 46
+Science_Marks: 91
+English_Marks: 45
+Attendance_Percentage: 85.19
+Sports_Participation: No
+Library_Books_Issued: 4
+Disciplinary_Actions: Warning Student_ID: SID0048
+Full_Name: Juan Wheeler
+Maths_Marks: 80
+Science_Marks: 97
+English_Marks: 74
+Attendance_Percentage: 67.29
+Sports_Participation: No
+Library_Books_Issued: 5
+Disciplinary_Actions: Warning Student_ID: SID0049
+Full_Name: Michael Cameron
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00160773  0.03767623  0.01626991 ... -0.02384958 -0.00879436
+ -0.0085653 ]
+
+Document 12:
+Content: Disciplinary_Actions: Warning Student_ID: SID0049
+Full_Name: Michael Cameron
+Maths_Marks: 77
+Science_Marks: 95
+English_Marks: 66
+Attendance_Percentage: 89.44
+Sports_Participation: Yes
+Library_Books_Issued: 6
+Disciplinary_Actions: Warning Student_ID: SID0050
+Full_Name: Michael Payne
+Maths_Marks: 77
+Science_Marks: 73
+English_Marks: 50
+Attendance_Percentage: 89.13
+Sports_Participation: Yes
+Library_Books_Issued: 3
+Disciplinary_Actions: Warning Student_ID: SID0051
+Full_Name: Nicole Lynch
+Maths_Marks: 59
+Science_Marks: 85
+English_Marks: 83
+Attendance_Percentage: 75.13
+Sports_Participation: No
+Library_Books_Issued: 10
+Disciplinary_Actions: None Student_ID: SID0052
+Full_Name: Joseph Walter
+Maths_Marks: 83
+Science_Marks: 92
+English_Marks: 74
+Attendance_Percentage: 84.41
+Sports_Participation: No
+Library_Books_Issued: 9
+Disciplinary_Actions: Warning Student_ID: SID0053
+Full_Name: Eric James
+Maths_Marks: 64
+Science_Marks: 87
+English_Marks: 80
+Attendance_Percentage: 65.39
+Sports_Participation: Yes
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00372731  0.02231574  0.01237397 ... -0.02154623 -0.00509112
+ -0.01710782]
+
+Document 13:
+Content: Science_Marks: 87
+English_Marks: 80
+Attendance_Percentage: 65.39
+Sports_Participation: Yes
+Library_Books_Issued: 2
+Disciplinary_Actions: Probation Student_ID: SID0054
+Full_Name: Michael Palmer
+Maths_Marks: 75
+Science_Marks: 77
+English_Marks: 66
+Attendance_Percentage: 62.42
+Sports_Participation: No
+Library_Books_Issued: 10
+Disciplinary_Actions: Warning Student_ID: SID0055
+Full_Name: Mrs. Tammy Calhoun DVM
+Maths_Marks: 74
+Science_Marks: 75
+English_Marks: 57
+Attendance_Percentage: 63.22
+Sports_Participation: No
+Library_Books_Issued: 8
+Disciplinary_Actions: Warning Student_ID: SID0056
+Full_Name: Christopher Cross
+Maths_Marks: 99
+Science_Marks: 67
+English_Marks: 70
+Attendance_Percentage: 73.71
+Sports_Participation: Yes
+Library_Books_Issued: 8
+Disciplinary_Actions: Probation Student_ID: SID0057
+Full_Name: Tracy Vaughan
+Maths_Marks: 91
+Science_Marks: 47
+English_Marks: 42
+Attendance_Percentage: 95.6
+Sports_Participation: No
+Library_Books_Issued: 0
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00288949  0.01038842  0.00853777 ... -0.02460198 -0.01578214
+ -0.01758464]
+
+Document 14:
+Content: English_Marks: 42
+Attendance_Percentage: 95.6
+Sports_Participation: No
+Library_Books_Issued: 0
+Disciplinary_Actions: Warning Student_ID: SID0058
+Full_Name: Teresa Singh
+Maths_Marks: 40
+Science_Marks: 60
+English_Marks: 89
+Attendance_Percentage: 73.73
+Sports_Participation: Yes
+Library_Books_Issued: 3
+Disciplinary_Actions: Probation Student_ID: SID0059
+Full_Name: Daniel Riley
+Maths_Marks: 51
+Science_Marks: 91
+English_Marks: 94
+Attendance_Percentage: 64.22
+Sports_Participation: Yes
+Library_Books_Issued: 4
+Disciplinary_Actions: Warning Student_ID: SID0060
+Full_Name: Julie Baker
+Maths_Marks: 77
+Science_Marks: 97
+English_Marks: 94
+Attendance_Percentage: 82.51
+Sports_Participation: Yes
+Library_Books_Issued: 0
+Disciplinary_Actions: Warning Student_ID: SID0061
+Full_Name: Brian Davenport
+Maths_Marks: 40
+Science_Marks: 55
+English_Marks: 50
+Attendance_Percentage: 88.01
+Sports_Participation: Yes
+Library_Books_Issued: 0
+Disciplinary_Actions: Warning Student_ID: SID0062
+Full_Name: Michael Hicks
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00865665  0.0193632   0.00751397 ... -0.02549904 -0.00980626
+ -0.01533266]
+
+Document 15:
+Content: Library_Books_Issued: 0
+Disciplinary_Actions: Warning Student_ID: SID0062
+Full_Name: Michael Hicks
+Maths_Marks: 90
+Science_Marks: 58
+English_Marks: 54
+Attendance_Percentage: 78.7
+Sports_Participation: Yes
+Library_Books_Issued: 7
+Disciplinary_Actions: Warning Student_ID: SID0063
+Full_Name: Tiffany Wood
+Maths_Marks: 47
+Science_Marks: 54
+English_Marks: 95
+Attendance_Percentage: 86.43
+Sports_Participation: Yes
+Library_Books_Issued: 9
+Disciplinary_Actions: Warning Student_ID: SID0064
+Full_Name: Angela Jackson
+Maths_Marks: 95
+Science_Marks: 72
+English_Marks: 73
+Attendance_Percentage: 85.48
+Sports_Participation: No
+Library_Books_Issued: 4
+Disciplinary_Actions: Warning Student_ID: SID0065
+Full_Name: Randall Chen
+Maths_Marks: 56
+Science_Marks: 62
+English_Marks: 76
+Attendance_Percentage: 96.6
+Sports_Participation: Yes
+Library_Books_Issued: 5
+Disciplinary_Actions: None Student_ID: SID0066
+Full_Name: Ronald Parrish
+Maths_Marks: 49
+Science_Marks: 69
+English_Marks: 46
+Attendance_Percentage: 97.58
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00819552  0.01571155 -0.00440284 ... -0.02174378 -0.00073626
+ -0.01644651]
+
+Document 16:
+Content: Maths_Marks: 49
+Science_Marks: 69
+English_Marks: 46
+Attendance_Percentage: 97.58
+Sports_Participation: Yes
+Library_Books_Issued: 6
+Disciplinary_Actions: Warning Student_ID: SID0067
+Full_Name: Lisa Lopez
+Maths_Marks: 59
+Science_Marks: 97
+English_Marks: 50
+Attendance_Percentage: 70.56
+Sports_Participation: Yes
+Library_Books_Issued: 2
+Disciplinary_Actions: Warning Student_ID: SID0068
+Full_Name: Lisa Foster
+Maths_Marks: 58
+Science_Marks: 74
+English_Marks: 48
+Attendance_Percentage: 84.87
+Sports_Participation: No
+Library_Books_Issued: 0
+Disciplinary_Actions: None Student_ID: SID0069
+Full_Name: Tammy Howe
+Maths_Marks: 92
+Science_Marks: 72
+English_Marks: 90
+Attendance_Percentage: 97.2
+Sports_Participation: Yes
+Library_Books_Issued: 6
+Disciplinary_Actions: None Student_ID: SID0070
+Full_Name: John Reynolds
+Maths_Marks: 42
+Science_Marks: 43
+English_Marks: 82
+Attendance_Percentage: 83.98
+Sports_Participation: No
+Library_Books_Issued: 10
+Disciplinary_Actions: Warning Student_ID: SID0071
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00294657  0.04629443  0.01125117 ... -0.01833117 -0.00402709
+ -0.0325735 ]
+
+Document 17:
+Content: Sports_Participation: No
+Library_Books_Issued: 10
+Disciplinary_Actions: Warning Student_ID: SID0071
+Full_Name: Keith Brown
+Maths_Marks: 72
+Science_Marks: 96
+English_Marks: 99
+Attendance_Percentage: 94.71
+Sports_Participation: No
+Library_Books_Issued: 9
+Disciplinary_Actions: Probation Student_ID: SID0072
+Full_Name: Paul Medina
+Maths_Marks: 56
+Science_Marks: 66
+English_Marks: 49
+Attendance_Percentage: 71.64
+Sports_Participation: No
+Library_Books_Issued: 6
+Disciplinary_Actions: Probation Student_ID: SID0073
+Full_Name: Elizabeth Mendoza
+Maths_Marks: 48
+Science_Marks: 69
+English_Marks: 96
+Attendance_Percentage: 63.71
+Sports_Participation: No
+Library_Books_Issued: 4
+Disciplinary_Actions: Warning Student_ID: SID0074
+Full_Name: Elizabeth Harris
+Maths_Marks: 49
+Science_Marks: 66
+English_Marks: 95
+Attendance_Percentage: 72.44
+Sports_Participation: No
+Library_Books_Issued: 8
+Disciplinary_Actions: Warning Student_ID: SID0075
+Full_Name: Duane Bass
+Maths_Marks: 92
+Science_Marks: 61
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00794565  0.0201048   0.01534718 ... -0.02556003 -0.01098718
+ -0.03591239]
+
+Document 18:
+Content: Full_Name: Duane Bass
+Maths_Marks: 92
+Science_Marks: 61
+English_Marks: 100
+Attendance_Percentage: 80.34
+Sports_Participation: Yes
+Library_Books_Issued: 5
+Disciplinary_Actions: Probation Student_ID: SID0076
+Full_Name: Tara Quinn
+Maths_Marks: 79
+Science_Marks: 75
+English_Marks: 86
+Attendance_Percentage: 85.42
+Sports_Participation: Yes
+Library_Books_Issued: 8
+Disciplinary_Actions: Probation Student_ID: SID0077
+Full_Name: Sarah Bradley
+Maths_Marks: 51
+Science_Marks: 86
+English_Marks: 65
+Attendance_Percentage: 66.29
+Sports_Participation: Yes
+Library_Books_Issued: 3
+Disciplinary_Actions: None Student_ID: SID0078
+Full_Name: Brooke Adams
+Maths_Marks: 81
+Science_Marks: 96
+English_Marks: 78
+Attendance_Percentage: 68.41
+Sports_Participation: Yes
+Library_Books_Issued: 1
+Disciplinary_Actions: Warning Student_ID: SID0079
+Full_Name: Whitney Hernandez
+Maths_Marks: 72
+Science_Marks: 80
+English_Marks: 69
+Attendance_Percentage: 77.26
+Sports_Participation: Yes
+Library_Books_Issued: 4
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.0038787   0.02381696  0.00516471 ... -0.02795424 -0.01612161
+ -0.02012099]
+
+Document 19:
+Content: English_Marks: 69
+Attendance_Percentage: 77.26
+Sports_Participation: Yes
+Library_Books_Issued: 4
+Disciplinary_Actions: None Student_ID: SID0080
+Full_Name: William Hines
+Maths_Marks: 68
+Science_Marks: 90
+English_Marks: 98
+Attendance_Percentage: 69.97
+Sports_Participation: No
+Library_Books_Issued: 6
+Disciplinary_Actions: None Student_ID: SID0081
+Full_Name: Linda Robinson
+Maths_Marks: 100
+Science_Marks: 50
+English_Marks: 71
+Attendance_Percentage: 86.43
+Sports_Participation: No
+Library_Books_Issued: 8
+Disciplinary_Actions: Probation Student_ID: SID0082
+Full_Name: Tammy Brown
+Maths_Marks: 64
+Science_Marks: 96
+English_Marks: 43
+Attendance_Percentage: 79.67
+Sports_Participation: No
+Library_Books_Issued: 0
+Disciplinary_Actions: Warning Student_ID: SID0083
+Full_Name: Sierra James
+Maths_Marks: 49
+Science_Marks: 90
+English_Marks: 80
+Attendance_Percentage: 97.57
+Sports_Participation: Yes
+Library_Books_Issued: 9
+Disciplinary_Actions: Warning Student_ID: SID0084
+Full_Name: Julie Hernandez
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00516247  0.01872166  0.00782235 ... -0.02484825 -0.0095728
+ -0.01721736]
+
+Document 20:
+Content: Disciplinary_Actions: Warning Student_ID: SID0084
+Full_Name: Julie Hernandez
+Maths_Marks: 47
+Science_Marks: 40
+English_Marks: 52
+Attendance_Percentage: 63.0
+Sports_Participation: Yes
+Library_Books_Issued: 6
+Disciplinary_Actions: Probation Student_ID: SID0085
+Full_Name: Cody Eaton
+Maths_Marks: 97
+Science_Marks: 60
+English_Marks: 53
+Attendance_Percentage: 86.39
+Sports_Participation: Yes
+Library_Books_Issued: 7
+Disciplinary_Actions: Probation Student_ID: SID0086
+Full_Name: Tamara Bray
+Maths_Marks: 75
+Science_Marks: 98
+English_Marks: 55
+Attendance_Percentage: 67.68
+Sports_Participation: No
+Library_Books_Issued: 0
+Disciplinary_Actions: Probation Student_ID: SID0087
+Full_Name: James Scott
+Maths_Marks: 93
+Science_Marks: 90
+English_Marks: 83
+Attendance_Percentage: 84.46
+Sports_Participation: No
+Library_Books_Issued: 3
+Disciplinary_Actions: Probation Student_ID: SID0088
+Full_Name: Courtney Johnson
+Maths_Marks: 71
+Science_Marks: 86
+English_Marks: 47
+Attendance_Percentage: 88.1
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.01291202  0.02872751  0.01510358 ... -0.02557279 -0.0097922
+ -0.02011484]
+
+Document 21:
+Content: Maths_Marks: 71
+Science_Marks: 86
+English_Marks: 47
+Attendance_Percentage: 88.1
+Sports_Participation: Yes
+Library_Books_Issued: 0
+Disciplinary_Actions: Warning Student_ID: SID0089
+Full_Name: Jessica Tran
+Maths_Marks: 92
+Science_Marks: 86
+English_Marks: 82
+Attendance_Percentage: 67.63
+Sports_Participation: Yes
+Library_Books_Issued: 7
+Disciplinary_Actions: Warning Student_ID: SID0090
+Full_Name: Stephanie Gray
+Maths_Marks: 81
+Science_Marks: 83
+English_Marks: 66
+Attendance_Percentage: 94.95
+Sports_Participation: Yes
+Library_Books_Issued: 7
+Disciplinary_Actions: Warning Student_ID: SID0091
+Full_Name: Christopher Gonzalez
+Maths_Marks: 51
+Science_Marks: 47
+English_Marks: 40
+Attendance_Percentage: 85.34
+Sports_Participation: No
+Library_Books_Issued: 7
+Disciplinary_Actions: None Student_ID: SID0092
+Full_Name: Joseph Silva
+Maths_Marks: 74
+Science_Marks: 48
+English_Marks: 43
+Attendance_Percentage: 74.58
+Sports_Participation: Yes
+Library_Books_Issued: 3
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00415087  0.02603446  0.02677361 ... -0.01783539 -0.00656337
+ -0.03271418]
+
+Document 22:
+Content: English_Marks: 43
+Attendance_Percentage: 74.58
+Sports_Participation: Yes
+Library_Books_Issued: 3
+Disciplinary_Actions: Warning Student_ID: SID0093
+Full_Name: Amber Diaz
+Maths_Marks: 47
+Science_Marks: 41
+English_Marks: 47
+Attendance_Percentage: 98.62
+Sports_Participation: No
+Library_Books_Issued: 3
+Disciplinary_Actions: Probation Student_ID: SID0094
+Full_Name: Michael Huerta
+Maths_Marks: 44
+Science_Marks: 55
+English_Marks: 48
+Attendance_Percentage: 88.8
+Sports_Participation: Yes
+Library_Books_Issued: 10
+Disciplinary_Actions: Probation Student_ID: SID0095
+Full_Name: Jeffery Petersen
+Maths_Marks: 69
+Science_Marks: 62
+English_Marks: 77
+Attendance_Percentage: 97.42
+Sports_Participation: Yes
+Library_Books_Issued: 7
+Disciplinary_Actions: Warning Student_ID: SID0096
+Full_Name: Edward Black
+Maths_Marks: 59
+Science_Marks: 43
+English_Marks: 74
+Attendance_Percentage: 88.45
+Sports_Participation: Yes
+Library_Books_Issued: 3
+Disciplinary_Actions: Warning Student_ID: SID0097
+Full_Name: Janet Bishop
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00825758  0.01847599  0.01684657 ... -0.02782446 -0.01465099
+ -0.01686038]
+
+Document 23:
+Content: Library_Books_Issued: 3
+Disciplinary_Actions: Warning Student_ID: SID0097
+Full_Name: Janet Bishop
+Maths_Marks: 52
+Science_Marks: 73
+English_Marks: 43
+Attendance_Percentage: 78.77
+Sports_Participation: Yes
+Library_Books_Issued: 2
+Disciplinary_Actions: None Student_ID: SID0098
+Full_Name: William Peterson
+Maths_Marks: 94
+Science_Marks: 47
+English_Marks: 41
+Attendance_Percentage: 89.31
+Sports_Participation: Yes
+Library_Books_Issued: 9
+Disciplinary_Actions: Warning Student_ID: SID0099
+Full_Name: Colleen Kelly
+Maths_Marks: 70
+Science_Marks: 48
+English_Marks: 51
+Attendance_Percentage: 87.61
+Sports_Participation: Yes
+Library_Books_Issued: 9
+Disciplinary_Actions: None Student_ID: SID0100
+Full_Name: Tara Morrison
+Maths_Marks: 94
+Science_Marks: 83
+English_Marks: 64
+Attendance_Percentage: 93.17
+Sports_Participation: Yes
+Library_Books_Issued: 4
+Disciplinary_Actions: None Student_ID: SID0101
+Full_Name: Michelle Carson
+Maths_Marks: 44
+Science_Marks: 82
+English_Marks: 41
+Attendance_Percentage: 65.01
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.01543352  0.01651092  0.0009471  ... -0.02977563 -0.01933737
+ -0.02675329]
+
+Document 24:
+Content: Maths_Marks: 44
+Science_Marks: 82
+English_Marks: 41
+Attendance_Percentage: 65.01
+Sports_Participation: Yes
+Library_Books_Issued: 6
+Disciplinary_Actions: None Student_ID: SID0102
+Full_Name: Andrea Smith
+Maths_Marks: 63
+Science_Marks: 89
+English_Marks: 67
+Attendance_Percentage: 82.32
+Sports_Participation: No
+Library_Books_Issued: 1
+Disciplinary_Actions: None Student_ID: SID0103
+Full_Name: Jennifer Wall
+Maths_Marks: 66
+Science_Marks: 50
+English_Marks: 47
+Attendance_Percentage: 92.48
+Sports_Participation: No
+Library_Books_Issued: 1
+Disciplinary_Actions: Warning Student_ID: SID0104
+Full_Name: Christopher Hill
+Maths_Marks: 68
+Science_Marks: 43
+English_Marks: 92
+Attendance_Percentage: 67.3
+Sports_Participation: No
+Library_Books_Issued: 4
+Disciplinary_Actions: None Student_ID: SID0105
+Full_Name: Eric Peterson
+Maths_Marks: 67
+Science_Marks: 96
+English_Marks: 40
+Attendance_Percentage: 65.01
+Sports_Participation: Yes
+Library_Books_Issued: 7
+Disciplinary_Actions: Warning Student_ID: SID0106
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00657558  0.02945858  0.02070025 ... -0.02597438 -0.01481127
+ -0.03350298]
+
+Document 25:
+Content: Sports_Participation: Yes
+Library_Books_Issued: 7
+Disciplinary_Actions: Warning Student_ID: SID0106
+Full_Name: Alejandro Carson
+Maths_Marks: 86
+Science_Marks: 64
+English_Marks: 84
+Attendance_Percentage: 77.14
+Sports_Participation: Yes
+Library_Books_Issued: 7
+Disciplinary_Actions: Probation Student_ID: SID0107
+Full_Name: Francisco Acosta
+Maths_Marks: 47
+Science_Marks: 92
+English_Marks: 45
+Attendance_Percentage: 92.92
+Sports_Participation: No
+Library_Books_Issued: 9
+Disciplinary_Actions: Probation Student_ID: SID0108
+Full_Name: Michael Schwartz
+Maths_Marks: 55
+Science_Marks: 92
+English_Marks: 68
+Attendance_Percentage: 67.89
+Sports_Participation: Yes
+Library_Books_Issued: 5
+Disciplinary_Actions: None Student_ID: SID0109
+Full_Name: Lindsey Taylor
+Maths_Marks: 54
+Science_Marks: 42
+English_Marks: 73
+Attendance_Percentage: 82.43
+Sports_Participation: Yes
+Library_Books_Issued: 7
+Disciplinary_Actions: Warning Student_ID: SID0110
+Full_Name: Dawn Rodgers
+Maths_Marks: 91
+Science_Marks: 79
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [ 0.00013491  0.01719731  0.02183335 ... -0.01895532 -0.0195366
+ -0.01889861]
+
+Document 26:
+Content: Full_Name: Dawn Rodgers
+Maths_Marks: 91
+Science_Marks: 79
+English_Marks: 57
+Attendance_Percentage: 83.6
+Sports_Participation: Yes
+Library_Books_Issued: 5
+Disciplinary_Actions: Warning Student_ID: SID0111
+Full_Name: Leonard Gonzalez DDS
+Maths_Marks: 80
+Science_Marks: 73
+English_Marks: 69
+Attendance_Percentage: 72.0
+Sports_Participation: No
+Library_Books_Issued: 1
+Disciplinary_Actions: None Student_ID: SID0112
+Full_Name: Erica Peterson
+Maths_Marks: 95
+Science_Marks: 100
+English_Marks: 86
+Attendance_Percentage: 75.28
+Sports_Participation: No
+Library_Books_Issued: 1
+Disciplinary_Actions: None Student_ID: SID0113
+Full_Name: Thomas Davidson
+Maths_Marks: 83
+Science_Marks: 70
+English_Marks: 75
+Attendance_Percentage: 72.34
+Sports_Participation: Yes
+Library_Books_Issued: 2
+Disciplinary_Actions: None Student_ID: SID0114
+Full_Name: David Black
+Maths_Marks: 92
+Science_Marks: 86
+English_Marks: 88
+Attendance_Percentage: 77.7
+Sports_Participation: No
+Library_Books_Issued: 5
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [ 0.00356503  0.03578797  0.01038539 ... -0.02338606 -0.00426703
+ -0.02207842]
+
+Document 27:
+Content: English_Marks: 88
+Attendance_Percentage: 77.7
+Sports_Participation: No
+Library_Books_Issued: 5
+Disciplinary_Actions: None Student_ID: SID0115
+Full_Name: Matthew Owens
+Maths_Marks: 85
+Science_Marks: 78
+English_Marks: 70
+Attendance_Percentage: 93.97
+Sports_Participation: No
+Library_Books_Issued: 2
+Disciplinary_Actions: None Student_ID: SID0116
+Full_Name: Hannah Salazar
+Maths_Marks: 50
+Science_Marks: 82
+English_Marks: 87
+Attendance_Percentage: 78.76
+Sports_Participation: No
+Library_Books_Issued: 5
+Disciplinary_Actions: Probation Student_ID: SID0117
+Full_Name: Phyllis Marshall
+Maths_Marks: 88
+Science_Marks: 63
+English_Marks: 75
+Attendance_Percentage: 89.96
+Sports_Participation: No
+Library_Books_Issued: 4
+Disciplinary_Actions: Probation Student_ID: SID0118
+Full_Name: Cassie Carrillo
+Maths_Marks: 84
+Science_Marks: 95
+English_Marks: 55
+Attendance_Percentage: 92.77
+Sports_Participation: No
+Library_Books_Issued: 9
+Disciplinary_Actions: Probation Student_ID: SID0119
+Full_Name: Jillian Jones
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.01137949  0.02408171  0.00194658 ... -0.02057718 -0.00600679
+ -0.01828628]
+
+Document 28:
+Content: Disciplinary_Actions: Probation Student_ID: SID0119
+Full_Name: Jillian Jones
+Maths_Marks: 41
+Science_Marks: 53
+English_Marks: 59
+Attendance_Percentage: 88.5
+Sports_Participation: Yes
+Library_Books_Issued: 6
+Disciplinary_Actions: Warning Student_ID: SID0120
+Full_Name: Kathleen Tyler
+Maths_Marks: 97
+Science_Marks: 72
+English_Marks: 42
+Attendance_Percentage: 66.26
+Sports_Participation: Yes
+Library_Books_Issued: 3
+Disciplinary_Actions: None Student_ID: SID0121
+Full_Name: Margaret Mckee
+Maths_Marks: 100
+Science_Marks: 41
+English_Marks: 88
+Attendance_Percentage: 96.93
+Sports_Participation: No
+Library_Books_Issued: 6
+Disciplinary_Actions: None Student_ID: SID0122
+Full_Name: Jacob Cruz
+Maths_Marks: 62
+Science_Marks: 58
+English_Marks: 56
+Attendance_Percentage: 88.85
+Sports_Participation: Yes
+Library_Books_Issued: 1
+Disciplinary_Actions: Warning Student_ID: SID0123
+Full_Name: David Jones
+Maths_Marks: 97
+Science_Marks: 98
+English_Marks: 83
+Attendance_Percentage: 64.71
+Sports_Participation: Yes
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.01375495  0.01944089  0.01191538 ... -0.03606668 -0.00714923
+ -0.02895926]
+
+Document 29:
+Content: Science_Marks: 98
+English_Marks: 83
+Attendance_Percentage: 64.71
+Sports_Participation: Yes
+Library_Books_Issued: 9
+Disciplinary_Actions: Warning Student_ID: SID0124
+Full_Name: Christy Davis
+Maths_Marks: 99
+Science_Marks: 42
+English_Marks: 69
+Attendance_Percentage: 69.57
+Sports_Participation: No
+Library_Books_Issued: 2
+Disciplinary_Actions: Warning Student_ID: SID0125
+Full_Name: David Boyd
+Maths_Marks: 59
+Science_Marks: 53
+English_Marks: 99
+Attendance_Percentage: 67.7
+Sports_Participation: No
+Library_Books_Issued: 8
+Disciplinary_Actions: None Student_ID: SID0126
+Full_Name: Alexander Best
+Maths_Marks: 99
+Science_Marks: 83
+English_Marks: 100
+Attendance_Percentage: 66.69
+Sports_Participation: Yes
+Library_Books_Issued: 1
+Disciplinary_Actions: Warning Student_ID: SID0127
+Full_Name: David Garza
+Maths_Marks: 49
+Science_Marks: 94
+English_Marks: 44
+Attendance_Percentage: 95.82
+Sports_Participation: Yes
+Library_Books_Issued: 0
+Disciplinary_Actions: None Student_ID: SID0128
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.01169942  0.02656423  0.00906391 ... -0.03382931 -0.01854616
+ -0.03550264]
+
+Document 30:
+Content: Sports_Participation: Yes
+Library_Books_Issued: 0
+Disciplinary_Actions: None Student_ID: SID0128
+Full_Name: Kimberly Bishop
+Maths_Marks: 77
+Science_Marks: 65
+English_Marks: 93
+Attendance_Percentage: 60.34
+Sports_Participation: No
+Library_Books_Issued: 8
+Disciplinary_Actions: None Student_ID: SID0129
+Full_Name: Dustin Diaz
+Maths_Marks: 64
+Science_Marks: 79
+English_Marks: 50
+Attendance_Percentage: 77.52
+Sports_Participation: No
+Library_Books_Issued: 1
+Disciplinary_Actions: Warning Student_ID: SID0130
+Full_Name: Timothy Evans
+Maths_Marks: 87
+Science_Marks: 62
+English_Marks: 48
+Attendance_Percentage: 69.93
+Sports_Participation: No
+Library_Books_Issued: 2
+Disciplinary_Actions: None Student_ID: SID0131
+Full_Name: Carl Floyd
+Maths_Marks: 77
+Science_Marks: 42
+English_Marks: 45
+Attendance_Percentage: 93.98
+Sports_Participation: No
+Library_Books_Issued: 0
+Disciplinary_Actions: Warning Student_ID: SID0132
+Full_Name: Blake Robinson
+Maths_Marks: 97
+Science_Marks: 71
+English_Marks: 65
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.02216843  0.02178076  0.01559256 ... -0.03161585 -0.01800467
+ -0.02422159]
+
+Document 31:
+Content: Full_Name: Blake Robinson
+Maths_Marks: 97
+Science_Marks: 71
+English_Marks: 65
+Attendance_Percentage: 91.66
+Sports_Participation: Yes
+Library_Books_Issued: 2
+Disciplinary_Actions: None Student_ID: SID0133
+Full_Name: Craig Robles
+Maths_Marks: 66
+Science_Marks: 94
+English_Marks: 88
+Attendance_Percentage: 65.96
+Sports_Participation: Yes
+Library_Books_Issued: 10
+Disciplinary_Actions: Probation Student_ID: SID0134
+Full_Name: Justin Wheeler
+Maths_Marks: 77
+Science_Marks: 52
+English_Marks: 47
+Attendance_Percentage: 97.18
+Sports_Participation: Yes
+Library_Books_Issued: 9
+Disciplinary_Actions: None Student_ID: SID0135
+Full_Name: Julie Adams
+Maths_Marks: 68
+Science_Marks: 71
+English_Marks: 61
+Attendance_Percentage: 85.56
+Sports_Participation: Yes
+Library_Books_Issued: 4
+Disciplinary_Actions: Warning Student_ID: SID0136
+Full_Name: James Aguilar
+Maths_Marks: 73
+Science_Marks: 44
+English_Marks: 69
+Attendance_Percentage: 66.63
+Sports_Participation: No
+Library_Books_Issued: 8
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00877257  0.01882362  0.00292589 ... -0.02125818 -0.00907179
+ -0.01084671]
+
+Document 32:
+Content: English_Marks: 69
+Attendance_Percentage: 66.63
+Sports_Participation: No
+Library_Books_Issued: 8
+Disciplinary_Actions: Probation Student_ID: SID0137
+Full_Name: Kyle Payne
+Maths_Marks: 66
+Science_Marks: 74
+English_Marks: 91
+Attendance_Percentage: 86.88
+Sports_Participation: Yes
+Library_Books_Issued: 6
+Disciplinary_Actions: Probation Student_ID: SID0138
+Full_Name: Vincent Owens
+Maths_Marks: 87
+Science_Marks: 73
+English_Marks: 58
+Attendance_Percentage: 62.13
+Sports_Participation: No
+Library_Books_Issued: 4
+Disciplinary_Actions: None Student_ID: SID0139
+Full_Name: Sharon Davis
+Maths_Marks: 65
+Science_Marks: 43
+English_Marks: 53
+Attendance_Percentage: 79.4
+Sports_Participation: No
+Library_Books_Issued: 1
+Disciplinary_Actions: None Student_ID: SID0140
+Full_Name: Nicholas Adams
+Maths_Marks: 91
+Science_Marks: 82
+English_Marks: 99
+Attendance_Percentage: 78.57
+Sports_Participation: No
+Library_Books_Issued: 5
+Disciplinary_Actions: Warning Student_ID: SID0141
+Full_Name: Erin Logan
+Maths_Marks: 89
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [ 0.00155797  0.01463258  0.01800933 ... -0.02307446 -0.01345209
+ -0.02281365]
+
+Document 33:
+Content: Disciplinary_Actions: Warning Student_ID: SID0141
+Full_Name: Erin Logan
+Maths_Marks: 89
+Science_Marks: 57
+English_Marks: 48
+Attendance_Percentage: 83.91
+Sports_Participation: Yes
+Library_Books_Issued: 3
+Disciplinary_Actions: Warning Student_ID: SID0142
+Full_Name: Nathaniel Stanley
+Maths_Marks: 92
+Science_Marks: 62
+English_Marks: 95
+Attendance_Percentage: 85.24
+Sports_Participation: No
+Library_Books_Issued: 4
+Disciplinary_Actions: Probation Student_ID: SID0143
+Full_Name: Kristina Brooks
+Maths_Marks: 95
+Science_Marks: 92
+English_Marks: 75
+Attendance_Percentage: 82.54
+Sports_Participation: No
+Library_Books_Issued: 9
+Disciplinary_Actions: None Student_ID: SID0144
+Full_Name: Barbara Wilson MD
+Maths_Marks: 79
+Science_Marks: 64
+English_Marks: 96
+Attendance_Percentage: 85.1
+Sports_Participation: No
+Library_Books_Issued: 0
+Disciplinary_Actions: Probation Student_ID: SID0145
+Full_Name: Jack Figueroa
+Maths_Marks: 55
+Science_Marks: 53
+English_Marks: 75
+Attendance_Percentage: 78.86
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00274708  0.02003672  0.00889262 ... -0.01884726 -0.00862358
+ -0.03220035]
+
+Document 34:
+Content: Maths_Marks: 55
+Science_Marks: 53
+English_Marks: 75
+Attendance_Percentage: 78.86
+Sports_Participation: No
+Library_Books_Issued: 1
+Disciplinary_Actions: None Student_ID: SID0146
+Full_Name: Jeffrey Armstrong
+Maths_Marks: 55
+Science_Marks: 82
+English_Marks: 49
+Attendance_Percentage: 69.09
+Sports_Participation: No
+Library_Books_Issued: 5
+Disciplinary_Actions: Probation Student_ID: SID0147
+Full_Name: Pamela Beard
+Maths_Marks: 100
+Science_Marks: 40
+English_Marks: 89
+Attendance_Percentage: 99.03
+Sports_Participation: Yes
+Library_Books_Issued: 5
+Disciplinary_Actions: Probation Student_ID: SID0148
+Full_Name: Renee Murphy
+Maths_Marks: 43
+Science_Marks: 64
+English_Marks: 43
+Attendance_Percentage: 84.04
+Sports_Participation: No
+Library_Books_Issued: 2
+Disciplinary_Actions: Warning Student_ID: SID0149
+Full_Name: Jennifer Wells
+Maths_Marks: 100
+Science_Marks: 80
+English_Marks: 84
+Attendance_Percentage: 61.23
+Sports_Participation: No
+Library_Books_Issued: 6
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00312337  0.02224232  0.01586991 ... -0.01467423 -0.01258858
+ -0.01775853]
+
+Document 35:
+Content: English_Marks: 84
+Attendance_Percentage: 61.23
+Sports_Participation: No
+Library_Books_Issued: 6
+Disciplinary_Actions: Probation Student_ID: SID0150
+Full_Name: Melissa Aguirre
+Maths_Marks: 68
+Science_Marks: 64
+English_Marks: 63
+Attendance_Percentage: 96.98
+Sports_Participation: No
+Library_Books_Issued: 3
+Disciplinary_Actions: Probation Student_ID: SID0151
+Full_Name: Austin Taylor
+Maths_Marks: 81
+Science_Marks: 77
+English_Marks: 77
+Attendance_Percentage: 78.31
+Sports_Participation: No
+Library_Books_Issued: 4
+Disciplinary_Actions: None Student_ID: SID0152
+Full_Name: William Zhang
+Maths_Marks: 94
+Science_Marks: 98
+English_Marks: 40
+Attendance_Percentage: 65.16
+Sports_Participation: No
+Library_Books_Issued: 10
+Disciplinary_Actions: Probation Student_ID: SID0153
+Full_Name: Michael White
+Maths_Marks: 53
+Science_Marks: 51
+English_Marks: 58
+Attendance_Percentage: 65.77
+Sports_Participation: No
+Library_Books_Issued: 9
+Disciplinary_Actions: Probation Student_ID: SID0154
+Full_Name: Gabriel Smith
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.01008726  0.01783925  0.00432854 ... -0.02560505 -0.01882033
+ -0.0150618 ]
+
+Document 36:
+Content: Disciplinary_Actions: Probation Student_ID: SID0154
+Full_Name: Gabriel Smith
+Maths_Marks: 63
+Science_Marks: 46
+English_Marks: 50
+Attendance_Percentage: 87.92
+Sports_Participation: Yes
+Library_Books_Issued: 5
+Disciplinary_Actions: Warning Student_ID: SID0155
+Full_Name: Stacy Ruiz MD
+Maths_Marks: 52
+Science_Marks: 43
+English_Marks: 79
+Attendance_Percentage: 72.54
+Sports_Participation: Yes
+Library_Books_Issued: 0
+Disciplinary_Actions: None Student_ID: SID0156
+Full_Name: Alyssa Thornton
+Maths_Marks: 51
+Science_Marks: 56
+English_Marks: 92
+Attendance_Percentage: 70.72
+Sports_Participation: No
+Library_Books_Issued: 3
+Disciplinary_Actions: Probation Student_ID: SID0157
+Full_Name: Logan Clark
+Maths_Marks: 90
+Science_Marks: 92
+English_Marks: 45
+Attendance_Percentage: 84.02
+Sports_Participation: No
+Library_Books_Issued: 5
+Disciplinary_Actions: Warning Student_ID: SID0158
+Full_Name: Randall Lopez
+Maths_Marks: 89
+Science_Marks: 89
+English_Marks: 68
+Attendance_Percentage: 82.44
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [ 0.00617394  0.02618362  0.00411596 ... -0.02942355 -0.00043454
+ -0.0150316 ]
+
+Document 37:
+Content: Maths_Marks: 89
+Science_Marks: 89
+English_Marks: 68
+Attendance_Percentage: 82.44
+Sports_Participation: No
+Library_Books_Issued: 0
+Disciplinary_Actions: None Student_ID: SID0159
+Full_Name: Steven Hall
+Maths_Marks: 45
+Science_Marks: 74
+English_Marks: 68
+Attendance_Percentage: 92.22
+Sports_Participation: Yes
+Library_Books_Issued: 7
+Disciplinary_Actions: Probation Student_ID: SID0160
+Full_Name: Amy King
+Maths_Marks: 83
+Science_Marks: 91
+English_Marks: 43
+Attendance_Percentage: 98.84
+Sports_Participation: No
+Library_Books_Issued: 4
+Disciplinary_Actions: None Student_ID: SID0161
+Full_Name: Patrick Jones
+Maths_Marks: 77
+Science_Marks: 42
+English_Marks: 53
+Attendance_Percentage: 87.27
+Sports_Participation: Yes
+Library_Books_Issued: 1
+Disciplinary_Actions: None Student_ID: SID0162
+Full_Name: Shawn Harris
+Maths_Marks: 60
+Science_Marks: 51
+English_Marks: 72
+Attendance_Percentage: 60.72
+Sports_Participation: Yes
+Library_Books_Issued: 5
+Disciplinary_Actions: Warning Student_ID: SID0163
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [ 0.00152757  0.02626702  0.01954472 ... -0.02287205 -0.00480502
+ -0.01443198]
+
+Document 38:
+Content: Sports_Participation: Yes
+Library_Books_Issued: 5
+Disciplinary_Actions: Warning Student_ID: SID0163
+Full_Name: Timothy Mullins
+Maths_Marks: 74
+Science_Marks: 81
+English_Marks: 82
+Attendance_Percentage: 95.04
+Sports_Participation: Yes
+Library_Books_Issued: 7
+Disciplinary_Actions: None Student_ID: SID0164
+Full_Name: Jose Singleton
+Maths_Marks: 84
+Science_Marks: 90
+English_Marks: 86
+Attendance_Percentage: 67.93
+Sports_Participation: No
+Library_Books_Issued: 5
+Disciplinary_Actions: None Student_ID: SID0165
+Full_Name: Deborah Sanchez
+Maths_Marks: 78
+Science_Marks: 70
+English_Marks: 93
+Attendance_Percentage: 67.73
+Sports_Participation: Yes
+Library_Books_Issued: 3
+Disciplinary_Actions: Probation Student_ID: SID0166
+Full_Name: Meredith Moore
+Maths_Marks: 63
+Science_Marks: 98
+English_Marks: 60
+Attendance_Percentage: 83.73
+Sports_Participation: Yes
+Library_Books_Issued: 10
+Disciplinary_Actions: Probation Student_ID: SID0167
+Full_Name: Hector Meyers
+Maths_Marks: 72
+Science_Marks: 40
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.01756498  0.01756498  0.00223758 ... -0.02945211 -0.02002632
+ -0.02001233]
+
+Document 39:
+Content: Full_Name: Hector Meyers
+Maths_Marks: 72
+Science_Marks: 40
+English_Marks: 57
+Attendance_Percentage: 77.9
+Sports_Participation: Yes
+Library_Books_Issued: 4
+Disciplinary_Actions: None Student_ID: SID0168
+Full_Name: Sarah Lambert
+Maths_Marks: 41
+Science_Marks: 86
+English_Marks: 75
+Attendance_Percentage: 85.89
+Sports_Participation: No
+Library_Books_Issued: 10
+Disciplinary_Actions: Probation Student_ID: SID0169
+Full_Name: Clarence Phillips
+Maths_Marks: 100
+Science_Marks: 69
+English_Marks: 51
+Attendance_Percentage: 97.54
+Sports_Participation: No
+Library_Books_Issued: 5
+Disciplinary_Actions: Probation Student_ID: SID0170
+Full_Name: Angela Morales
+Maths_Marks: 61
+Science_Marks: 72
+English_Marks: 64
+Attendance_Percentage: 83.56
+Sports_Participation: No
+Library_Books_Issued: 10
+Disciplinary_Actions: Warning Student_ID: SID0171
+Full_Name: Donna Cunningham
+Maths_Marks: 41
+Science_Marks: 71
+English_Marks: 42
+Attendance_Percentage: 99.11
+Sports_Participation: Yes
+Library_Books_Issued: 4
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00165733  0.03105675 -0.00106827 ... -0.02821957  0.00154228
+ -0.01401983]
+
+Document 40:
+Content: English_Marks: 42
+Attendance_Percentage: 99.11
+Sports_Participation: Yes
+Library_Books_Issued: 4
+Disciplinary_Actions: Probation Student_ID: SID0172
+Full_Name: Ricardo Mitchell
+Maths_Marks: 86
+Science_Marks: 84
+English_Marks: 76
+Attendance_Percentage: 66.71
+Sports_Participation: No
+Library_Books_Issued: 2
+Disciplinary_Actions: Warning Student_ID: SID0173
+Full_Name: Nathan Bowman
+Maths_Marks: 75
+Science_Marks: 88
+English_Marks: 95
+Attendance_Percentage: 63.43
+Sports_Participation: Yes
+Library_Books_Issued: 3
+Disciplinary_Actions: Probation Student_ID: SID0174
+Full_Name: Jennifer Hess
+Maths_Marks: 61
+Science_Marks: 86
+English_Marks: 61
+Attendance_Percentage: 88.1
+Sports_Participation: No
+Library_Books_Issued: 8
+Disciplinary_Actions: None Student_ID: SID0175
+Full_Name: Ryan Evans
+Maths_Marks: 77
+Science_Marks: 56
+English_Marks: 73
+Attendance_Percentage: 98.32
+Sports_Participation: No
+Library_Books_Issued: 9
+Disciplinary_Actions: None Student_ID: SID0176
+Full_Name: Laura Cox
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00856882  0.02204978  0.00216107 ... -0.02295537 -0.00957732
+ -0.02523308]
+
+Document 41:
+Content: Library_Books_Issued: 9
+Disciplinary_Actions: None Student_ID: SID0176
+Full_Name: Laura Cox
+Maths_Marks: 94
+Science_Marks: 41
+English_Marks: 59
+Attendance_Percentage: 67.4
+Sports_Participation: Yes
+Library_Books_Issued: 10
+Disciplinary_Actions: Probation Student_ID: SID0177
+Full_Name: Susan Rasmussen
+Maths_Marks: 41
+Science_Marks: 49
+English_Marks: 66
+Attendance_Percentage: 68.76
+Sports_Participation: No
+Library_Books_Issued: 1
+Disciplinary_Actions: Warning Student_ID: SID0178
+Full_Name: Todd Johnson
+Maths_Marks: 53
+Science_Marks: 64
+English_Marks: 83
+Attendance_Percentage: 64.06
+Sports_Participation: Yes
+Library_Books_Issued: 2
+Disciplinary_Actions: Warning Student_ID: SID0179
+Full_Name: Douglas Thompson
+Maths_Marks: 71
+Science_Marks: 89
+English_Marks: 75
+Attendance_Percentage: 68.41
+Sports_Participation: Yes
+Library_Books_Issued: 9
+Disciplinary_Actions: Probation Student_ID: SID0180
+Full_Name: Aaron Kelly
+Maths_Marks: 67
+Science_Marks: 88
+English_Marks: 52
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00936509  0.01364391  0.00437889 ... -0.0229952  -0.00664252
+ -0.020911  ]
+
+Document 42:
+Content: Full_Name: Aaron Kelly
+Maths_Marks: 67
+Science_Marks: 88
+English_Marks: 52
+Attendance_Percentage: 93.59
+Sports_Participation: Yes
+Library_Books_Issued: 0
+Disciplinary_Actions: Probation Student_ID: SID0181
+Full_Name: Joseph Rivera
+Maths_Marks: 83
+Science_Marks: 63
+English_Marks: 56
+Attendance_Percentage: 85.16
+Sports_Participation: No
+Library_Books_Issued: 9
+Disciplinary_Actions: Probation Student_ID: SID0182
+Full_Name: Donald Silva
+Maths_Marks: 83
+Science_Marks: 72
+English_Marks: 68
+Attendance_Percentage: 61.23
+Sports_Participation: No
+Library_Books_Issued: 8
+Disciplinary_Actions: Warning Student_ID: SID0183
+Full_Name: Christopher Finley
+Maths_Marks: 83
+Science_Marks: 80
+English_Marks: 89
+Attendance_Percentage: 83.0
+Sports_Participation: No
+Library_Books_Issued: 1
+Disciplinary_Actions: Probation Student_ID: SID0184
+Full_Name: Chloe Watson
+Maths_Marks: 40
+Science_Marks: 94
+English_Marks: 98
+Attendance_Percentage: 93.29
+Sports_Participation: Yes
+Library_Books_Issued: 10
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00228489  0.03163486  0.01143806 ... -0.02954038 -0.00797672
+ -0.01855114]
+
+Document 43:
+Content: English_Marks: 98
+Attendance_Percentage: 93.29
+Sports_Participation: Yes
+Library_Books_Issued: 10
+Disciplinary_Actions: Warning Student_ID: SID0185
+Full_Name: Karen Todd
+Maths_Marks: 82
+Science_Marks: 80
+English_Marks: 62
+Attendance_Percentage: 73.57
+Sports_Participation: No
+Library_Books_Issued: 7
+Disciplinary_Actions: None Student_ID: SID0186
+Full_Name: Morgan King
+Maths_Marks: 65
+Science_Marks: 69
+English_Marks: 61
+Attendance_Percentage: 97.91
+Sports_Participation: Yes
+Library_Books_Issued: 2
+Disciplinary_Actions: Warning Student_ID: SID0187
+Full_Name: Andrew Turner
+Maths_Marks: 95
+Science_Marks: 44
+English_Marks: 78
+Attendance_Percentage: 89.27
+Sports_Participation: Yes
+Library_Books_Issued: 0
+Disciplinary_Actions: Probation Student_ID: SID0188
+Full_Name: Janet Wilson
+Maths_Marks: 64
+Science_Marks: 47
+English_Marks: 74
+Attendance_Percentage: 85.88
+Sports_Participation: No
+Library_Books_Issued: 3
+Disciplinary_Actions: Warning Student_ID: SID0189
+Full_Name: Rhonda Dixon
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00472997  0.01701833 -0.00089008 ... -0.01684048 -0.02123187
+ -0.01485683]
+
+Document 44:
+Content: Library_Books_Issued: 3
+Disciplinary_Actions: Warning Student_ID: SID0189
+Full_Name: Rhonda Dixon
+Maths_Marks: 88
+Science_Marks: 82
+English_Marks: 79
+Attendance_Percentage: 94.97
+Sports_Participation: No
+Library_Books_Issued: 5
+Disciplinary_Actions: Probation Student_ID: SID0190
+Full_Name: Kenneth Goodman
+Maths_Marks: 87
+Science_Marks: 96
+English_Marks: 50
+Attendance_Percentage: 91.7
+Sports_Participation: No
+Library_Books_Issued: 9
+Disciplinary_Actions: Probation Student_ID: SID0191
+Full_Name: Theresa Anderson
+Maths_Marks: 93
+Science_Marks: 92
+English_Marks: 85
+Attendance_Percentage: 91.57
+Sports_Participation: No
+Library_Books_Issued: 4
+Disciplinary_Actions: None Student_ID: SID0192
+Full_Name: Kevin Wagner
+Maths_Marks: 43
+Science_Marks: 73
+English_Marks: 77
+Attendance_Percentage: 92.95
+Sports_Participation: Yes
+Library_Books_Issued: 7
+Disciplinary_Actions: None Student_ID: SID0193
+Full_Name: Jessica Scott
+Maths_Marks: 84
+Science_Marks: 91
+English_Marks: 57
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.01305679  0.0121415   0.00668788 ... -0.0271953  -0.01304292
+ -0.01386114]
+
+Document 45:
+Content: Full_Name: Jessica Scott
+Maths_Marks: 84
+Science_Marks: 91
+English_Marks: 57
+Attendance_Percentage: 81.44
+Sports_Participation: Yes
+Library_Books_Issued: 2
+Disciplinary_Actions: Probation Student_ID: SID0194
+Full_Name: Julia Lopez
+Maths_Marks: 95
+Science_Marks: 70
+English_Marks: 57
+Attendance_Percentage: 72.2
+Sports_Participation: Yes
+Library_Books_Issued: 10
+Disciplinary_Actions: Warning Student_ID: SID0195
+Full_Name: Erica Perkins
+Maths_Marks: 88
+Science_Marks: 72
+English_Marks: 92
+Attendance_Percentage: 94.6
+Sports_Participation: Yes
+Library_Books_Issued: 9
+Disciplinary_Actions: None Student_ID: SID0196
+Full_Name: William Gregory
+Maths_Marks: 95
+Science_Marks: 96
+English_Marks: 92
+Attendance_Percentage: 90.75
+Sports_Participation: Yes
+Library_Books_Issued: 8
+Disciplinary_Actions: None Student_ID: SID0197
+Full_Name: Margaret Nichols
+Maths_Marks: 91
+Science_Marks: 75
+English_Marks: 70
+Attendance_Percentage: 86.83
+Sports_Participation: No
+Library_Books_Issued: 10
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00897206  0.04011037  0.01536696 ... -0.01873919 -0.0057232
+ -0.03618981]
+
+Document 46:
+Content: English_Marks: 70
+Attendance_Percentage: 86.83
+Sports_Participation: No
+Library_Books_Issued: 10
+Disciplinary_Actions: None Student_ID: SID0198
+Full_Name: Jonathan Johnson
+Maths_Marks: 55
+Science_Marks: 67
+English_Marks: 61
+Attendance_Percentage: 67.0
+Sports_Participation: No
+Library_Books_Issued: 10
+Disciplinary_Actions: Warning Student_ID: SID0199
+Full_Name: Diana Holland
+Maths_Marks: 47
+Science_Marks: 88
+English_Marks: 40
+Attendance_Percentage: 80.71
+Sports_Participation: Yes
+Library_Books_Issued: 3
+Disciplinary_Actions: Probation Student_ID: SID0200
+Full_Name: Billy Maxwell
+Maths_Marks: 54
+Science_Marks: 74
+English_Marks: 40
+Attendance_Percentage: 94.34
+Sports_Participation: No
+Library_Books_Issued: 8
+Disciplinary_Actions: Probation Student_ID: SID0201
+Full_Name: Curtis Brown
+Maths_Marks: 66
+Science_Marks: 91
+English_Marks: 94
+Attendance_Percentage: 78.4
+Sports_Participation: No
+Library_Books_Issued: 6
+Disciplinary_Actions: Warning Student_ID: SID0202
+Full_Name: Rachel Baker
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00435502  0.02479061  0.00674161 ... -0.02280519 -0.00728216
+ -0.01898393]
+
+Document 47:
+Content: Library_Books_Issued: 6
+Disciplinary_Actions: Warning Student_ID: SID0202
+Full_Name: Rachel Baker
+Maths_Marks: 82
+Science_Marks: 85
+English_Marks: 70
+Attendance_Percentage: 75.13
+Sports_Participation: No
+Library_Books_Issued: 10
+Disciplinary_Actions: Probation Student_ID: SID0203
+Full_Name: Scott Petty DVM
+Maths_Marks: 97
+Science_Marks: 98
+English_Marks: 42
+Attendance_Percentage: 98.32
+Sports_Participation: No
+Library_Books_Issued: 0
+Disciplinary_Actions: Warning Student_ID: SID0204
+Full_Name: Leslie Smith
+Maths_Marks: 53
+Science_Marks: 47
+English_Marks: 48
+Attendance_Percentage: 90.28
+Sports_Participation: No
+Library_Books_Issued: 6
+Disciplinary_Actions: Probation Student_ID: SID0205
+Full_Name: Jennifer Barnes
+Maths_Marks: 76
+Science_Marks: 45
+English_Marks: 76
+Attendance_Percentage: 79.56
+Sports_Participation: Yes
+Library_Books_Issued: 8
+Disciplinary_Actions: Warning Student_ID: SID0206
+Full_Name: Tammy Jensen
+Maths_Marks: 67
+Science_Marks: 61
+English_Marks: 88
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00879778  0.01483658  0.01777856 ... -0.01411164 -0.01430871
+ -0.02820921]
+
+Document 48:
+Content: Full_Name: Tammy Jensen
+Maths_Marks: 67
+Science_Marks: 61
+English_Marks: 88
+Attendance_Percentage: 95.2
+Sports_Participation: Yes
+Library_Books_Issued: 3
+Disciplinary_Actions: Probation Student_ID: SID0207
+Full_Name: Jason Gutierrez
+Maths_Marks: 56
+Science_Marks: 63
+English_Marks: 41
+Attendance_Percentage: 74.32
+Sports_Participation: No
+Library_Books_Issued: 0
+Disciplinary_Actions: None Student_ID: SID0208
+Full_Name: Matthew Porter
+Maths_Marks: 83
+Science_Marks: 50
+English_Marks: 78
+Attendance_Percentage: 78.09
+Sports_Participation: Yes
+Library_Books_Issued: 8
+Disciplinary_Actions: None Student_ID: SID0209
+Full_Name: Edward Wong Jr.
+Maths_Marks: 83
+Science_Marks: 57
+English_Marks: 61
+Attendance_Percentage: 83.03
+Sports_Participation: No
+Library_Books_Issued: 8
+Disciplinary_Actions: None Student_ID: SID0210
+Full_Name: Martha Schwartz
+Maths_Marks: 86
+Science_Marks: 49
+English_Marks: 61
+Attendance_Percentage: 67.7
+Sports_Participation: Yes
+Library_Books_Issued: 3
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.01801625  0.01489197  0.01155435 ... -0.02849018 -0.01028124
+ -0.0206313 ]
+
+Document 49:
+Content: English_Marks: 61
+Attendance_Percentage: 67.7
+Sports_Participation: Yes
+Library_Books_Issued: 3
+Disciplinary_Actions: Probation Student_ID: SID0211
+Full_Name: Nancy Haynes
+Maths_Marks: 47
+Science_Marks: 81
+English_Marks: 96
+Attendance_Percentage: 96.19
+Sports_Participation: Yes
+Library_Books_Issued: 9
+Disciplinary_Actions: Probation Student_ID: SID0212
+Full_Name: Mrs. Ann Beard
+Maths_Marks: 58
+Science_Marks: 62
+English_Marks: 91
+Attendance_Percentage: 86.71
+Sports_Participation: Yes
+Library_Books_Issued: 5
+Disciplinary_Actions: Warning Student_ID: SID0213
+Full_Name: Mary Meza
+Maths_Marks: 60
+Science_Marks: 45
+English_Marks: 60
+Attendance_Percentage: 96.46
+Sports_Participation: Yes
+Library_Books_Issued: 1
+Disciplinary_Actions: Warning Student_ID: SID0214
+Full_Name: Lindsay Gay
+Maths_Marks: 41
+Science_Marks: 90
+English_Marks: 77
+Attendance_Percentage: 74.77
+Sports_Participation: No
+Library_Books_Issued: 6
+Disciplinary_Actions: None Student_ID: SID0215
+Full_Name: Michael Holt
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.01460875  0.01757444  0.00456523 ... -0.02494746 -0.00450345
+ -0.02317628]
+
+Document 50:
+Content: Library_Books_Issued: 6
+Disciplinary_Actions: None Student_ID: SID0215
+Full_Name: Michael Holt
+Maths_Marks: 40
+Science_Marks: 41
+English_Marks: 96
+Attendance_Percentage: 96.0
+Sports_Participation: No
+Library_Books_Issued: 3
+Disciplinary_Actions: Warning Student_ID: SID0216
+Full_Name: Shelby Bryant
+Maths_Marks: 70
+Science_Marks: 58
+English_Marks: 61
+Attendance_Percentage: 71.74
+Sports_Participation: Yes
+Library_Books_Issued: 10
+Disciplinary_Actions: Probation Student_ID: SID0217
+Full_Name: Jeffrey Crawford
+Maths_Marks: 40
+Science_Marks: 72
+English_Marks: 88
+Attendance_Percentage: 79.22
+Sports_Participation: Yes
+Library_Books_Issued: 2
+Disciplinary_Actions: Warning Student_ID: SID0218
+Full_Name: Victor Mccarthy
+Maths_Marks: 63
+Science_Marks: 81
+English_Marks: 69
+Attendance_Percentage: 93.87
+Sports_Participation: No
+Library_Books_Issued: 6
+Disciplinary_Actions: Probation Student_ID: SID0219
+Full_Name: Sharon Solomon
+Maths_Marks: 49
+Science_Marks: 98
+English_Marks: 59
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.0162548   0.01473566  0.0010962  ... -0.02141988 -0.0031315
+ -0.01338224]
+
+Document 51:
+Content: Full_Name: Sharon Solomon
+Maths_Marks: 49
+Science_Marks: 98
+English_Marks: 59
+Attendance_Percentage: 61.66
+Sports_Participation: No
+Library_Books_Issued: 0
+Disciplinary_Actions: Probation Student_ID: SID0220
+Full_Name: Kelly King
+Maths_Marks: 48
+Science_Marks: 89
+English_Marks: 63
+Attendance_Percentage: 87.6
+Sports_Participation: No
+Library_Books_Issued: 2
+Disciplinary_Actions: Probation Student_ID: SID0221
+Full_Name: Steven Madden
+Maths_Marks: 55
+Science_Marks: 56
+English_Marks: 69
+Attendance_Percentage: 63.96
+Sports_Participation: Yes
+Library_Books_Issued: 0
+Disciplinary_Actions: None Student_ID: SID0222
+Full_Name: Joe Hahn
+Maths_Marks: 78
+Science_Marks: 95
+English_Marks: 53
+Attendance_Percentage: 76.31
+Sports_Participation: Yes
+Library_Books_Issued: 2
+Disciplinary_Actions: None Student_ID: SID0223
+Full_Name: Tammy Smith
+Maths_Marks: 46
+Science_Marks: 50
+English_Marks: 80
+Attendance_Percentage: 76.98
+Sports_Participation: Yes
+Library_Books_Issued: 4
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [ 0.00943306  0.02687738  0.00241637 ... -0.02277605 -0.00816164
+ -0.02064336]
+
+Document 52:
+Content: English_Marks: 80
+Attendance_Percentage: 76.98
+Sports_Participation: Yes
+Library_Books_Issued: 4
+Disciplinary_Actions: None Student_ID: SID0224
+Full_Name: Laura Barrett
+Maths_Marks: 54
+Science_Marks: 40
+English_Marks: 56
+Attendance_Percentage: 83.65
+Sports_Participation: No
+Library_Books_Issued: 1
+Disciplinary_Actions: Warning Student_ID: SID0225
+Full_Name: Jacqueline Henderson
+Maths_Marks: 56
+Science_Marks: 53
+English_Marks: 92
+Attendance_Percentage: 91.37
+Sports_Participation: No
+Library_Books_Issued: 9
+Disciplinary_Actions: None Student_ID: SID0226
+Full_Name: John Thompson
+Maths_Marks: 69
+Science_Marks: 61
+English_Marks: 86
+Attendance_Percentage: 77.01
+Sports_Participation: No
+Library_Books_Issued: 6
+Disciplinary_Actions: Warning Student_ID: SID0227
+Full_Name: Sydney Johnston
+Maths_Marks: 54
+Science_Marks: 58
+English_Marks: 71
+Attendance_Percentage: 68.0
+Sports_Participation: Yes
+Library_Books_Issued: 10
+Disciplinary_Actions: Probation Student_ID: SID0228
+Full_Name: Mia Lopez
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00862955  0.03168524  0.00365467 ... -0.02311758 -0.01166193
+ -0.02618433]
+
+Document 53:
+Content: Library_Books_Issued: 10
+Disciplinary_Actions: Probation Student_ID: SID0228
+Full_Name: Mia Lopez
+Maths_Marks: 41
+Science_Marks: 100
+English_Marks: 62
+Attendance_Percentage: 85.85
+Sports_Participation: Yes
+Library_Books_Issued: 6
+Disciplinary_Actions: Warning Student_ID: SID0229
+Full_Name: Travis Kaiser
+Maths_Marks: 85
+Science_Marks: 89
+English_Marks: 44
+Attendance_Percentage: 87.8
+Sports_Participation: No
+Library_Books_Issued: 2
+Disciplinary_Actions: None Student_ID: SID0230
+Full_Name: Michelle Keller
+Maths_Marks: 55
+Science_Marks: 51
+English_Marks: 73
+Attendance_Percentage: 65.8
+Sports_Participation: Yes
+Library_Books_Issued: 0
+Disciplinary_Actions: Warning Student_ID: SID0231
+Full_Name: Ms. Frances Bradford MD
+Maths_Marks: 70
+Science_Marks: 82
+English_Marks: 42
+Attendance_Percentage: 71.54
+Sports_Participation: Yes
+Library_Books_Issued: 10
+Disciplinary_Actions: Probation Student_ID: SID0232
+Full_Name: Kayla Gonzales
+Maths_Marks: 75
+Science_Marks: 40
+English_Marks: 80
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00368004  0.02050708  0.01026056 ... -0.02147625 -0.01379312
+ -0.03087298]
+
+Document 54:
+Content: Full_Name: Kayla Gonzales
+Maths_Marks: 75
+Science_Marks: 40
+English_Marks: 80
+Attendance_Percentage: 80.97
+Sports_Participation: No
+Library_Books_Issued: 2
+Disciplinary_Actions: Warning Student_ID: SID0233
+Full_Name: Lisa Cowan
+Maths_Marks: 79
+Science_Marks: 97
+English_Marks: 52
+Attendance_Percentage: 87.53
+Sports_Participation: Yes
+Library_Books_Issued: 4
+Disciplinary_Actions: Warning Student_ID: SID0234
+Full_Name: Victoria Roberts
+Maths_Marks: 97
+Science_Marks: 53
+English_Marks: 72
+Attendance_Percentage: 66.7
+Sports_Participation: No
+Library_Books_Issued: 6
+Disciplinary_Actions: None Student_ID: SID0235
+Full_Name: Travis Cox
+Maths_Marks: 57
+Science_Marks: 77
+English_Marks: 47
+Attendance_Percentage: 89.61
+Sports_Participation: No
+Library_Books_Issued: 5
+Disciplinary_Actions: Probation Student_ID: SID0236
+Full_Name: Kristen Wilson
+Maths_Marks: 45
+Science_Marks: 70
+English_Marks: 95
+Attendance_Percentage: 68.58
+Sports_Participation: No
+Library_Books_Issued: 7
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00440373  0.04208928  0.02742388 ... -0.02391187 -0.0024368
+ -0.02184033]
+
+Document 55:
+Content: English_Marks: 95
+Attendance_Percentage: 68.58
+Sports_Participation: No
+Library_Books_Issued: 7
+Disciplinary_Actions: None Student_ID: SID0237
+Full_Name: Carrie Benton
+Maths_Marks: 83
+Science_Marks: 56
+English_Marks: 57
+Attendance_Percentage: 61.54
+Sports_Participation: Yes
+Library_Books_Issued: 2
+Disciplinary_Actions: Warning Student_ID: SID0238
+Full_Name: Leslie Silva
+Maths_Marks: 65
+Science_Marks: 66
+English_Marks: 44
+Attendance_Percentage: 94.34
+Sports_Participation: Yes
+Library_Books_Issued: 7
+Disciplinary_Actions: Warning Student_ID: SID0239
+Full_Name: Travis Miller
+Maths_Marks: 86
+Science_Marks: 71
+English_Marks: 82
+Attendance_Percentage: 88.37
+Sports_Participation: No
+Library_Books_Issued: 4
+Disciplinary_Actions: Probation Student_ID: SID0240
+Full_Name: Kathryn Nelson
+Maths_Marks: 91
+Science_Marks: 88
+English_Marks: 48
+Attendance_Percentage: 69.27
+Sports_Participation: Yes
+Library_Books_Issued: 10
+Disciplinary_Actions: Probation Student_ID: SID0241
+Full_Name: Melissa Carpenter
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [ 0.00240838  0.02910846  0.01648093 ... -0.01979375 -0.02215015
+ -0.01785319]
+
+Document 56:
+Content: Disciplinary_Actions: Probation Student_ID: SID0241
+Full_Name: Melissa Carpenter
+Maths_Marks: 50
+Science_Marks: 89
+English_Marks: 46
+Attendance_Percentage: 88.42
+Sports_Participation: Yes
+Library_Books_Issued: 6
+Disciplinary_Actions: None Student_ID: SID0242
+Full_Name: Anthony Russo
+Maths_Marks: 74
+Science_Marks: 41
+English_Marks: 91
+Attendance_Percentage: 70.84
+Sports_Participation: No
+Library_Books_Issued: 6
+Disciplinary_Actions: None Student_ID: SID0243
+Full_Name: Jennifer Ayala
+Maths_Marks: 64
+Science_Marks: 69
+English_Marks: 44
+Attendance_Percentage: 93.7
+Sports_Participation: No
+Library_Books_Issued: 5
+Disciplinary_Actions: None Student_ID: SID0244
+Full_Name: Samantha Thomas
+Maths_Marks: 54
+Science_Marks: 77
+English_Marks: 88
+Attendance_Percentage: 78.63
+Sports_Participation: Yes
+Library_Books_Issued: 9
+Disciplinary_Actions: Probation Student_ID: SID0245
+Full_Name: Rebecca Mcdaniel
+Maths_Marks: 41
+Science_Marks: 76
+English_Marks: 76
+Attendance_Percentage: 74.01
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [ 0.00383024  0.02611433  0.01516677 ... -0.01239835 -0.01784409
+ -0.02050739]
+
+Document 57:
+Content: Maths_Marks: 41
+Science_Marks: 76
+English_Marks: 76
+Attendance_Percentage: 74.01
+Sports_Participation: No
+Library_Books_Issued: 8
+Disciplinary_Actions: Warning Student_ID: SID0246
+Full_Name: Sara Harris
+Maths_Marks: 96
+Science_Marks: 84
+English_Marks: 46
+Attendance_Percentage: 95.43
+Sports_Participation: No
+Library_Books_Issued: 8
+Disciplinary_Actions: Warning Student_ID: SID0247
+Full_Name: Todd Morales
+Maths_Marks: 97
+Science_Marks: 52
+English_Marks: 70
+Attendance_Percentage: 64.11
+Sports_Participation: No
+Library_Books_Issued: 6
+Disciplinary_Actions: None Student_ID: SID0248
+Full_Name: Joseph Shaw
+Maths_Marks: 55
+Science_Marks: 78
+English_Marks: 98
+Attendance_Percentage: 65.27
+Sports_Participation: No
+Library_Books_Issued: 1
+Disciplinary_Actions: Warning Student_ID: SID0249
+Full_Name: Melissa George
+Maths_Marks: 91
+Science_Marks: 100
+English_Marks: 66
+Attendance_Percentage: 93.61
+Sports_Participation: Yes
+Library_Books_Issued: 2
+Disciplinary_Actions: Warning Student_ID: SID0250
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00660912  0.02856734  0.01424243 ... -0.02309583 -0.00743053
+ -0.01736312]
+
+Document 58:
+Content: Sports_Participation: Yes
+Library_Books_Issued: 2
+Disciplinary_Actions: Warning Student_ID: SID0250
+Full_Name: Steve Mata
+Maths_Marks: 93
+Science_Marks: 67
+English_Marks: 57
+Attendance_Percentage: 99.78
+Sports_Participation: Yes
+Library_Books_Issued: 3
+Disciplinary_Actions: Warning Student_ID: SID0251
+Full_Name: Leslie Harrison
+Maths_Marks: 89
+Science_Marks: 86
+English_Marks: 41
+Attendance_Percentage: 83.47
+Sports_Participation: No
+Library_Books_Issued: 10
+Disciplinary_Actions: Probation Student_ID: SID0252
+Full_Name: Brooke Simpson
+Maths_Marks: 66
+Science_Marks: 68
+English_Marks: 83
+Attendance_Percentage: 76.67
+Sports_Participation: No
+Library_Books_Issued: 8
+Disciplinary_Actions: Probation Student_ID: SID0253
+Full_Name: Kimberly Bowers
+Maths_Marks: 49
+Science_Marks: 91
+English_Marks: 45
+Attendance_Percentage: 63.67
+Sports_Participation: No
+Library_Books_Issued: 8
+Disciplinary_Actions: None Student_ID: SID0254
+Full_Name: Samuel Mccarty
+Maths_Marks: 49
+Science_Marks: 63
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00367346  0.01996677  0.009435   ... -0.0243679  -0.01206443
+ -0.01757639]
+
+Document 59:
+Content: Full_Name: Samuel Mccarty
+Maths_Marks: 49
+Science_Marks: 63
+English_Marks: 77
+Attendance_Percentage: 63.11
+Sports_Participation: Yes
+Library_Books_Issued: 2
+Disciplinary_Actions: Probation Student_ID: SID0255
+Full_Name: James Clark
+Maths_Marks: 72
+Science_Marks: 57
+English_Marks: 73
+Attendance_Percentage: 99.02
+Sports_Participation: Yes
+Library_Books_Issued: 9
+Disciplinary_Actions: Probation Student_ID: SID0256
+Full_Name: Shawn Stanley
+Maths_Marks: 48
+Science_Marks: 49
+English_Marks: 91
+Attendance_Percentage: 78.65
+Sports_Participation: Yes
+Library_Books_Issued: 1
+Disciplinary_Actions: Warning Student_ID: SID0257
+Full_Name: Robert Sandoval
+Maths_Marks: 90
+Science_Marks: 51
+English_Marks: 68
+Attendance_Percentage: 97.74
+Sports_Participation: No
+Library_Books_Issued: 6
+Disciplinary_Actions: Warning Student_ID: SID0258
+Full_Name: Maria Kelly
+Maths_Marks: 63
+Science_Marks: 44
+English_Marks: 56
+Attendance_Percentage: 61.66
+Sports_Participation: No
+Library_Books_Issued: 3
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.0030502   0.03421989  0.00428435 ... -0.0226439  -0.01323755
+ -0.02559626]
+
+Document 60:
+Content: English_Marks: 56
+Attendance_Percentage: 61.66
+Sports_Participation: No
+Library_Books_Issued: 3
+Disciplinary_Actions: None Student_ID: SID0259
+Full_Name: Angela Baker
+Maths_Marks: 63
+Science_Marks: 57
+English_Marks: 91
+Attendance_Percentage: 78.59
+Sports_Participation: Yes
+Library_Books_Issued: 3
+Disciplinary_Actions: None Student_ID: SID0260
+Full_Name: William Pierce
+Maths_Marks: 86
+Science_Marks: 48
+English_Marks: 87
+Attendance_Percentage: 77.46
+Sports_Participation: No
+Library_Books_Issued: 10
+Disciplinary_Actions: Probation Student_ID: SID0261
+Full_Name: Christopher Jensen
+Maths_Marks: 88
+Science_Marks: 76
+English_Marks: 43
+Attendance_Percentage: 61.5
+Sports_Participation: Yes
+Library_Books_Issued: 7
+Disciplinary_Actions: None Student_ID: SID0262
+Full_Name: Elizabeth Henderson
+Maths_Marks: 63
+Science_Marks: 58
+English_Marks: 72
+Attendance_Percentage: 68.98
+Sports_Participation: No
+Library_Books_Issued: 0
+Disciplinary_Actions: None Student_ID: SID0263
+Full_Name: Daniel Arnold Jr.
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00711175  0.0132447   0.02064394 ... -0.02470975 -0.0058044
+ -0.01989101]
+
+Document 61:
+Content: Library_Books_Issued: 0
+Disciplinary_Actions: None Student_ID: SID0263
+Full_Name: Daniel Arnold Jr.
+Maths_Marks: 73
+Science_Marks: 99
+English_Marks: 74
+Attendance_Percentage: 80.8
+Sports_Participation: No
+Library_Books_Issued: 3
+Disciplinary_Actions: None Student_ID: SID0264
+Full_Name: Mark Dickerson
+Maths_Marks: 73
+Science_Marks: 62
+English_Marks: 100
+Attendance_Percentage: 68.99
+Sports_Participation: Yes
+Library_Books_Issued: 0
+Disciplinary_Actions: None Student_ID: SID0265
+Full_Name: Ronald Wilson II
+Maths_Marks: 66
+Science_Marks: 60
+English_Marks: 71
+Attendance_Percentage: 85.74
+Sports_Participation: Yes
+Library_Books_Issued: 5
+Disciplinary_Actions: None Student_ID: SID0266
+Full_Name: Sherry Best
+Maths_Marks: 66
+Science_Marks: 43
+English_Marks: 86
+Attendance_Percentage: 90.24
+Sports_Participation: No
+Library_Books_Issued: 3
+Disciplinary_Actions: None Student_ID: SID0267
+Full_Name: Christopher Salinas
+Maths_Marks: 94
+Science_Marks: 100
+English_Marks: 100
+Attendance_Percentage: 64.2
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00833406  0.02656438 -0.00430134 ... -0.02505166 -0.0156785
+ -0.02151729]
+
+Document 62:
+Content: Maths_Marks: 94
+Science_Marks: 100
+English_Marks: 100
+Attendance_Percentage: 64.2
+Sports_Participation: Yes
+Library_Books_Issued: 2
+Disciplinary_Actions: None Student_ID: SID0268
+Full_Name: Jennifer Foley
+Maths_Marks: 64
+Science_Marks: 52
+English_Marks: 69
+Attendance_Percentage: 98.83
+Sports_Participation: No
+Library_Books_Issued: 2
+Disciplinary_Actions: None Student_ID: SID0269
+Full_Name: Brian Romero
+Maths_Marks: 65
+Science_Marks: 78
+English_Marks: 65
+Attendance_Percentage: 72.4
+Sports_Participation: Yes
+Library_Books_Issued: 8
+Disciplinary_Actions: Probation Student_ID: SID0270
+Full_Name: Mary Davenport
+Maths_Marks: 82
+Science_Marks: 63
+English_Marks: 93
+Attendance_Percentage: 81.97
+Sports_Participation: Yes
+Library_Books_Issued: 7
+Disciplinary_Actions: Probation Student_ID: SID0271
+Full_Name: Stacey Collins
+Maths_Marks: 78
+Science_Marks: 82
+English_Marks: 76
+Attendance_Percentage: 94.66
+Sports_Participation: Yes
+Library_Books_Issued: 9
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00117693  0.02415227  0.00300532 ... -0.01832336 -0.01001887
+ -0.03168185]
+
+Document 63:
+Content: English_Marks: 76
+Attendance_Percentage: 94.66
+Sports_Participation: Yes
+Library_Books_Issued: 9
+Disciplinary_Actions: None Student_ID: SID0272
+Full_Name: Mike Clark
+Maths_Marks: 100
+Science_Marks: 60
+English_Marks: 75
+Attendance_Percentage: 63.27
+Sports_Participation: No
+Library_Books_Issued: 6
+Disciplinary_Actions: Warning Student_ID: SID0273
+Full_Name: William Rogers
+Maths_Marks: 73
+Science_Marks: 60
+English_Marks: 45
+Attendance_Percentage: 88.53
+Sports_Participation: Yes
+Library_Books_Issued: 1
+Disciplinary_Actions: Warning Student_ID: SID0274
+Full_Name: Jordan Green
+Maths_Marks: 81
+Science_Marks: 78
+English_Marks: 62
+Attendance_Percentage: 99.99
+Sports_Participation: No
+Library_Books_Issued: 8
+Disciplinary_Actions: None Student_ID: SID0275
+Full_Name: Thomas Hall
+Maths_Marks: 71
+Science_Marks: 77
+English_Marks: 73
+Attendance_Percentage: 64.19
+Sports_Participation: Yes
+Library_Books_Issued: 4
+Disciplinary_Actions: Probation Student_ID: SID0276
+Full_Name: Carrie Odonnell
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00510733  0.01556905  0.00643069 ... -0.02034807 -0.00909774
+ -0.0269683 ]
+
+Document 64:
+Content: Disciplinary_Actions: Probation Student_ID: SID0276
+Full_Name: Carrie Odonnell
+Maths_Marks: 94
+Science_Marks: 46
+English_Marks: 73
+Attendance_Percentage: 75.61
+Sports_Participation: No
+Library_Books_Issued: 1
+Disciplinary_Actions: Warning Student_ID: SID0277
+Full_Name: John Davis
+Maths_Marks: 96
+Science_Marks: 98
+English_Marks: 77
+Attendance_Percentage: 69.09
+Sports_Participation: No
+Library_Books_Issued: 0
+Disciplinary_Actions: None Student_ID: SID0278
+Full_Name: Ernest Ruiz
+Maths_Marks: 95
+Science_Marks: 53
+English_Marks: 73
+Attendance_Percentage: 61.08
+Sports_Participation: No
+Library_Books_Issued: 9
+Disciplinary_Actions: Warning Student_ID: SID0279
+Full_Name: Richard Vaughn
+Maths_Marks: 97
+Science_Marks: 68
+English_Marks: 64
+Attendance_Percentage: 77.83
+Sports_Participation: No
+Library_Books_Issued: 10
+Disciplinary_Actions: Probation Student_ID: SID0280
+Full_Name: Robert Joyce
+Maths_Marks: 92
+Science_Marks: 41
+English_Marks: 74
+Attendance_Percentage: 66.45
+Sports_Participation: No
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [ 0.0127362   0.02170389  0.01667919 ... -0.01478097 -0.01663732
+ -0.01614881]
+
+Document 65:
+Content: Science_Marks: 41
+English_Marks: 74
+Attendance_Percentage: 66.45
+Sports_Participation: No
+Library_Books_Issued: 0
+Disciplinary_Actions: Probation Student_ID: SID0281
+Full_Name: Joseph Humphrey
+Maths_Marks: 47
+Science_Marks: 46
+English_Marks: 89
+Attendance_Percentage: 72.46
+Sports_Participation: Yes
+Library_Books_Issued: 6
+Disciplinary_Actions: Probation Student_ID: SID0282
+Full_Name: Meghan Davis
+Maths_Marks: 93
+Science_Marks: 99
+English_Marks: 97
+Attendance_Percentage: 81.5
+Sports_Participation: Yes
+Library_Books_Issued: 8
+Disciplinary_Actions: None Student_ID: SID0283
+Full_Name: Barbara Brennan
+Maths_Marks: 56
+Science_Marks: 95
+English_Marks: 93
+Attendance_Percentage: 68.4
+Sports_Participation: Yes
+Library_Books_Issued: 2
+Disciplinary_Actions: Warning Student_ID: SID0284
+Full_Name: James Mosley
+Maths_Marks: 70
+Science_Marks: 57
+English_Marks: 53
+Attendance_Percentage: 67.79
+Sports_Participation: Yes
+Library_Books_Issued: 7
+Disciplinary_Actions: Warning Student_ID: SID0285
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.01251838  0.01800768  0.01115813 ... -0.02444294 -0.01320195
+ -0.01041932]
+
+Document 66:
+Content: Sports_Participation: Yes
+Library_Books_Issued: 7
+Disciplinary_Actions: Warning Student_ID: SID0285
+Full_Name: Christopher Griffith
+Maths_Marks: 56
+Science_Marks: 81
+English_Marks: 52
+Attendance_Percentage: 81.83
+Sports_Participation: Yes
+Library_Books_Issued: 2
+Disciplinary_Actions: Probation Student_ID: SID0286
+Full_Name: Patricia Lawson
+Maths_Marks: 65
+Science_Marks: 72
+English_Marks: 46
+Attendance_Percentage: 68.58
+Sports_Participation: Yes
+Library_Books_Issued: 6
+Disciplinary_Actions: None Student_ID: SID0287
+Full_Name: Shane Silva
+Maths_Marks: 96
+Science_Marks: 50
+English_Marks: 72
+Attendance_Percentage: 70.23
+Sports_Participation: No
+Library_Books_Issued: 5
+Disciplinary_Actions: Warning Student_ID: SID0288
+Full_Name: Philip Baker
+Maths_Marks: 92
+Science_Marks: 52
+English_Marks: 79
+Attendance_Percentage: 86.53
+Sports_Participation: No
+Library_Books_Issued: 1
+Disciplinary_Actions: Probation Student_ID: SID0289
+Full_Name: Bridget Wall
+Maths_Marks: 95
+Science_Marks: 66
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00457283  0.02208341  0.01705051 ... -0.03357124 -0.00702305
+ -0.02407705]
+
+Document 67:
+Content: Full_Name: Bridget Wall
+Maths_Marks: 95
+Science_Marks: 66
+English_Marks: 42
+Attendance_Percentage: 75.46
+Sports_Participation: No
+Library_Books_Issued: 10
+Disciplinary_Actions: None Student_ID: SID0290
+Full_Name: Lisa Brown
+Maths_Marks: 91
+Science_Marks: 65
+English_Marks: 44
+Attendance_Percentage: 91.72
+Sports_Participation: Yes
+Library_Books_Issued: 10
+Disciplinary_Actions: Warning Student_ID: SID0291
+Full_Name: James Page
+Maths_Marks: 85
+Science_Marks: 65
+English_Marks: 84
+Attendance_Percentage: 77.96
+Sports_Participation: Yes
+Library_Books_Issued: 6
+Disciplinary_Actions: Probation Student_ID: SID0292
+Full_Name: Travis Wilson
+Maths_Marks: 56
+Science_Marks: 83
+English_Marks: 47
+Attendance_Percentage: 85.43
+Sports_Participation: Yes
+Library_Books_Issued: 0
+Disciplinary_Actions: Probation Student_ID: SID0293
+Full_Name: Amanda Lamb
+Maths_Marks: 58
+Science_Marks: 63
+English_Marks: 44
+Attendance_Percentage: 80.84
+Sports_Participation: Yes
+Library_Books_Issued: 8
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00471774  0.03096981  0.00797645 ... -0.03633792 -0.00422566
+ -0.02368847]
+
+Document 68:
+Content: English_Marks: 44
+Attendance_Percentage: 80.84
+Sports_Participation: Yes
+Library_Books_Issued: 8
+Disciplinary_Actions: Probation Student_ID: SID0294
+Full_Name: Thomas Kelly
+Maths_Marks: 61
+Science_Marks: 59
+English_Marks: 85
+Attendance_Percentage: 80.4
+Sports_Participation: No
+Library_Books_Issued: 4
+Disciplinary_Actions: Probation Student_ID: SID0295
+Full_Name: Jonathan Spencer
+Maths_Marks: 72
+Science_Marks: 74
+English_Marks: 52
+Attendance_Percentage: 77.07
+Sports_Participation: Yes
+Library_Books_Issued: 8
+Disciplinary_Actions: Probation Student_ID: SID0296
+Full_Name: Stephanie Wagner
+Maths_Marks: 49
+Science_Marks: 63
+English_Marks: 45
+Attendance_Percentage: 97.24
+Sports_Participation: No
+Library_Books_Issued: 9
+Disciplinary_Actions: Probation Student_ID: SID0297
+Full_Name: Rhonda Mcdonald
+Maths_Marks: 42
+Science_Marks: 85
+English_Marks: 71
+Attendance_Percentage: 76.35
+Sports_Participation: No
+Library_Books_Issued: 10
+Disciplinary_Actions: None Student_ID: SID0298
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00285739  0.02472547  0.01056452 ... -0.02398984 -0.01824099
+ -0.01829549]
+
+Document 69:
+Content: Sports_Participation: No
+Library_Books_Issued: 10
+Disciplinary_Actions: None Student_ID: SID0298
+Full_Name: Juan Mckenzie
+Maths_Marks: 87
+Science_Marks: 84
+English_Marks: 100
+Attendance_Percentage: 65.19
+Sports_Participation: Yes
+Library_Books_Issued: 9
+Disciplinary_Actions: Probation Student_ID: SID0299
+Full_Name: Shelly Barnes
+Maths_Marks: 100
+Science_Marks: 100
+English_Marks: 58
+Attendance_Percentage: 86.71
+Sports_Participation: Yes
+Library_Books_Issued: 2
+Disciplinary_Actions: Warning Student_ID: SID0300
+Full_Name: Aaron Johnson
+Maths_Marks: 86
+Science_Marks: 88
+English_Marks: 42
+Attendance_Percentage: 95.38
+Sports_Participation: Yes
+Library_Books_Issued: 9
+Disciplinary_Actions: None Student_ID: SID0301
+Full_Name: Nicholas Clark
+Maths_Marks: 50
+Science_Marks: 83
+English_Marks: 41
+Attendance_Percentage: 83.73
+Sports_Participation: No
+Library_Books_Issued: 0
+Disciplinary_Actions: None Student_ID: SID0302
+Full_Name: Angela Roberts
+Maths_Marks: 69
+Science_Marks: 56
+English_Marks: 100
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00505452  0.01290398  0.01231301 ... -0.03417885 -0.0156572
+ -0.02612777]
+
+Document 70:
+Content: Full_Name: Angela Roberts
+Maths_Marks: 69
+Science_Marks: 56
+English_Marks: 100
+Attendance_Percentage: 65.01
+Sports_Participation: No
+Library_Books_Issued: 0
+Disciplinary_Actions: Warning Student_ID: SID0303
+Full_Name: Kenneth Sanders
+Maths_Marks: 85
+Science_Marks: 99
+English_Marks: 63
+Attendance_Percentage: 83.13
+Sports_Participation: Yes
+Library_Books_Issued: 6
+Disciplinary_Actions: Probation Student_ID: SID0304
+Full_Name: Charles Beck
+Maths_Marks: 46
+Science_Marks: 48
+English_Marks: 40
+Attendance_Percentage: 96.67
+Sports_Participation: No
+Library_Books_Issued: 5
+Disciplinary_Actions: Warning Student_ID: SID0305
+Full_Name: Natalie Miller
+Maths_Marks: 52
+Science_Marks: 50
+English_Marks: 60
+Attendance_Percentage: 91.4
+Sports_Participation: No
+Library_Books_Issued: 9
+Disciplinary_Actions: None Student_ID: SID0306
+Full_Name: Paul Williams
+Maths_Marks: 58
+Science_Marks: 97
+English_Marks: 45
+Attendance_Percentage: 80.67
+Sports_Participation: Yes
+Library_Books_Issued: 1
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00435993  0.02414626  0.00363554 ... -0.02629562 -0.01018224
+ -0.01719486]
+
+Document 71:
+Content: English_Marks: 45
+Attendance_Percentage: 80.67
+Sports_Participation: Yes
+Library_Books_Issued: 1
+Disciplinary_Actions: Warning Student_ID: SID0307
+Full_Name: Steve Strong
+Maths_Marks: 59
+Science_Marks: 46
+English_Marks: 50
+Attendance_Percentage: 89.6
+Sports_Participation: No
+Library_Books_Issued: 9
+Disciplinary_Actions: None Student_ID: SID0308
+Full_Name: Michael Walker
+Maths_Marks: 83
+Science_Marks: 84
+English_Marks: 40
+Attendance_Percentage: 73.82
+Sports_Participation: Yes
+Library_Books_Issued: 0
+Disciplinary_Actions: Warning Student_ID: SID0309
+Full_Name: Susan Martin
+Maths_Marks: 40
+Science_Marks: 84
+English_Marks: 52
+Attendance_Percentage: 72.05
+Sports_Participation: Yes
+Library_Books_Issued: 2
+Disciplinary_Actions: Probation Student_ID: SID0310
+Full_Name: John Lloyd
+Maths_Marks: 59
+Science_Marks: 47
+English_Marks: 74
+Attendance_Percentage: 78.32
+Sports_Participation: Yes
+Library_Books_Issued: 10
+Disciplinary_Actions: Warning Student_ID: SID0311
+Full_Name: Michael Cummings
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [ 0.00520389  0.01249752  0.00590388 ... -0.02487212  0.00404633
+ -0.00939704]
+
+Document 72:
+Content: Disciplinary_Actions: Warning Student_ID: SID0311
+Full_Name: Michael Cummings
+Maths_Marks: 46
+Science_Marks: 70
+English_Marks: 97
+Attendance_Percentage: 85.11
+Sports_Participation: Yes
+Library_Books_Issued: 9
+Disciplinary_Actions: Warning Student_ID: SID0312
+Full_Name: Nicholas Page
+Maths_Marks: 45
+Science_Marks: 93
+English_Marks: 77
+Attendance_Percentage: 80.48
+Sports_Participation: No
+Library_Books_Issued: 9
+Disciplinary_Actions: Warning Student_ID: SID0313
+Full_Name: Erin Hatfield
+Maths_Marks: 78
+Science_Marks: 77
+English_Marks: 61
+Attendance_Percentage: 74.95
+Sports_Participation: No
+Library_Books_Issued: 8
+Disciplinary_Actions: Warning Student_ID: SID0314
+Full_Name: David Rice
+Maths_Marks: 89
+Science_Marks: 46
+English_Marks: 84
+Attendance_Percentage: 88.23
+Sports_Participation: No
+Library_Books_Issued: 7
+Disciplinary_Actions: None Student_ID: SID0315
+Full_Name: Sydney Richardson
+Maths_Marks: 70
+Science_Marks: 97
+English_Marks: 64
+Attendance_Percentage: 94.8
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00496426  0.02888294  0.01341486 ... -0.02616827 -0.0052812
+ -0.02368787]
+
+Document 73:
+Content: Maths_Marks: 70
+Science_Marks: 97
+English_Marks: 64
+Attendance_Percentage: 94.8
+Sports_Participation: No
+Library_Books_Issued: 3
+Disciplinary_Actions: Probation Student_ID: SID0316
+Full_Name: Chris Bean
+Maths_Marks: 56
+Science_Marks: 72
+English_Marks: 77
+Attendance_Percentage: 70.14
+Sports_Participation: No
+Library_Books_Issued: 2
+Disciplinary_Actions: Probation Student_ID: SID0317
+Full_Name: Andrew Page
+Maths_Marks: 50
+Science_Marks: 72
+English_Marks: 65
+Attendance_Percentage: 96.68
+Sports_Participation: Yes
+Library_Books_Issued: 2
+Disciplinary_Actions: Probation Student_ID: SID0318
+Full_Name: Shane Marshall
+Maths_Marks: 79
+Science_Marks: 55
+English_Marks: 47
+Attendance_Percentage: 92.55
+Sports_Participation: Yes
+Library_Books_Issued: 5
+Disciplinary_Actions: None Student_ID: SID0319
+Full_Name: Jamie Chavez
+Maths_Marks: 93
+Science_Marks: 42
+English_Marks: 79
+Attendance_Percentage: 89.68
+Sports_Participation: No
+Library_Books_Issued: 8
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [ 0.00159706  0.0183687   0.0147902  ... -0.02104917 -0.02465488
+ -0.02475012]
+
+Document 74:
+Content: English_Marks: 79
+Attendance_Percentage: 89.68
+Sports_Participation: No
+Library_Books_Issued: 8
+Disciplinary_Actions: Probation Student_ID: SID0320
+Full_Name: Christopher Lynch
+Maths_Marks: 68
+Science_Marks: 67
+English_Marks: 69
+Attendance_Percentage: 71.35
+Sports_Participation: Yes
+Library_Books_Issued: 0
+Disciplinary_Actions: Probation Student_ID: SID0321
+Full_Name: Michael Collins
+Maths_Marks: 44
+Science_Marks: 56
+English_Marks: 74
+Attendance_Percentage: 82.66
+Sports_Participation: No
+Library_Books_Issued: 5
+Disciplinary_Actions: Probation Student_ID: SID0322
+Full_Name: Victor Cook
+Maths_Marks: 47
+Science_Marks: 93
+English_Marks: 80
+Attendance_Percentage: 85.67
+Sports_Participation: No
+Library_Books_Issued: 0
+Disciplinary_Actions: Warning Student_ID: SID0323
+Full_Name: Kaitlin Lloyd
+Maths_Marks: 80
+Science_Marks: 60
+English_Marks: 68
+Attendance_Percentage: 72.42
+Sports_Participation: Yes
+Library_Books_Issued: 4
+Disciplinary_Actions: None Student_ID: SID0324
+Full_Name: Emily Taylor
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [ 0.00096297  0.01804848  0.01272562 ... -0.02213984 -0.01156252
+ -0.02805109]
+
+Document 75:
+Content: Library_Books_Issued: 4
+Disciplinary_Actions: None Student_ID: SID0324
+Full_Name: Emily Taylor
+Maths_Marks: 90
+Science_Marks: 90
+English_Marks: 52
+Attendance_Percentage: 65.55
+Sports_Participation: No
+Library_Books_Issued: 3
+Disciplinary_Actions: Warning Student_ID: SID0325
+Full_Name: Justin Berry
+Maths_Marks: 52
+Science_Marks: 99
+English_Marks: 80
+Attendance_Percentage: 73.35
+Sports_Participation: Yes
+Library_Books_Issued: 5
+Disciplinary_Actions: Warning Student_ID: SID0326
+Full_Name: Jimmy Bell
+Maths_Marks: 50
+Science_Marks: 68
+English_Marks: 47
+Attendance_Percentage: 97.88
+Sports_Participation: No
+Library_Books_Issued: 8
+Disciplinary_Actions: Probation Student_ID: SID0327
+Full_Name: Jamie Moore
+Maths_Marks: 43
+Science_Marks: 56
+English_Marks: 74
+Attendance_Percentage: 79.97
+Sports_Participation: No
+Library_Books_Issued: 10
+Disciplinary_Actions: Warning Student_ID: SID0328
+Full_Name: Susan Thompson
+Maths_Marks: 76
+Science_Marks: 79
+English_Marks: 96
+Attendance_Percentage: 60.95
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00943055  0.00657438  0.00738103 ... -0.0216584  -0.00679249
+ -0.03453712]
+
+Document 76:
+Content: Maths_Marks: 76
+Science_Marks: 79
+English_Marks: 96
+Attendance_Percentage: 60.95
+Sports_Participation: No
+Library_Books_Issued: 0
+Disciplinary_Actions: Probation Student_ID: SID0329
+Full_Name: Michael Cruz
+Maths_Marks: 75
+Science_Marks: 52
+English_Marks: 87
+Attendance_Percentage: 77.17
+Sports_Participation: Yes
+Library_Books_Issued: 4
+Disciplinary_Actions: None Student_ID: SID0330
+Full_Name: Sarah Macdonald
+Maths_Marks: 69
+Science_Marks: 69
+English_Marks: 82
+Attendance_Percentage: 68.5
+Sports_Participation: Yes
+Library_Books_Issued: 9
+Disciplinary_Actions: Warning Student_ID: SID0331
+Full_Name: Veronica Smith MD
+Maths_Marks: 94
+Science_Marks: 89
+English_Marks: 77
+Attendance_Percentage: 90.82
+Sports_Participation: No
+Library_Books_Issued: 7
+Disciplinary_Actions: None Student_ID: SID0332
+Full_Name: Troy Jacobs
+Maths_Marks: 40
+Science_Marks: 47
+English_Marks: 64
+Attendance_Percentage: 92.13
+Sports_Participation: Yes
+Library_Books_Issued: 4
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.0081337   0.01489795  0.01242879 ... -0.02332214 -0.01139824
+ -0.01496711]
+
+Document 77:
+Content: English_Marks: 64
+Attendance_Percentage: 92.13
+Sports_Participation: Yes
+Library_Books_Issued: 4
+Disciplinary_Actions: Probation Student_ID: SID0333
+Full_Name: Craig Wright
+Maths_Marks: 75
+Science_Marks: 45
+English_Marks: 61
+Attendance_Percentage: 89.23
+Sports_Participation: Yes
+Library_Books_Issued: 8
+Disciplinary_Actions: Probation Student_ID: SID0334
+Full_Name: Randy Matthews
+Maths_Marks: 85
+Science_Marks: 72
+English_Marks: 47
+Attendance_Percentage: 80.4
+Sports_Participation: No
+Library_Books_Issued: 5
+Disciplinary_Actions: Warning Student_ID: SID0335
+Full_Name: David Morales
+Maths_Marks: 40
+Science_Marks: 54
+English_Marks: 54
+Attendance_Percentage: 67.29
+Sports_Participation: No
+Library_Books_Issued: 6
+Disciplinary_Actions: None Student_ID: SID0336
+Full_Name: Manuel Hernandez
+Maths_Marks: 47
+Science_Marks: 88
+English_Marks: 94
+Attendance_Percentage: 76.21
+Sports_Participation: Yes
+Library_Books_Issued: 4
+Disciplinary_Actions: None Student_ID: SID0337
+Full_Name: Dorothy Maynard
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00874798  0.00651108  0.00596046 ... -0.00818359 -0.00522057
+ -0.01946442]
+
+Document 78:
+Content: Library_Books_Issued: 4
+Disciplinary_Actions: None Student_ID: SID0337
+Full_Name: Dorothy Maynard
+Maths_Marks: 95
+Science_Marks: 96
+English_Marks: 59
+Attendance_Percentage: 89.42
+Sports_Participation: No
+Library_Books_Issued: 7
+Disciplinary_Actions: Warning Student_ID: SID0338
+Full_Name: Karen Woods
+Maths_Marks: 97
+Science_Marks: 48
+English_Marks: 56
+Attendance_Percentage: 62.51
+Sports_Participation: Yes
+Library_Books_Issued: 10
+Disciplinary_Actions: None Student_ID: SID0339
+Full_Name: Marcus Williams
+Maths_Marks: 87
+Science_Marks: 95
+English_Marks: 41
+Attendance_Percentage: 83.6
+Sports_Participation: No
+Library_Books_Issued: 1
+Disciplinary_Actions: Warning Student_ID: SID0340
+Full_Name: Michael Nguyen
+Maths_Marks: 55
+Science_Marks: 85
+English_Marks: 60
+Attendance_Percentage: 70.49
+Sports_Participation: Yes
+Library_Books_Issued: 7
+Disciplinary_Actions: Warning Student_ID: SID0341
+Full_Name: Melinda Martin
+Maths_Marks: 47
+Science_Marks: 55
+English_Marks: 43
+Attendance_Percentage: 75.48
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.01427165  0.00919309  0.00668176 ... -0.02220035 -0.00741176
+ -0.02158561]
+
+Document 79:
+Content: Maths_Marks: 47
+Science_Marks: 55
+English_Marks: 43
+Attendance_Percentage: 75.48
+Sports_Participation: No
+Library_Books_Issued: 2
+Disciplinary_Actions: None Student_ID: SID0342
+Full_Name: John Smith
+Maths_Marks: 82
+Science_Marks: 92
+English_Marks: 70
+Attendance_Percentage: 82.72
+Sports_Participation: Yes
+Library_Books_Issued: 5
+Disciplinary_Actions: Warning Student_ID: SID0343
+Full_Name: Paul Simpson
+Maths_Marks: 57
+Science_Marks: 50
+English_Marks: 64
+Attendance_Percentage: 65.54
+Sports_Participation: No
+Library_Books_Issued: 10
+Disciplinary_Actions: None Student_ID: SID0344
+Full_Name: Pamela Miller
+Maths_Marks: 80
+Science_Marks: 100
+English_Marks: 74
+Attendance_Percentage: 82.56
+Sports_Participation: No
+Library_Books_Issued: 1
+Disciplinary_Actions: Probation Student_ID: SID0345
+Full_Name: Margaret Hebert MD
+Maths_Marks: 52
+Science_Marks: 99
+English_Marks: 80
+Attendance_Percentage: 78.48
+Sports_Participation: No
+Library_Books_Issued: 7
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [ 0.00130874  0.03895207  0.00824038 ... -0.02668637 -0.00741363
+ -0.02617135]
+
+Document 80:
+Content: English_Marks: 80
+Attendance_Percentage: 78.48
+Sports_Participation: No
+Library_Books_Issued: 7
+Disciplinary_Actions: Probation Student_ID: SID0346
+Full_Name: Hannah Richmond
+Maths_Marks: 55
+Science_Marks: 43
+English_Marks: 68
+Attendance_Percentage: 76.77
+Sports_Participation: No
+Library_Books_Issued: 8
+Disciplinary_Actions: Warning Student_ID: SID0347
+Full_Name: Chad Coffey
+Maths_Marks: 96
+Science_Marks: 93
+English_Marks: 100
+Attendance_Percentage: 68.51
+Sports_Participation: Yes
+Library_Books_Issued: 3
+Disciplinary_Actions: None Student_ID: SID0348
+Full_Name: Danielle Nguyen
+Maths_Marks: 79
+Science_Marks: 56
+English_Marks: 65
+Attendance_Percentage: 69.84
+Sports_Participation: Yes
+Library_Books_Issued: 4
+Disciplinary_Actions: None Student_ID: SID0349
+Full_Name: Tyler Shea
+Maths_Marks: 72
+Science_Marks: 55
+English_Marks: 73
+Attendance_Percentage: 89.49
+Sports_Participation: No
+Library_Books_Issued: 1
+Disciplinary_Actions: Warning Student_ID: SID0350
+Full_Name: Lauren Mcgrath
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.01188857  0.02599055  0.01417666 ... -0.02214764 -0.00833762
+ -0.012004  ]
+
+Document 81:
+Content: Library_Books_Issued: 1
+Disciplinary_Actions: Warning Student_ID: SID0350
+Full_Name: Lauren Mcgrath
+Maths_Marks: 53
+Science_Marks: 63
+English_Marks: 50
+Attendance_Percentage: 73.37
+Sports_Participation: No
+Library_Books_Issued: 4
+Disciplinary_Actions: Warning Student_ID: SID0351
+Full_Name: Nicholas Cooley
+Maths_Marks: 96
+Science_Marks: 46
+English_Marks: 41
+Attendance_Percentage: 81.22
+Sports_Participation: No
+Library_Books_Issued: 10
+Disciplinary_Actions: Probation Student_ID: SID0352
+Full_Name: Debbie Tanner
+Maths_Marks: 76
+Science_Marks: 45
+English_Marks: 100
+Attendance_Percentage: 84.14
+Sports_Participation: Yes
+Library_Books_Issued: 5
+Disciplinary_Actions: Probation Student_ID: SID0353
+Full_Name: Jennifer Wilson
+Maths_Marks: 92
+Science_Marks: 92
+English_Marks: 88
+Attendance_Percentage: 62.43
+Sports_Participation: No
+Library_Books_Issued: 3
+Disciplinary_Actions: Probation Student_ID: SID0354
+Full_Name: Traci Palmer
+Maths_Marks: 82
+Science_Marks: 70
+English_Marks: 86
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00757795  0.0258314   0.02021708 ... -0.02450387 -0.00871187
+ -0.02220836]
+
+Document 82:
+Content: Full_Name: Traci Palmer
+Maths_Marks: 82
+Science_Marks: 70
+English_Marks: 86
+Attendance_Percentage: 86.41
+Sports_Participation: No
+Library_Books_Issued: 8
+Disciplinary_Actions: Warning Student_ID: SID0355
+Full_Name: Jason Castro
+Maths_Marks: 87
+Science_Marks: 69
+English_Marks: 83
+Attendance_Percentage: 79.54
+Sports_Participation: Yes
+Library_Books_Issued: 7
+Disciplinary_Actions: None Student_ID: SID0356
+Full_Name: Diana Dickson
+Maths_Marks: 86
+Science_Marks: 40
+English_Marks: 58
+Attendance_Percentage: 67.18
+Sports_Participation: No
+Library_Books_Issued: 4
+Disciplinary_Actions: None Student_ID: SID0357
+Full_Name: Pamela Brooks
+Maths_Marks: 79
+Science_Marks: 42
+English_Marks: 64
+Attendance_Percentage: 66.71
+Sports_Participation: Yes
+Library_Books_Issued: 1
+Disciplinary_Actions: Warning Student_ID: SID0358
+Full_Name: Jennifer George
+Maths_Marks: 54
+Science_Marks: 74
+English_Marks: 94
+Attendance_Percentage: 94.29
+Sports_Participation: No
+Library_Books_Issued: 9
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00894234  0.03665051  0.01360282 ... -0.0130934  -0.01650788
+ -0.02771506]
+
+Document 83:
+Content: English_Marks: 94
+Attendance_Percentage: 94.29
+Sports_Participation: No
+Library_Books_Issued: 9
+Disciplinary_Actions: None Student_ID: SID0359
+Full_Name: Crystal Smith
+Maths_Marks: 79
+Science_Marks: 85
+English_Marks: 86
+Attendance_Percentage: 98.89
+Sports_Participation: Yes
+Library_Books_Issued: 1
+Disciplinary_Actions: Probation Student_ID: SID0360
+Full_Name: Mark Sanders
+Maths_Marks: 43
+Science_Marks: 45
+English_Marks: 91
+Attendance_Percentage: 98.18
+Sports_Participation: Yes
+Library_Books_Issued: 2
+Disciplinary_Actions: Warning Student_ID: SID0361
+Full_Name: Jerry Evans
+Maths_Marks: 85
+Science_Marks: 94
+English_Marks: 82
+Attendance_Percentage: 63.54
+Sports_Participation: No
+Library_Books_Issued: 2
+Disciplinary_Actions: Probation Student_ID: SID0362
+Full_Name: Amber Mckinney
+Maths_Marks: 78
+Science_Marks: 83
+English_Marks: 53
+Attendance_Percentage: 86.95
+Sports_Participation: Yes
+Library_Books_Issued: 8
+Disciplinary_Actions: Probation Student_ID: SID0363
+Full_Name: Rebecca Callahan
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [ 0.00150023  0.01672566  0.00597688 ... -0.01473451 -0.01794781
+ -0.01904637]
+
+Document 84:
+Content: Disciplinary_Actions: Probation Student_ID: SID0363
+Full_Name: Rebecca Callahan
+Maths_Marks: 56
+Science_Marks: 71
+English_Marks: 73
+Attendance_Percentage: 74.06
+Sports_Participation: Yes
+Library_Books_Issued: 1
+Disciplinary_Actions: None Student_ID: SID0364
+Full_Name: Jeremy Salazar
+Maths_Marks: 91
+Science_Marks: 43
+English_Marks: 84
+Attendance_Percentage: 88.77
+Sports_Participation: Yes
+Library_Books_Issued: 10
+Disciplinary_Actions: Warning Student_ID: SID0365
+Full_Name: Lori Kim
+Maths_Marks: 92
+Science_Marks: 73
+English_Marks: 47
+Attendance_Percentage: 69.98
+Sports_Participation: No
+Library_Books_Issued: 4
+Disciplinary_Actions: Probation Student_ID: SID0366
+Full_Name: Michael Steele
+Maths_Marks: 80
+Science_Marks: 56
+English_Marks: 69
+Attendance_Percentage: 78.83
+Sports_Participation: Yes
+Library_Books_Issued: 1
+Disciplinary_Actions: Warning Student_ID: SID0367
+Full_Name: Dustin Watson
+Maths_Marks: 42
+Science_Marks: 51
+English_Marks: 64
+Attendance_Percentage: 79.3
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [ 0.00540884  0.0168558   0.00509421 ... -0.01636087 -0.00744512
+ -0.0172376 ]
+
+Document 85:
+Content: Maths_Marks: 42
+Science_Marks: 51
+English_Marks: 64
+Attendance_Percentage: 79.3
+Sports_Participation: No
+Library_Books_Issued: 7
+Disciplinary_Actions: Probation Student_ID: SID0368
+Full_Name: Amy Jenkins
+Maths_Marks: 98
+Science_Marks: 83
+English_Marks: 94
+Attendance_Percentage: 95.85
+Sports_Participation: No
+Library_Books_Issued: 9
+Disciplinary_Actions: None Student_ID: SID0369
+Full_Name: Timothy Martin
+Maths_Marks: 80
+Science_Marks: 51
+English_Marks: 77
+Attendance_Percentage: 99.0
+Sports_Participation: No
+Library_Books_Issued: 2
+Disciplinary_Actions: Probation Student_ID: SID0370
+Full_Name: Sarah Brown
+Maths_Marks: 91
+Science_Marks: 45
+English_Marks: 67
+Attendance_Percentage: 66.61
+Sports_Participation: No
+Library_Books_Issued: 7
+Disciplinary_Actions: Warning Student_ID: SID0371
+Full_Name: Samantha Lopez
+Maths_Marks: 60
+Science_Marks: 88
+English_Marks: 89
+Attendance_Percentage: 74.9
+Sports_Participation: No
+Library_Books_Issued: 0
+Disciplinary_Actions: Probation Student_ID: SID0372
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.01182144  0.01566762  0.01417226 ... -0.03082331 -0.02496311
+ -0.0167723 ]
+
+Document 86:
+Content: Library_Books_Issued: 0
+Disciplinary_Actions: Probation Student_ID: SID0372
+Full_Name: Donna Long
+Maths_Marks: 100
+Science_Marks: 62
+English_Marks: 87
+Attendance_Percentage: 91.66
+Sports_Participation: Yes
+Library_Books_Issued: 5
+Disciplinary_Actions: None Student_ID: SID0373
+Full_Name: Larry Gardner
+Maths_Marks: 48
+Science_Marks: 85
+English_Marks: 45
+Attendance_Percentage: 66.58
+Sports_Participation: No
+Library_Books_Issued: 6
+Disciplinary_Actions: None Student_ID: SID0374
+Full_Name: Bruce Gonzales
+Maths_Marks: 60
+Science_Marks: 81
+English_Marks: 61
+Attendance_Percentage: 77.75
+Sports_Participation: Yes
+Library_Books_Issued: 6
+Disciplinary_Actions: Probation Student_ID: SID0375
+Full_Name: Jonathan Gillespie
+Maths_Marks: 72
+Science_Marks: 62
+English_Marks: 62
+Attendance_Percentage: 99.25
+Sports_Participation: No
+Library_Books_Issued: 1
+Disciplinary_Actions: None Student_ID: SID0376
+Full_Name: Ana Williams
+Maths_Marks: 85
+Science_Marks: 78
+English_Marks: 100
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00517356  0.01758445  0.00520183 ... -0.02965609 -0.01039659
+ -0.0192807 ]
+
+Document 87:
+Content: Full_Name: Ana Williams
+Maths_Marks: 85
+Science_Marks: 78
+English_Marks: 100
+Attendance_Percentage: 68.47
+Sports_Participation: Yes
+Library_Books_Issued: 9
+Disciplinary_Actions: None Student_ID: SID0377
+Full_Name: Jaime Mcpherson
+Maths_Marks: 97
+Science_Marks: 59
+English_Marks: 65
+Attendance_Percentage: 90.28
+Sports_Participation: No
+Library_Books_Issued: 1
+Disciplinary_Actions: Probation Student_ID: SID0378
+Full_Name: John Harris
+Maths_Marks: 41
+Science_Marks: 59
+English_Marks: 42
+Attendance_Percentage: 67.65
+Sports_Participation: Yes
+Library_Books_Issued: 2
+Disciplinary_Actions: None Student_ID: SID0379
+Full_Name: Heather Combs
+Maths_Marks: 76
+Science_Marks: 96
+English_Marks: 90
+Attendance_Percentage: 91.95
+Sports_Participation: Yes
+Library_Books_Issued: 3
+Disciplinary_Actions: Probation Student_ID: SID0380
+Full_Name: Jordan Duarte
+Maths_Marks: 80
+Science_Marks: 73
+English_Marks: 97
+Attendance_Percentage: 92.79
+Sports_Participation: No
+Library_Books_Issued: 9
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.01234936  0.03350195  0.00486385 ... -0.02329131 -0.01517798
+ -0.01487442]
+
+Document 88:
+Content: English_Marks: 97
+Attendance_Percentage: 92.79
+Sports_Participation: No
+Library_Books_Issued: 9
+Disciplinary_Actions: Warning Student_ID: SID0381
+Full_Name: April Ryan
+Maths_Marks: 86
+Science_Marks: 55
+English_Marks: 97
+Attendance_Percentage: 78.92
+Sports_Participation: Yes
+Library_Books_Issued: 10
+Disciplinary_Actions: None Student_ID: SID0382
+Full_Name: Kayla Garza
+Maths_Marks: 43
+Science_Marks: 99
+English_Marks: 85
+Attendance_Percentage: 98.43
+Sports_Participation: Yes
+Library_Books_Issued: 2
+Disciplinary_Actions: None Student_ID: SID0383
+Full_Name: Ashley Crosby
+Maths_Marks: 60
+Science_Marks: 46
+English_Marks: 68
+Attendance_Percentage: 96.53
+Sports_Participation: Yes
+Library_Books_Issued: 10
+Disciplinary_Actions: Warning Student_ID: SID0384
+Full_Name: Anthony Pope
+Maths_Marks: 42
+Science_Marks: 93
+English_Marks: 48
+Attendance_Percentage: 80.13
+Sports_Participation: No
+Library_Books_Issued: 7
+Disciplinary_Actions: Probation Student_ID: SID0385
+Full_Name: Scott Stafford
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.01135396  0.0243005   0.0057319  ... -0.01304264 -0.01841072
+ -0.02635987]
+
+Document 89:
+Content: Disciplinary_Actions: Probation Student_ID: SID0385
+Full_Name: Scott Stafford
+Maths_Marks: 97
+Science_Marks: 88
+English_Marks: 85
+Attendance_Percentage: 64.15
+Sports_Participation: Yes
+Library_Books_Issued: 9
+Disciplinary_Actions: Probation Student_ID: SID0386
+Full_Name: Brandi Green
+Maths_Marks: 57
+Science_Marks: 64
+English_Marks: 46
+Attendance_Percentage: 88.32
+Sports_Participation: Yes
+Library_Books_Issued: 6
+Disciplinary_Actions: Warning Student_ID: SID0387
+Full_Name: Joel Hull
+Maths_Marks: 49
+Science_Marks: 92
+English_Marks: 41
+Attendance_Percentage: 71.63
+Sports_Participation: No
+Library_Books_Issued: 5
+Disciplinary_Actions: None Student_ID: SID0388
+Full_Name: Alexandra Smith
+Maths_Marks: 67
+Science_Marks: 78
+English_Marks: 75
+Attendance_Percentage: 81.19
+Sports_Participation: Yes
+Library_Books_Issued: 2
+Disciplinary_Actions: None Student_ID: SID0389
+Full_Name: Lee Swanson
+Maths_Marks: 48
+Science_Marks: 86
+English_Marks: 95
+Attendance_Percentage: 86.69
+Sports_Participation: No
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [ 0.00130741  0.00803547  0.01017455 ... -0.01745995 -0.00214777
+ -0.02297435]
+
+Document 90:
+Content: Science_Marks: 86
+English_Marks: 95
+Attendance_Percentage: 86.69
+Sports_Participation: No
+Library_Books_Issued: 2
+Disciplinary_Actions: Probation Student_ID: SID0390
+Full_Name: Brittany Price
+Maths_Marks: 46
+Science_Marks: 44
+English_Marks: 88
+Attendance_Percentage: 67.04
+Sports_Participation: No
+Library_Books_Issued: 10
+Disciplinary_Actions: Probation Student_ID: SID0391
+Full_Name: James Palmer
+Maths_Marks: 46
+Science_Marks: 91
+English_Marks: 94
+Attendance_Percentage: 87.04
+Sports_Participation: No
+Library_Books_Issued: 9
+Disciplinary_Actions: None Student_ID: SID0392
+Full_Name: Kristy Harris
+Maths_Marks: 91
+Science_Marks: 67
+English_Marks: 47
+Attendance_Percentage: 86.29
+Sports_Participation: Yes
+Library_Books_Issued: 10
+Disciplinary_Actions: Probation Student_ID: SID0393
+Full_Name: Anthony Olson
+Maths_Marks: 99
+Science_Marks: 75
+English_Marks: 70
+Attendance_Percentage: 66.68
+Sports_Participation: No
+Library_Books_Issued: 8
+Disciplinary_Actions: None Student_ID: SID0394
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.0016912   0.01638643  0.00762744 ... -0.02018619 -0.01472404
+ -0.02214194]
+
+Document 91:
+Content: Sports_Participation: No
+Library_Books_Issued: 8
+Disciplinary_Actions: None Student_ID: SID0394
+Full_Name: James Morris
+Maths_Marks: 74
+Science_Marks: 87
+English_Marks: 100
+Attendance_Percentage: 62.09
+Sports_Participation: Yes
+Library_Books_Issued: 3
+Disciplinary_Actions: Warning Student_ID: SID0395
+Full_Name: Robert Hopkins
+Maths_Marks: 44
+Science_Marks: 78
+English_Marks: 88
+Attendance_Percentage: 95.18
+Sports_Participation: Yes
+Library_Books_Issued: 7
+Disciplinary_Actions: Probation Student_ID: SID0396
+Full_Name: Joe Fletcher
+Maths_Marks: 46
+Science_Marks: 88
+English_Marks: 44
+Attendance_Percentage: 90.83
+Sports_Participation: Yes
+Library_Books_Issued: 10
+Disciplinary_Actions: Warning Student_ID: SID0397
+Full_Name: Charles Sheppard
+Maths_Marks: 69
+Science_Marks: 87
+English_Marks: 47
+Attendance_Percentage: 89.85
+Sports_Participation: Yes
+Library_Books_Issued: 8
+Disciplinary_Actions: Probation Student_ID: SID0398
+Full_Name: Robert Walker
+Maths_Marks: 75
+Science_Marks: 76
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [-0.00373876  0.01208647  0.00638375 ... -0.03943065 -0.00375596
+ -0.02171024]
+
+Document 92:
+Content: Full_Name: Robert Walker
+Maths_Marks: 75
+Science_Marks: 76
+English_Marks: 55
+Attendance_Percentage: 60.4
+Sports_Participation: Yes
+Library_Books_Issued: 9
+Disciplinary_Actions: Probation Student_ID: SID0399
+Full_Name: Chad Cannon
+Maths_Marks: 75
+Science_Marks: 74
+English_Marks: 48
+Attendance_Percentage: 97.94
+Sports_Participation: Yes
+Library_Books_Issued: 5
+Disciplinary_Actions: None Student_ID: SID0400
+Full_Name: Dennis Dean
+Maths_Marks: 100
+Science_Marks: 72
+English_Marks: 55
+Attendance_Percentage: 79.28
+Sports_Participation: No
+Library_Books_Issued: 8
+Disciplinary_Actions: Probation
+Metadata: {'file_name': 'students_data.csv'}
+Embedding: [ 0.00229998  0.01469807  0.00303488 ... -0.02464649 -0.00648144
+ -0.00856027]
+
+Document 93:
+Content: Gender_Male: TRUE
+Father's Income: 973071
+Mother's Income: 398963
+Avg Attendance: 90
+Avg Grades: 92
+Scholarship_Yes: TRUE
+Name: Dhruv Lal
+y_true: 2.22 Gender_Male: TRUE
+Father's Income: 973071
+Mother's Income: 572879
+Avg Attendance: 90
+Avg Grades: 92
+Scholarship_Yes: TRUE
+Name: Kashyap J
+y_true: 1.18 Gender_Male: FALSE
+Father's Income: 888888
+Mother's Income: 888888
+Avg Attendance: 90
+Avg Grades: 92
+Scholarship_Yes: TRUE
+Name: Kris shah
+y_true: 32.1 Gender_Male: FALSE
+Father's Income: 98812
+Mother's Income: 88888
+Avg Attendance: 23
+Avg Grades: 53
+Scholarship_Yes: FALSE
+Name: Sagar shah
+y_true: 99 Gender_Male: FALSE
+Father's Income: 66117
+Mother's Income: 344164
+Avg Attendance: 75
+Avg Grades: 23
+Scholarship_Yes: FALSE
+Name: Param Jani
+y_true: 92 Gender_Male: TRUE
+Father's Income: 839539
+Mother's Income: 352029
+Avg Attendance: 89
+Avg Grades: 98
+Scholarship_Yes: TRUE
+Name: Dhanika Gandhi
+y_true: 1 Gender_Male: FALSE
+Father's Income: 244838
+Mother's Income: 200806
+Metadata: {'file_name': 'yug_try_data_own.csv'}
+Embedding: [-0.001884    0.0022706  -0.00048281 ... -0.02335673  0.0027744
+ -0.01171335]
+
+Document 94:
+Content: Name: Dhanika Gandhi
+y_true: 1 Gender_Male: FALSE
+Father's Income: 244838
+Mother's Income: 200806
+Avg Attendance: 50.48961714
+Avg Grades: 47.9798161
+Scholarship_Yes: FALSE
+Name: Rahul Gupta
+y_true: 91 Gender_Male: TRUE
+Father's Income: 458464
+Mother's Income: 183253
+Avg Attendance: 21
+Avg Grades: 11
+Scholarship_Yes: FALSE
+Name: Krishna Sain
+y_true: 99 Gender_Male: FALSE
+Father's Income: 115246
+Mother's Income: 261789
+Avg Attendance: 11
+Avg Grades: 11
+Scholarship_Yes: FALSE
+Name: Divam Mehta
+y_true: 96 Gender_Male: FALSE
+Father's Income: 999999
+Mother's Income: 888888
+Avg Attendance: 90.51424229
+Avg Grades: 97
+Scholarship_Yes: FALSE
+Name: Nishita Kohli
+y_true: 1.152790469
+Metadata: {'file_name': 'yug_try_data_own.csv'}
+Embedding: [-0.01117051  0.00376429  0.00151057 ... -0.02893393 -0.00263788
+ -0.0215637 ]
+
+Document 95:
+Content: In the past few years, we have seen changes to the world-wealth ranking.  We've seen top-name switch positions like Elon Musk and Jeff Bezos.  Today we're going to talk about the richest man in Asia.  Gautam Adani.  How he went from being a college dropout to one of the richest men in the world.  Part 1 The Son of a Textile Merchant.  Tom Adami was born on the 24th of June in 1962, to his parents Shanti Lal Adani and  Shanti Ben Adani.  He was born in Ahmedabad, Gujarat, in India, and he was raised alongside his seven siblings.  Gautam's family migrated from the northern part of Gujarat, and his father provided for  the family through his small textile merchandise.  Hoping for a brighter future for his children, Shanti Lal Adani ensured that his children  were educated.  Kattam's father insisted on education for his children.  Kattam developed a passion for trading.  This influence came from watching his father, who was emergent.  However, he was not interested in the family business.
+Metadata: {'file_name': 'adani_video2.mp4'}
+Embedding: [ 0.01650196 -0.00734148  0.00729567 ... -0.02015307 -0.00480271
+ -0.00794345]
+
+Document 96:
+Content: from watching his father, who was emergent.  However, he was not interested in the family business.  Kattam attended school at the Sheth Chimanal, Nagandaz Vidyalaya School in Ahmedabad.  After he graduated, he excelled in university, studying to get a bachelor's degree in commerce.  While Kattam was studying, he couldn't ignore his desire to practice trading.  rather than just studying about it in class.  He visited Gujarat's candler port,  while he was a student, and his dream expanded.  Gautam decided he would also build something  like Goudrad's candler port or something bigger.  After his second year at the university,  he dropped out to follow his passion.  Gautam was still a teenager when he dropped out of school,  but he was inspired to set up a business for himself.  However, Gautam wanted to do something different  from selling textiles, which his father had done.  for most of his life. His family was economically challenged by having to take care of seven children  and
+Metadata: {'file_name': 'adani_video2.mp4'}
+Embedding: [ 0.00740646 -0.01000704  0.02221938 ... -0.00792658  0.00824558
+ -0.0193206 ]
+
+Document 97:
+Content: of his life. His family was economically challenged by having to take care of seven children  and Gautam, so there was no one to contribute to his dream. Gautam, however, had his eyes  on a business he was sure would change his life. And that was the diamond brokerage business.  Part 2. Life After College  The diamond business in Mumbai was thriving at the time, so Gautam felt that was the place  he needed to be. In 90  1978, Gattam moved to Mumbai to work as a diamond-sorter for Mahindra brothers after dropping  out of college as a teenager. He worked for them for two to three years before he understood  how to thrive in the market. Gattam was young and an amateur, but he was able to master  the tricks of the business in just three years. He used his knowledge of the diamond trade  to set up his diamond brokerage firm. Although it was his first business, Gattam thrived  even more than an older firm.  When Gautam was 20 years old, he made his first million from selling diamonds.
+Metadata: {'file_name': 'adani_video2.mp4'}
+Embedding: [-0.0036481  -0.01695035  0.01261171 ... -0.01058386  0.00174152
+ -0.00788905]
+
+Document 98:
+Content: an older firm.  When Gautam was 20 years old, he made his first million from selling diamonds.  Afterward, he returned to inform his family of his success.  Gautam continued the diamond brokerage business, but his next breakthrough came when his elder brother,  Mahasuke Adani, purchased a plastic factory in Ahmedabad.  Mahasuke called his brother back from Mumbai and asked him to work as an operations manager for his plastic factory.  In 1981, Gautam accepted his brother's offer.  and returned to Ahmedabad. He considered his new job as his gateway to the global trade arena.  He joined his brother's firm and began importing polyvinyl chloride to India.  However, Gautam did not focus on the imports for his brother's business alone.  In 1985, he started importing primary polymers for small-scale industries,  adding global trading skills to his portfolio while in his early 20s.  Part 3, the creation of the  Adani Group. In 1988, Gatam started a commodity import and export firm called
+Metadata: {'file_name': 'adani_video2.mp4'}
+Embedding: [-0.00405807 -0.0229378  -0.00120447 ... -0.01910801 -0.0096903
+ -0.02032101]
+
+Document 99:
+Content: the creation of the  Adani Group. In 1988, Gatam started a commodity import and export firm called Adani exports.  The company presently goes by the name of Adani Enterprises under its holding company,  Adani Group. When Gatam started the firm, he wanted to focus on imports and exports of  agricultural and power-related commodities. But a few years later, the economy of India began  to change. In 1991, India was in a macroeconomic crisis.  And to get out of it, the finance minister, Menmohan Singh, proposed new economic reforms  for the country called the Economic Liberalization Policies.  The new policy abolished industrial licensing, reduced import tariffs, and encouraged  foreign investment and privatization of various industries.  These changes were very favorable towards Gautam's new company, Adani Enterprises.  Gautam began expanding his businesses into the trading of metals, textiles.  and agro-products. In 1994, the government of Gujarat announced managerial outsourcing of the
+Metadata: {'file_name': 'adani_video2.mp4'}
+Embedding: [-0.01360405 -0.02682354  0.00056397 ... -0.01561616  0.01019789
+ -0.02262077]
+
+Document 100:
+Content: and agro-products. In 1994, the government of Gujarat announced managerial outsourcing of the  Mundra port. They invited private companies to bid for the contract, and Gautam saw this  as an opportunity to achieve his teenage dream. Gautam's visit to the Mundra port started his dream  of being a successful entrepreneur. Even if it meant dropping out of college, he applied for his  company, Adani Enterprise, to get the contract. And...  In 1995, Gautam got the contract.  Adani Enterprises built the first jetty on the Mundra port.  It was originally operated by the Mundra port  and special economic zone.  But the operations were later transferred to Adani ports.  Gautam's influence and economic intelligence  led Mundra port to become the largest private  multi-port operator in India.  The port has the capacity to handle close to 210 million  tons of cargo per end.  Quantum.  Following his accomplishments with Montreport, Gautam expanded to another promising industry.  In 1996, a Donny
+Metadata: {'file_name': 'adani_video2.mp4'}
+Embedding: [-0.00328961 -0.03041183  0.02005559 ... -0.02519877  0.0077497
+ -0.01287891]
+
+Document 101:
+Content: accomplishments with Montreport, Gautam expanded to another promising industry.  In 1996, a Donny Group and Gautam founded a power company called Adani Power.  Adani Power currently has a thermal power plant with a capacity of 4,620 megawatts.  This makes the Adani Power plant the largest private thermal power produced in India.  This expansion was a tremendous step in him becoming the...  richest man in Asia. In 2006, Adani Power went from distributing power to the power generation  business. Between 2009 and 2012, Adani acquired Abbott Point Port in Australia and Carmichael  and coal mine in Queensland. These places serve as an expansion for the Adani group  increasing Gautam's wealth and assets immensely. Part 4. Close encounters with death.  Well, Gautam was growing as an entrepreneur.  Prenur, his wealth, got him fame and recognition in the country.  He is also well known as a philanthropist constantly giving back to society.  Gautam didn't come from a wealthy family, but he was
+Metadata: {'file_name': 'adani_video2.mp4'}
+Embedding: [-0.00603079 -0.02695075  0.0238773  ... -0.03731853 -0.00878324
+ -0.01782602]
+
+Document 102:
+Content: constantly giving back to society.  Gautam didn't come from a wealthy family, but he was very successful at a young age.  Unfortunately, his success was noticed by the wrong crowd as well.  In 1998, Gautam was reportedly kidnapped at gunpoint on his way out of a club in Ahmedabad.  He was kidnapped and had to pay a ransom.  The second new word death experience came...  years after the Adani Group expanded to some parts of the world. In November 2008,  that was a terrorist attack by Islamist terrorists from Pakistan in Mumbai. About 10 terrorists  carried out 12 coordinated shootings and bombing attacks for four days. This attack killed 175 people  and 300 people were injured. Gautam was in Mumbai within the four days of the attack.  One of the terrorist shootings occurred at the seafront to  Hotel he was staying at.  Gattam was at the dining hall when the terrorists  held people hostage.  A staff of the hotel helped him to survive  by hiding him from the terrorists, taking people
+Metadata: {'file_name': 'adani_video2.mp4'}
+Embedding: [-0.01849483 -0.00733702  0.00310612 ... -0.03682354 -0.00379656
+ -0.02392146]
+
+Document 103:
+Content: A staff of the hotel helped him to survive  by hiding him from the terrorists, taking people hostage.  The staff hid Gattam in the hotel's basement  until the attacks were over.  When he was giving his testimony to the authorities,  Gattam said he saw the militants enter the building  from the table he was sitting at.  Part five, becoming the richest man in Asia.  In 2008, Gattam first appeared as a...  billionaire on Forbes, with an estimated fortune of 9.3 billion.  But now, his fortune is 15 times greater than that.  Before guitar became the richest man in Asia, he first achieved the status of Senti Billionaire,  joining seven other iconic people in the world.  But how did he make that much money in a little over a decade?  In May 2020, the solar energy corporation of India had a contract bid worth six...  billion U.S. dollars. A Donny Solar, a subsidiary of a Donny Group, won the bid.  The 8,000 megawatt photovoltaic power plant project given to a Donny Solar is expected  to
+Metadata: {'file_name': 'adani_video2.mp4'}
+Embedding: [-0.02126485 -0.01717758  0.00696631 ... -0.02609777 -0.01063933
+ -0.02027065]
+
+Document 104:
+Content: bid.  The 8,000 megawatt photovoltaic power plant project given to a Donny Solar is expected  to establish 2,000 megawatts of additional solar cell and module manufacturing capacity.  This was quickly followed by Gautam's swift decision to gain a 74% stake in Mumbai International  Airport.  The Mumbai International Airport is the second.  and busiest airport in India after the airport in Delhi.  Adani power is now a major source of income for the Adani group, and Gautam makes  necessary investments to put the brand ahead of all competitions.  In November 2021, the Adani group invested $70 billion in the new green energy business.  This investment is to boost the success of Adani Green and Adani Solar.  In July 2022, Gautam disclose Dietit.  tells of his previous investment in green energy.  Adani Green will build three giant solar factories,  an electrolyzer to make green hydrogen,  and it will have wind turbine plants.  All his wealth and investment led Gautam  to surpass Mukeshabani
+Metadata: {'file_name': 'adani_video2.mp4'}
+Embedding: [-0.00461232 -0.02591982  0.0199489  ... -0.03018475 -0.00389348
+ -0.02219144]
+
+Document 105:
+Content: it will have wind turbine plants.  All his wealth and investment led Gautam  to surpass Mukeshabani and become the richest man in Asia.  In August 2022, Gautam Adani was named  the third richest person in the world by fortune.  Part 6. Becoming the second and third.  word, richest man in the world. In January 2020, his net worth was about $10 billion,  between 2020 and half of 2022, Gautam's wealth has galloped over 13 times. Gautam is  now the richest man in Asia and the third richest man in the world. Although it fluctuates  quite a lot between the Bernoulli, Jeff Bezos and Gautam Adani, he even briefly surpassed  the second richest man in the world, billionaire.  Jeff Bezos. On the 16th of September, 2022, Forbes' real-time billionaire profiles recorded  Gautam went past Amazon's Jeff Bezos to claim the second spot. Gautam was locked in a close  contest with French businessman Bernard Arnault for the second spot. However, his fortune  increased over $155 billion, earning him the
+Metadata: {'file_name': 'adani_video2.mp4'}
+Embedding: [-0.01100055 -0.03150807  0.02107897 ... -0.01793596 -0.00630551
+ -0.01237075]
+
+Document 106:
+Content: Arnault for the second spot. However, his fortune  increased over $155 billion, earning him the position of the second richest man in the world.  Later that same day, it came down to one half.  152 billion dollars, and our know has gone past Adani again to settle in the second position.  Do you think it's Amadani has a chance at being the richest man in the world?  Do you think he will lose his position as the richest man in Asia?  Comment below. Be sure to like this video and check out the other videos on our channel.
+Metadata: {'file_name': 'adani_video2.mp4'}
+Embedding: [-0.0051277  -0.01050315  0.01495607 ... -0.01056183 -0.00917314
+ -0.00927746]
+
+Document 107:
+Content: In this video, I am going to magically shrink myself, like a trillion times smaller and  I am going to enter this atom.  Let's explore what's in this tiny particle.  Hi friends, I am sure you have heard the word atom in chemistry, it's a very tiny particle.  Here, I have a model of an atom.  real atom is so tiny that we can't even see it, before I become really tiny and we  go on a journey inside the atom, let me ask you what does the word atom mean? It's derived  from the Greek word atomos, meaning indivisible because they thought that the atom is the  smallest particle and it cannot be divided further. But now we know that's not true.  Scientists such as Thompson, Rutherford and Chadwick, they discovered subatomic particles.  I have a video on Thompson's and Rutherford's model of an atom.  In this video, I compare the structure of an atom to a frigid spinner, so do check it out.  All right friends, wish me luck because I am going to shrink myself like a trillion  times smaller, and
+Metadata: {'file_name': 'atom_audio.mp3'}
+Embedding: [-0.00690996  0.01476041  0.00659647 ... -0.01335621 -0.02991269
+ -0.01566171]
+
+Document 108:
+Content: right friends, wish me luck because I am going to shrink myself like a trillion  times smaller, and we-  We are going to go inside the atom.  All right, we are inside the atom now.  The atom looks mostly empty, hollow, wait a minute.  I can see some tiny particles spinning around here.  There's also something in the center.  This looks like a model of the solar system with the sun in the center and the planets spinning  around it.  Now let's look at each one.  part in detail. The tiny particles spinning around the center are called electrons. These  are negatively charged particles and they have a very small mass. The electrons were  discovered by J.J. Thomson using the cathode ray tube experiment. Can you see that there  is something in the center of the atom? Remember rather forth's model of the atom, he  called the center.  nucleus. The nucleus is very tiny, but holds almost the entire mass of the atom. So,  let's zoom into the nucleus and let's see what's inside it. As you can
+Metadata: {'file_name': 'atom_audio.mp3'}
+Embedding: [-0.01119918  0.01614249 -0.00180068 ... -0.01113388 -0.01529358
+ -0.02164087]
+
+Document 109:
+Content: mass of the atom. So,  let's zoom into the nucleus and let's see what's inside it. As you can see, there are  two types of particles in the nucleus. Protons and neutrons. Protons are positively charged  particles and neutrons are neutral.  have no charge. It's easy to remember, P for proton, P for positive and neutron sounds  like neutral. They have zero charge. Now do you know what are the protons and neutrons  collectively known as? That's right, nucleons because they are in the nucleus of the atom.  The protons and neutrons in the nucleus are much heavier.  compared to the light electrons here. The mass of each proton or neutron is approximately  2000 times the mass of an electron. So almost the entire mass of the atom is sitting in the  nucleus here. The atom has this very heavy nucleus with the light electrons spinning around it.  It is just like the solar system with a very heavy sun and  light planets spinning around it. Now, do you know what is in the space between the nucleus
+Metadata: {'file_name': 'atom_audio.mp3'}
+Embedding: [ 0.01741571 -0.00922267 -0.02754871 ... -0.01981398 -0.02855322
+ -0.02103195]
+
+Document 110:
+Content: and  light planets spinning around it. Now, do you know what is in the space between the nucleus  and the electrons? Again, it is just like the solar system. This is just empty space,  it is just vacuum. But there was a problem with rather  force model of an atom. The electrons revolving around the nucleus could radiate energy.  This means the electrons would lose energy.  energy and finally fall into the nucleus. So the atom would collapse. Then everything  around us should collapse. But we know that's not true. The atom is stable. So Bohr proposed  a new model of an atom to correct this. According to Bohr's model of an atom, the electrons  can revolve only in certain orbits where they do not radiate energy.  So the atom is stable.  It is just like the solar system where the planets revolve around the sun in fixed orbits.  So let us take a look at Bohr's model of the atom.  The fixed orbits in an atom are known as electron shells.  The shells are numbered starting from the inner
+Metadata: {'file_name': 'atom_audio.mp3'}
+Embedding: [ 0.00701974 -0.00264911 -0.01594875 ...  0.00992183 -0.03009005
+ -0.02289848]
+
+Document 111:
+Content: orbits in an atom are known as electron shells.  The shells are numbered starting from the inner motion.  So it is 1, 2, 3, 4 and so on.  They are labeled using…  letters starting with the letter K. So, it is K, L, M, N and so on. Now, you may be  wondering why do they start with the letter K? Why is it not A? Well, there is an interesting  story behind this. I would encourage you to find it yourself and do let me know what you  found by putting it in the comments below. Now, let us say an atom has 6 electrons  So, how would you arrange the electrons in these different shells?  Can we just put them randomly in any shell?  The answers?  No.  There are certain rules for filling in the electrons in the shells of an atom.  These rules are known as Bohr Berry's rules.  So, let us go ahead and take a look at these rules.  We will start with carbon.  The carbon atom has 6 electrons.  Let us fill in the electrons according to Bohr Berry's rules. The first shell can hold  the maximum of 2 n
+Metadata: {'file_name': 'atom_audio.mp3'}
+Embedding: [ 0.0052994  -0.00284043 -0.00332907 ...  0.00163459 -0.01929347
+ -0.03924267]
+
+Document 112:
+Content: fill in the electrons according to Bohr Berry's rules. The first shell can hold  the maximum of 2 n square. So, that is 2 electrons. So, let us go ahead and put 2 electrons  in the first shell. Now, how many electrons are we left with? We have 4 electrons. The  second shell here can hold the maximum of 2 n square. So, that is 8 electrons.  So, we can put all the 4 electrons in our second shell.  The second shell is the outermost shell and it does not have more than 8 electrons.  So, these shells are following bore berries rules and this is the electron configuration  diagram of carbon.  We can write it in shot as 2 comma 4 because the first shell the k shell has 2 electrons  and the second shell, the outermost shell, the other  shell has 4 electrons. Next, let us look at chlorine. The chlorine atom has 17 electrons.  Again, we will apply bore berries rules. The first shell can hold a maximum of 2 electrons.  So let us put in 2 electrons in the first shell. Now, we are left with 15
+Metadata: {'file_name': 'atom_audio.mp3'}
+Embedding: [ 0.00991292  0.00133757  0.00824156 ... -0.00593623 -0.02434686
+ -0.01647031]
+
+Document 113:
+Content: maximum of 2 electrons.  So let us put in 2 electrons in the first shell. Now, we are left with 15 electrons. The  second shell can hold a maximum of 8 electrons.  So, let us fill in 8 electrons in the second shell and we are now left with 7 electrons.  The third shell can hold the maximum of 2 n squared, so that is 2 into 3 squared which  is 18 electrons.  So, we can put in all the remaining 7 electrons in the third shell.  The third shell is the outer motion and it does not have more than 8 electrons.  followed here. This is our electron configuration diagram of chlorine. And in short, we can write  it as 2 comma 8 comma 7. Next, let us try calcium. The calcium atom has 20 electrons. This time,  why do not you pause the video here and try to get the electron configuration yourself?  So, what did you get?  The correct answer is 2, 8, 8, 8, 2.  Isn't it simply amazing that the design of the solar system and the atom are pretty similar?  The solar system is this gigantic thing and the
+Metadata: {'file_name': 'atom_audio.mp3'}
+Embedding: [ 0.02260853  0.00917345  0.00273433 ... -0.00551694 -0.02170728
+ -0.02829929]
+
+Document 114:
+Content: the solar system and the atom are pretty similar?  The solar system is this gigantic thing and the atom is a very, very tiny particle.  But they both have a heavy centre with light things revolving around the centre.  And the space in between is just...  and do check out the full courses for physics, chemistry, biology, maths and computer  coding on our website www.manuchaacademy.com. I'll put the links below. Hope you like it  and happy learning.
+Metadata: {'file_name': 'atom_audio.mp3'}
+Embedding: [ 0.01953381  0.01616724 -0.01562961 ... -0.00519067 -0.03591866
+ -0.03271849]
+
+Document 115:
+Content: Introduction: 
+How, When and Where
+1
+How Important are Dates?
+There was a time when historians were 
+fascinated with dates. There were heated 
+debates about the dates on which rulers 
+were crowned or battles were fought. In 
+the common-sense notion, history was 
+synonymous with dates. You may have 
+heard people say, “I find history boring 
+because it is all about memorising 
+dates.” Is such a conception true?
+History is certainly about changes 
+that occur over time. It is about 
+finding out how things were in the 
+past and how things have changed. 
+As soon as we compare the past with 
+the present, we refer to time, we talk of 
+“before” and “after”. 
+Living in the world we do not always 
+ask historical questions about what 
+we see around us. We take things for 
+granted, as if what we see has always 
+been in the world we inhabit. But most of 
+us have our moments of wonder, when we are 
+curious, and we ask questions that actually are historical.
+Metadata: {'file_name': 'historyy.pdf'}
+Embedding: [ 0.00551687  0.00440261  0.01553561 ...  0.00170661 -0.01153964
+ -0.01168693]
+
+Document 116:
+Content: curious, and we ask questions that actually are historical. 
+Watching someone sip a cup of tea at a roadside tea stall, 
+you may wonder – when did people begin to drink tea or 
+coffee? Looking out of the window of a train you may ask 
+yourself – when were railways built and how did people 
+travel long distances before the age of railways? Reading 
+the newspaper in the morning you may be curious to know 
+how people got to hear about things before newspapers 
+began to be printed.  
+Fig. 1 – Brahmans offering the 
+Shastras to Britannia, frontispiece 
+to the first map produced by 
+James Rennel, 1782
+Rennel was asked by Robert Clive 
+to produce maps of Hindustan. 
+An enthusiastic supporter 
+of British conquest of India, 
+Rennel saw preparation of maps 
+as essential to the process of 
+domination. The picture here 
+tries to suggest that Indians 
+willingly gave over their ancient 
+texts to Britannia – the symbol of 
+British power – as if asking her 
+to become the protector of Indian 
+culture.
+Metadata: {'file_name': 'historyy.pdf'}
+Embedding: [ 0.02124684 -0.0048852   0.00044784 ... -0.00616473 -0.02248044
+ -0.01475074]
+
+Document 117:
+Content: British power – as if asking her 
+to become the protector of Indian 
+culture.
+Activity
+Look carefully at Fig.1 and write a paragraph explaining 
+how this image projects an imperial perception.
+
+chap 1-4.indd   1 6/6/2022   12:36:43 PM
+Reprint 2024-25 2 OUR PASTS – III
+All such historical questions refer us back to 
+notions of time. But time does not have to be always 
+precisely dated in terms of a particular year or a month. 
+Sometimes it is actually incorrect to fix precise dates 
+to processes that happen over a period of time. People 
+in India did not begin drinking tea one fine day; they 
+developed a taste for it over time. There can be no 
+one clear date for a process such as this. Similarly, 
+we cannot fix one single date on which British rule 
+was established, or the national movement started, or 
+changes took place within the economy and society. All 
+these things happened over a stretch of time. We can 
+only refer to a span of time, an approximate period over
+Metadata: {'file_name': 'historyy.pdf'}
+Embedding: [-0.00041178 -0.01368745  0.00617636 ...  0.0184375  -0.02594858
+ -0.03281848]
+
+Document 118:
+Content: only refer to a span of time, an approximate period over 
+which particular changes became visible.
+Why, then, do we continue to associate history with 
+a string of dates? This association has a reason. There 
+was a time when history was an account of battles and big 
+events. It was about rulers and their policies. Historians 
+wrote about the year a king was crowned, the year he 
+married, the year he had a child, the year he fought a 
+particular war, the year he died, and the year the next 
+ruler succeeded to the throne. For events such as these, 
+specific dates can be determined, and in histories such 
+as these, debates about dates continue to be important. 
+As you have seen in the history textbooks of the past 
+two years, historians now write about a host of other 
+issues, and other questions. They look at how people 
+earned their livelihood, what they produced and ate, how 
+cities developed and markets came up, how kingdoms 
+were formed and new ideas spread, and how cultures
+Metadata: {'file_name': 'historyy.pdf'}
+Embedding: [ 0.0019925  -0.01438556  0.03346091 ... -0.00646823 -0.01358197
+ -0.02819148]
+
+Document 119:
+Content: were formed and new ideas spread, and how cultures 
+and society changed.
+Which dates?
+By what criteria do we choose a set of dates as 
+important? The dates we select, the dates around which 
+we compose our story of the past, are not important 
+on their own. They become vital because we focus on 
+a particular set of events as important. If our focus of 
+study changes, if we begin to look at new issues, a new 
+set of dates will appear significant. 
+Consider an example. In the histories written by 
+British historians in India, the rule of each Governor-
+General was important. These histories began with the 
+rule of the first Governor-General, Warren Hastings, 
+and ended with the last Viceroy, Lord Mountbatten. In 
+separate chapters, we read about the deeds of others  — 
+Hastings, Wellesley, Bentinck, Dalhousie, Canning, 
+Fig. 2 – Advertisements help 
+create taste
+Old advertisements help us 
+understand how markets for new 
+products were created and new 
+tastes were popularised. This
+Metadata: {'file_name': 'historyy.pdf'}
+Embedding: [-0.01146882 -0.01583884  0.0228042  ...  0.00124262 -0.01945496
+ -0.01377059]
+
+Document 120:
+Content: understand how markets for new 
+products were created and new 
+tastes were popularised. This 
+1922 advertisement for Lipton tea 
+suggests that royalty all over the 
+world is associated with this tea. 
+In the background you see the 
+outer wall of an Indian palace, 
+while in the foreground, seated 
+on horseback is the third son of 
+Queen Victoria of Britain, Prince 
+Arthur, who was given the title 
+Duke of Connaught.
+chap 1-4.indd   2 4/22/2022   2:49:16 PM
+Reprint 2024-25 INTRODUCTION: HOW, WHEN AND WHERE         3
+Lawrence, Lytton, Ripon, Curzon, Harding, Irwin. It 
+was a seemingly never-ending succession of Governor- 
+Generals and Viceroys. All the dates in these history books 
+were linked to these personalities – to their activities, 
+policies and achievements. It was as if there was nothing 
+outside their lives that was important for us to know. The 
+chronology of their lives marked the different chapters of 
+the history of British India.
+Metadata: {'file_name': 'historyy.pdf'}
+Embedding: [ 0.01096709 -0.00625971  0.01290918 ... -0.00225289 -0.02006601
+ -0.01256646]
+
+Document 121:
+Content: chronology of their lives marked the different chapters of 
+the history of British India. 
+Can we not write about the history of this period in a 
+different way? How do we focus on the activities of different 
+groups and classes in Indian society within the format of 
+this history of Governor-Generals? 
+When we write history, or a story, we divide it into 
+chapters. Why do we do this? It is to give each chapter 
+some coherence. It is to tell a story in a way that makes 
+some sense and can be followed. In the process we focus 
+only on those events that help us to give shape to the story 
+we are telling. In the histories that revolve around the life 
+of British Governor-Generals, the activities of Indians 
+simply do not fit, they have no space. What, then, do we 
+do? Clearly, we need another format for our history. This 
+would mean that the old dates will no longer have the 
+significance they earlier had. A new set of dates will become 
+more important for us to know.
+Metadata: {'file_name': 'historyy.pdf'}
+Embedding: [-0.00049831 -0.00892942  0.00915872 ... -0.00137004  0.0022733
+ -0.0083267 ]
+
+Document 122:
+Content: significance they earlier had. A new set of dates will become 
+more important for us to know.  
+How do we periodise? 
+In 1817, James Mill, a Scottish economist and political 
+philosopher, published a massive three-volume work, 
+A History of British India. In this, he divided Indian 
+history into three periods – Hindu, Muslim and British. 
+This periodisation came to be widely accepted. Can 
+you think of any problem with this way of looking at 
+Indian history?
+Why do we try and divide history into different periods? 
+We do so in an attempt to capture the characteristics of 
+a time, its central features as they appear to us. So the 
+terms through which we periodise – that is, demarcate 
+the difference between periods – become important. They 
+reflect our ideas about the past. They show how we see 
+the significance of the change from one period to the next. 
+Mill thought that all Asian societies were at a lower 
+level of civilisation than Europe. According to  his telling
+Metadata: {'file_name': 'historyy.pdf'}
+Embedding: [ 0.00648656  0.00660341  0.01365416 ...  0.00853302 -0.01495615
+ -0.00458032]
+
+Document 123:
+Content: level of civilisation than Europe. According to  his telling 
+of history, before the British came to India, Hindu and 
+Muslim despots ruled the country. Religious intolerance, 
+caste taboos and superstitious practices dominated  
+social life. British rule, Mill felt, could civilise India. To do 
+Fig. 3 – Warren Hastings became 
+the first Governor-General in 1773
+While history books narrated 
+the deeds of Governor-Generals, 
+biographies glorified them as 
+persons, and paintings projected 
+them as powerful figures. 
+Interview your mother 
+or another member of 
+your family to find out 
+about their life. Now 
+divide their life into 
+different periods and 
+list out the significant 
+events in each period.  
+Explain the basis of your 
+periodisation.
+Activity
+
+chap 1-4.indd   3 6/14/2022   2:38:32 PM
+Reprint 2024-25 4 OUR PASTS – III
+this, it was necessary to introduce European manners, arts, 
+institutions and laws in India. Mill, in fact, suggested that the
+Metadata: {'file_name': 'historyy.pdf'}
+Embedding: [ 0.01323854 -0.00791736  0.002181   ...  0.00201323  0.00154551
+ -0.00371465]
+
+Document 124:
+Content: institutions and laws in India. Mill, in fact, suggested that the 
+British should conquer all the territories in India to ensure 
+the enlightenment and happiness of the Indian people. For 
+India was not capable of progress without British help.
+In this idea of history, British rule represented all the forces 
+of progress and civilisation. The period before British rule was 
+one of darkness. Can such a conception be accepted today?
+In any case, can we refer to any period of history as “Hindu” 
+or “Muslim”? Did not a variety of faiths exist simultaneously 
+in these periods? Why should we characterise an age only 
+through the religion of the rulers of the time? To do so is to 
+suggest that the lives and practices of the others do not really 
+matter. We should also remember that even rulers in ancient 
+India did not all share the same faith.
+Moving away from British classification, historians 
+have usually divided Indian history into ‘ancient’, ‘medieval’
+Metadata: {'file_name': 'historyy.pdf'}
+Embedding: [ 0.01074027  0.0108314   0.01178826 ...  0.01082489 -0.00756375
+ -0.00072741]
+
+Document 125:
+Content: have usually divided Indian history into ‘ancient’, ‘medieval’ 
+and ‘modern’. This division too has its problems. It is a 
+periodisation that is borrowed from the West where the 
+modern period was associated with the growth of all the  
+forces of modernity – science, reason, democracy, liberty 
+and equality. Medieval was a term used to describe a society 
+where these features of modern society did not exist. Can 
+we uncritically accept this characterisation of the modern 
+period to describe the period of our study? As you will see in 
+this book, under British rule people did not have equality, 
+freedom or liberty. Nor was the period one of economic 
+growth and progress.
+Many historians therefore refer to this period as ‘colonial’. 
+What is colonial? 
+In this book, you will read about the way the British came 
+to conquer the country and establish their rule, subjugating 
+local nawabs and rajas. You will see how they established
+Metadata: {'file_name': 'historyy.pdf'}
+Embedding: [ 0.01007138  0.01063273  0.01130636 ...  0.0105733  -0.01950875
+ -0.00638624]
+
+Document 126:
+Content: local nawabs and rajas. You will see how they established 
+control over the economy and society, collected revenue to 
+meet all their expenses, bought the goods they wanted at low 
+prices, produced crops they needed for export, and you will 
+understand the changes that came about as a consequence. 
+You will also come to know about the changes British rule 
+brought about in values and tastes, customs and practices. 
+When the subjugation of one country by another leads to these 
+kinds of political, economic, social and cultural changes, we 
+refer to the process as colonisation. 
+You will, however, find that all classes and groups did not 
+experience these changes in the same way. That is why, the 
+book is called Our Pasts in the plural.
+chap 1-4.indd   4 4/22/2022   2:49:18 PM
+Reprint 2024-25 INTRODUCTION: HOW, WHEN AND WHERE         5
+How do We Know?
+What sources do historians use in writing about the last 
+250 years of Indian history? 
+Administration produces records
+Metadata: {'file_name': 'historyy.pdf'}
+Embedding: [ 0.02825469 -0.00688675  0.01643385 ...  0.02099444  0.01119835
+ -0.02053576]
+
+Document 127:
+Content: 250 years of Indian history? 
+Administration produces records
+One important source is the official records of the British 
+administration. The British believed that the act of writing 
+was important. Every instruction, plan, policy decision, 
+agreement, investigation had to be clearly written up. Once 
+this was done, things could be properly studied and debated. 
+This conviction produced an administrative culture of 
+memos, notings and reports. 
+The British also felt that all important documents 
+and letters needed to be carefully preserved. So they 
+set up record rooms attached to all administrative 
+institutions. The village tahsildar’s office, the collectorate, 
+the commissioner’s office, the provincial secretariats, 
+the lawcourts – all had their record rooms. Specialised 
+institutions like archives and museums were also 
+established to preserve important records.
+Letters and memos that moved from one branch
+Metadata: {'file_name': 'historyy.pdf'}
+Embedding: [ 0.00252998  0.00035134  0.00017303 ... -0.00474514 -0.00952273
+ -0.03313158]
+
+Document 128:
+Content: Letters and memos that moved from one branch                
+of the administration to another in the early years                       
+of the nineteenth century can still be read in the 
+archives. You can also study the notes and reports 
+that district officials prepared, or the instructions 
+and directives that were sent by officials at the top to 
+provincial administrators. 
+In the early years of the nineteenth century, these 
+documents were carefully copied out and beautifully 
+written by calligraphists – that is, by those who specialised 
+in the art of beautiful writing. By the middle of the 
+nineteenth century, with the spread of printing, multiple 
+copies of these records were printed as proceedings of each 
+government department. 
+Source 1
+Reports to the  
+Home Department
+In 1946 the colonial 
+government in India was 
+trying to put down a mutiny 
+that broke out on the ships 
+of the Royal Indian Navy. 
+Here is a sample of the 
+kind of reports the Home 
+Department got from the
+Metadata: {'file_name': 'historyy.pdf'}
+Embedding: [-0.01439368 -0.00128286 -0.00660047 ...  0.01132087 -0.00927233
+ -0.0299464 ]
+
+Document 129:
+Content: Here is a sample of the 
+kind of reports the Home 
+Department got from the 
+different dockyards:
+Bombay: Arrangements 
+have been made for the 
+Army to take over ships 
+and establishment. Royal 
+Navy ships are remaining 
+outside the harbour.
+Karachi: 301 mutineers 
+are under arrest and a few 
+more strongly suspected 
+are to be arrested … All 
+establishments … are 
+under military guard.
+Vizagapatnam: The 
+positionis completely 
+under control and no 
+violence has occurred. 
+Military guards have 
+been placed on ships 
+and establishments.
+No further trouble is 
+expected except that 
+a few men may refuse  
+to work.
+Director of Intelligence, HQ. India 
+Command, Situation Report No. 7. 
+File No. 5/21/46 Home (Political), 
+Government of India
+Fig. 4 – The National Archives of India came up in the 1920s
+When New Delhi was built, the National Museum and the National 
+Archives were both located close to the Viceregal Palace. This location
+Metadata: {'file_name': 'historyy.pdf'}
+Embedding: [-0.00867833 -0.02685422  0.00531808 ...  0.00225289 -0.00593945
+ -0.00244555]
+
+Document 130:
+Content: Archives were both located close to the Viceregal Palace. This location 
+reflects the importance these institutions had in British imagination.
+chap 1-4.indd   5 6/3/2022   5:07:10 PM
+Reprint 2024-25 6 OUR PASTS – III
+Surveys become important
+The practice of surveying also became common under 
+the colonial administration. The British believed that 
+a country had to be properly known before it could be 
+effectively administered. 
+By the early nineteenth century, detailed surveys 
+were being carried out to map the entire country.  In 
+the villages, revenue surveys were conducted. The 
+effort was to know the topography, the soil quality, 
+the flora, the fauna, the local histories, and the 
+cropping pattern – all the facts seen as necessary 
+to know about to administer the region. From the 
+end of the nineteenth century, Census operations 
+were held every ten years. These prepared detailed 
+records of the number of people in all the provinces
+Metadata: {'file_name': 'historyy.pdf'}
+Embedding: [ 0.00767657  0.00694037  0.01361972 ...  0.02168446 -0.0256064
+ -0.01757512]
+
+Document 131:
+Content: records of the number of people in all the provinces 
+of India, noting information on castes, religions and 
+occupation. There were many other surveys – botanical 
+surveys, zoological surveys, archaeological surveys, 
+anthropological surveys, forest surveys. 
+What official records do not tell
+From this vast corpus of records we can get to know 
+a lot, but we must remember that these are official 
+records. They tell us what the officials thought, what  
+Fig. 6 – Mapping and survey operations in progress in Bengal, a drawing by James Prinsep, 1832
+Note how all the instruments that were used in surveys are placed in the foreground to 
+emphasise the scientific nature of the project.
+Fig. 5 – A 
+custard-apple 
+plant, 1770s
+Botanical gardens 
+and natural history 
+museums established by the 
+British collected plant specimens 
+and information about their 
+uses. Local artists were asked to 
+draw pictures of these specimens. 
+Historians are now looking 
+at the way such information
+Metadata: {'file_name': 'historyy.pdf'}
+Embedding: [ 0.00820691 -0.00856579  0.01881089 ... -0.00763811 -0.02650317
+ -0.02925235]
+
+Document 132:
+Content: draw pictures of these specimens. 
+Historians are now looking 
+at the way such information 
+was gathered and what this 
+information reveals about the 
+nature of colonialism.
+chap 1-4.indd   6 4/22/2022   2:49:21 PM
+Reprint 2024-25 INTRODUCTION: HOW, WHEN AND WHERE         7
+they were interested in, and what they wished to preserve 
+for posterity. These records do not always help us 
+understand what other people in the country felt, and what 
+lay behind their actions. 
+For that we need to look elsewhere. When we begin to 
+search for these other sources, we find them in plenty, 
+though they are more difficult to get than official records. 
+We have diaries of people, accounts of pilgrims and 
+travellers, autobiographies of important personalities, and 
+popular booklets that were sold in the local bazaars. As 
+printing spread, newspapers were published and issues 
+were debated in public. Leaders and reformers wrote to 
+spread their ideas, poets and novelists wrote to express
+Metadata: {'file_name': 'historyy.pdf'}
+Embedding: [-0.01364257  0.00581315  0.02043767 ...  0.01724305 -0.00092794
+ -0.03576919]
+
+Document 133:
+Content: spread their ideas, poets and novelists wrote to express 
+their feelings. 
+All these sources, however, were produced by those who 
+were literate. From these, we will not be able to understand 
+how history was experienced and lived by the tribals and 
+the peasants, the workers in the mines or the poor on the 
+streets. Getting to know their lives is a more difficult task. 
+Yet this can be done, if we make a little bit of effort. 
+When you read this book, you will see how this can  
+be done. 
+Fig. 7 – The rebels of 1857
+Images need to be carefully studied for they project the viewpoint 
+of those who create them. This image can be found in several 
+illustrated books produced by the British after the 1857 rebellion. 
+The caption at the bottom says: “Mutinous sepoys share the loot”. 
+In British representations, the rebels appear as greedy, vicious and 
+brutal. You will read about the rebellion in Chapter 5. 
+“Not fit for human 
+consumption”
+Newspapers provide  
+accounts of the movements
+Metadata: {'file_name': 'historyy.pdf'}
+Embedding: [-0.01480962 -0.00938485 -0.00665552 ...  0.00763536  0.00951369
+ -0.02856142]
+
+Document 134:
+Content: “Not fit for human 
+consumption”
+Newspapers provide  
+accounts of the movements 
+in different parts of the 
+country. Here is a report           
+of  a  police strike in 1946.
+More than 2000 
+policemen in Delhi 
+refused to take their 
+food on Thursday 
+morning as a protest 
+against their low 
+salaries and the                   
+bad quality of food 
+supplied to them                 
+from the Police Lines 
+kitchen.
+As the news spread               
+to the other police 
+stations, the men 
+there also refused to 
+take food … One of 
+the strikers said: “The 
+food supplied to us 
+from the Police Lines 
+kitchen is not fit for 
+human consumption. 
+Even cattle would                  
+not eat the chappattis 
+and dal which we                  
+have to eat.”
+Hindustan Times,                                  
+22 March, 1946
+Source 2
+Look at Sources 1 and 2. 
+Do you find any 
+differences in the nature 
+of reporting? Explain 
+what you observed.
+Activity
+chap 1-4.indd   7 4/22/2022   2:49:22 PM
+Metadata: {'file_name': 'historyy.pdf'}
+Embedding: [ 0.00685009 -0.00918505 -0.00404748 ... -0.0020843  -0.00422243
+ -0.00565907]
+
+Document 135:
+Content: of reporting? Explain 
+what you observed.
+Activity
+chap 1-4.indd   7 4/22/2022   2:49:22 PM
+Reprint 2024-25 8 OUR PASTS – III
+ Let’s recall
+ 1.  State whether true or false:
+ (a) James Mill divided Indian history into three  
+  periods – Hindu, Muslim, Christian.
+ (b) Official documents help us understand what  
+  the people of the country think.
+ (c) The British thought surveys were important  
+  for effective administration.
+Let’s discuss
+ 2.  What is the problem with the periodisation of Indian  
+  history that James Mill offers?
+ 3.  Why did the British preserve official documents?
+ 4.  How will the information historians get from old  
+  newspapers be different fr om that found in police  
+  reports? 
+Let’s do
+5.  Can you think of examples of surveys in your 
+world today? Think about how toy companies get 
+information about what young people enjoy playing  
+with or how the government finds out about the  
+number of young people in school. What can a
+Metadata: {'file_name': 'historyy.pdf'}
+Embedding: [ 0.00867328  0.01198636  0.01933979 ...  0.00875409  0.00810763
+ -0.03811394]
+
+Document 136:
+Content: with or how the government finds out about the  
+number of young people in school. What can a  
+historian derive from such surveys? 
+Let’s imagine
+Imagine that you are a 
+historian wanting  to 
+find out about  how 
+agriculture changed 
+in a remote tribal area 
+after independence. 
+List the different ways 
+in which you would 
+find information on 
+this. 
+chap 1-4.indd   8 4/22/2022   2:49:24 PM
+Reprint 2024-25
+Metadata: {'file_name': 'historyy.pdf'}
+Embedding: [ 0.00551002 -0.00507813  0.0099673  ...  0.00805077 -0.00832745
+ -0.01356416]

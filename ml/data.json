@@ -1,0 +1,62 @@
+[
+    {
+      "id": 2412,
+      "user_role": "Admin",
+      "department": "HR",
+      "employee_status": "Full-time",
+      "resource_type": "doc",
+      "resource_sensitivity": "public",
+      "employee_join_date": "02-04-2020",
+      "past_violations": 0,
+      "email": "hr@gmail.com",
+      "password": "hr@123"
+    },
+    {
+      "id": 2413,
+      "user_role": "Manager",
+      "department": "Legal",
+      "employee_status": "Full-time",
+      "resource_type": "doc",
+      "resource_sensitivity": "public",
+      "employee_join_date": "22-03-2022",
+      "past_violations": 1,
+      "email": "legal@gmail.com",
+      "password": "legal@123"
+    },
+    {
+      "id": 2414,
+      "user_role": "Admin",
+      "department": "Sales",
+      "employee_status": "Part-time",
+      "resource_type": "spreadsheet",
+      "resource_sensitivity": "public",
+      "employee_join_date": "22-06-2019",
+      "past_violations": 0,
+      "email": "sales@gmail.com",
+      "password": "sales@123"
+    },
+    {
+      "id": 2415,
+      "user_role": "Intern",
+      "department": "IT",
+      "employee_status": "Part-time",
+      "resource_type": "image",
+      "resource_sensitivity": "restricted",
+      "employee_join_date": "22-03-2024",
+      "past_violations": 4,
+      "email": "it@gmail.com",
+      "password": "it@123"
+    },
+    {
+      "id": 2416,
+      "user_role": "Contractor",
+      "department": "Finance",
+      "employee_status": "Part-time",
+      "resource_type": "pdf",
+      "resource_sensitivity": "restricted",
+      "employee_join_date": "22-03-2022",
+      "past_violations": 3,
+      "email": "finance@gmail.com",
+      "password": "finance@123"
+    }
+  ]
