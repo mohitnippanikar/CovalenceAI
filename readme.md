@@ -1,3 +1,4 @@
+
 ![github-submission-banner](https://github.com/user-attachments/assets/a1493b84-e4e2-456e-a791-ce35ee2bcf2f)
 
 # 🚀 ConvulenceAI - Enterprise Data Assistant
@@ -21,13 +22,11 @@ ConvulenceAI enables secure and efficient access to company data through AI-powe
 ## 🧠 Team & Approach
 
 ### Team Name:  
-`ConvulenceAI`
+`India AI`
 
 ### Team Members:  
-- Team Member 1
-- Team Member 2  
-- Team Member 3  
-- Team Member 4
+- [Meet Patel](https://github.com/meet244)
+- [Mohit Nippanikar](https://github.com/mohit-Nippanikar78)
 
 ### Your Approach:  
 - We chose this problem to address the challenges enterprises face with secure data access and information retrieval
@@ -46,7 +45,7 @@ ConvulenceAI enables secure and efficient access to company data through AI-powe
 - Hosting: Cloud-based deployment
 
 ### Sponsor Technologies Used (if any):
-- [ ] **Groq:** _Used for faster AI inference and responses_  
+- [X] **Groq:** Used for RAG & Dynamic UI components generation  
 - [ ] **Monad:** _Not used_  
 - [ ] **Fluvio:** _Not used_  
 - [ ] **Base:** _Not used_  
@@ -71,14 +70,14 @@ Highlight the most important features of your project:
 
 ## 📽️ Demo & Deliverables
 
-- **Demo Video Link:** [ConvulenceAI Demo](https://youtu.be/demo-link-here)  
-- **Pitch Deck / PPT Link:** [Project Presentation](https://slides.com/presentation-link-here)  
+- **Demo Video Link:** [ConvulenceAI Demo](https://youtu.be/aykmc4uYBus)  
+- **Pitch Deck / PPT Link:** [Project Presentation](https://www.canva.com/design/DAGlnrRP-dg/XcjQSU9v_UeLUC6m-rA8WA/edit?utm_content=DAGlnrRP-dg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)  
 
 ---
 
 ## ✅ Tasks & Bonus Checklist
 
-- [ ] **All members of the team completed the mandatory task - Followed at least 2 of our social channels and filled the form** (Details in Participant Manual)  
+- [X] **All members of the team completed the mandatory task - Followed at least 2 of our social channels and filled the form** (Details in Participant Manual)  
 - [ ] **All members of the team completed Bonus Task 1 - Sharing of Badges and filled the form (2 points)**  (Details in Participant Manual)
 - [ ] **All members of the team completed Bonus Task 2 - Signing up for Sprint.dev and filled the form (3 points)**  (Details in Participant Manual)
 
@@ -142,6 +141,6 @@ List improvements, extensions, or follow-up features:
 
 ## 🏁 Final Words
 
-Our team is proud to have created ConvulenceAI, which earned 4th place at Codeshahstra! We faced significant challenges implementing the ML-based access control system but learned valuable lessons about integrating AI into enterprise solutions. We're excited to continue developing this platform to revolutionize how businesses interact with their data.
+Our team is proud to have created ConvulenceAI. We faced significant challenges implementing the ML-based access control system but learned valuable lessons about integrating AI into enterprise solutions. We're excited to continue developing this platform to revolutionize how businesses interact with their data.
 
 ---
