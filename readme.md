@@ -9,7 +9,7 @@
 
 ## 📌 Problem Statement
 
-**Problem Statement 7 – Transform the Future of Rural Commerce**
+Enterprise organizations face challenges in securely and efficiently managing data access across diverse teams and departments. Traditional data access systems often struggle with scalability, real-time queries, and ensuring role-based permissions are accurately enforced. Additionally, employees often have to deal with fragmented access points and complex interfaces for retrieving insights. This leads to inefficiencies, potential security risks, and decreased productivity in data-driven decision-making.
 
 ---
 
